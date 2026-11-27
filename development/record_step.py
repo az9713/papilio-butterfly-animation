@@ -32,9 +32,10 @@ def save(event, data):
     sources=sorted(set(list(ROOT.glob('*.py'))+list((ROOT/'development').glob('*.py'))+
                        list((ROOT/'tests').glob('*.py'))+[ROOT/'config.json',ROOT/'wing-profiles.svg']))
     source_hashes={path.relative_to(ROOT).as_posix():hashlib.sha256(path.read_bytes()).hexdigest() for path in sources if path.is_file()}
-    git=subprocess.run(['git','rev-parse','HEAD'],cwd=ROOT,capture_output=True,text=True)
+    try:git=subprocess.run(['git','rev-parse','HEAD'],cwd=ROOT,capture_output=True,text=True)
+    except FileNotFoundError:git=None
     payload = clean({'schema_version': 1, 'event': event,
-                    'base_git_commit':git.stdout.strip() if git.returncode==0 else None,
+                    'base_git_commit':git.stdout.strip() if git is not None and git.returncode==0 else None,
                     'working_source_sha256':source_hashes,
                     'recorded_at_utc': datetime.now(timezone.utc).isoformat(), **data})
     path.write_text(json.dumps(payload, indent=2, allow_nan=False) + '\n', encoding='utf-8')

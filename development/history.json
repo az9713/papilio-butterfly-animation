@@ -137,6 +137,11 @@
       "commit": "4628836babf0c5aec6a8fb1f278119a7ebc147d6",
       "date": "2026-11-27T03:12:11-08:00",
       "subject": "docs: credit source references and project inputs"
+    },
+    {
+      "commit": "62bf769fecec422c03932e65634dedb5a7a8c421",
+      "date": "2026-11-27T14:19:35-08:00",
+      "subject": "fix: make source revisions reproducible"
     }
   ]
 }

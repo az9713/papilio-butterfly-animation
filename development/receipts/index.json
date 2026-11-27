@@ -96,6 +96,12 @@
     "status": "pass"
   },
   {
+    "file": "017-package-without-git-unit-tests.json",
+    "sha256": "0d8a37cc2ecfb336482a051e6853739d61677adf3da368db069a119a605f62a5",
+    "event": "017-package-without-git-unit-tests",
+    "status": "pass"
+  },
+  {
     "file": "verification-01-011-baseline-build.json",
     "sha256": "59fccb6194a16ce12347d081d4935532f7010f8c97e12edb48378d5dbf507376",
     "event": "verification-01-011-baseline-build",
