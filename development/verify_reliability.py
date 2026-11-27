@@ -9,7 +9,7 @@ import sys
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'development'))
-from pipeline_common import sha256,write_json
+from pipeline_common import sha256,write_json,verify_protected_assets
 from record_step import run,save
 
 
@@ -119,18 +119,14 @@ def main():
     run(args.run_id+'-041-existing-export-rejected',[sys.executable,ROOT/'encode_review.py',frames,
                 work/'verification.mp4'],expected_exit=-1)
     baseline_receipt=json.loads((ROOT/'development/receipts/001-preserved-baseline.json').read_text())
-    available={name:digest for name,digest in baseline_receipt['protected_assets'].items() if (ROOT/name).is_file()}
-    omitted=sorted(set(baseline_receipt['protected_assets'])-set(available))
-    if omitted and not (ROOT/'package-manifest.json').is_file():
-        raise RuntimeError('Protected assets missing from the full checkout: '+str(omitted))
-    assert all(sha256(ROOT/name)==digest for name,digest in available.items())
+    preservation=verify_protected_assets(ROOT,baseline_receipt)
     summary={'passed':True,'configuration_fields_checked':sorted(baseline),
              'default_geometry_matches_preserved_scene':True,'json_controls':True,'cli_overrides':True,
              'invalid_configuration_rejected':True,'explicit_revision_selection':True,
              'mixed_revision_resume_rejected':True,'corrupt_frame_rejected':True,
              'cpu_render_resume_and_encoding':True,'short_clip_frames':12,'short_clip_seconds':2,
              'complete_browser_playback':movie['browser_playback'],'protected_assets_unchanged':True,
-             'protected_assets_checked':len(available),'assets_omitted_from_source_only_zip':omitted,
+             'preservation_contract':preservation,
              'test_scope':'Windows, Blender 5.3, CPU rendering, Microsoft Edge; no cross-platform claim.'}
     save(args.run_id+'-099-summary',summary)
     print('RELIABILITY_VERIFIED '+json.dumps(summary),flush=True)

@@ -117,6 +117,24 @@ def validate_tag(tag):
     return tag
 
 
+def verify_protected_assets(root, baseline):
+    root=Path(root)
+    packaged=(root/'package-manifest.json').is_file()
+    contract=json.loads((root/'development/protected-assets.json').read_text())
+    declared={entry['path'] for entry in json.loads((root/'package-manifest.json').read_text())['files']} if packaged else None
+    checked=[];omitted=[]
+    for name,working_digest in baseline['protected_assets'].items():
+        path=root/name
+        if not path.is_file():
+            if packaged and name not in declared:omitted.append(name);continue
+            raise RuntimeError('Protected asset is missing: '+name)
+        expected=contract['assets'][name]['canonical_git_sha256'] if packaged else working_digest
+        if sha256(path)!=expected:raise RuntimeError('Protected asset changed: '+name)
+        checked.append(name)
+    return {'mode':'canonical-source-bytes' if packaged else 'working-copy-bytes',
+            'checked':len(checked),'intentionally_omitted':omitted}
+
+
 def configure_device(scene, requested='auto'):
     """An explicit backend must exist; auto prefers OptiX/CUDA/... then CPU."""
     import bpy

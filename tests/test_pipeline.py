@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 from types import SimpleNamespace
-from pipeline_common import load_config,validate_config,validate_tag,png_size,configure_device
+from pipeline_common import load_config,validate_config,validate_tag,png_size,configure_device,verify_protected_assets
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -64,6 +64,22 @@ class ConfigurationTests(unittest.TestCase):
             self.assertEqual(configure_device(scene,'auto')['selected'],'CPU')
             self.assertEqual(scene.cycles.device,'CPU')
             with self.assertRaises(RuntimeError):configure_device(scene,'optix')
+
+    def test_package_preservation_uses_canonical_text_and_exact_binary_bytes(self):
+        import hashlib
+        digest=lambda value:hashlib.sha256(value).hexdigest()
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'development').mkdir()
+            (root/'drawing.svg').write_bytes(b'<svg/>\n');(root/'scene.blend').write_bytes(b'binary')
+            baseline={'protected_assets':{'drawing.svg':digest(b'<svg/>\r\n'),'scene.blend':digest(b'binary')}}
+            contract={'assets':{name:{'canonical_git_sha256':digest((root/name).read_bytes())} for name in baseline['protected_assets']}}
+            (root/'development/protected-assets.json').write_text(json.dumps(contract))
+            (root/'package-manifest.json').write_text(json.dumps({'files':[{'path':name} for name in baseline['protected_assets']]}))
+            self.assertEqual(verify_protected_assets(root,baseline)['checked'],2)
+            (root/'scene.blend').write_bytes(b'changed')
+            with self.assertRaises(RuntimeError):verify_protected_assets(root,baseline)
+            (root/'scene.blend').unlink()
+            with self.assertRaises(RuntimeError):verify_protected_assets(root,baseline)
 
 
 if __name__=='__main__':unittest.main()

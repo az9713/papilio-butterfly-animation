@@ -102,6 +102,168 @@
     "status": "pass"
   },
   {
+    "file": "018-source-package.json",
+    "sha256": "7bd31dd73fcff96f7b5e0eef57bacabba77e41e0ee279172cb2ecfe20d367889",
+    "event": "018-source-package",
+    "status": "pass"
+  },
+  {
+    "file": "019-extracted-source-unit-tests.json",
+    "sha256": "fa3afe3222c1e6771750df667fcef60c6afcb8a9ce06c1c53fa5d6ad5416cb24",
+    "event": "019-extracted-source-unit-tests",
+    "status": "stopped"
+  },
+  {
+    "file": "020-package-preservation-diagnostic.json",
+    "sha256": "5f3afd413fa59a235a90f4468d87b1daa599679ef573d10d3e42af7155f407d4",
+    "event": "020-package-preservation-diagnostic",
+    "status": "pass"
+  },
+  {
+    "file": "021-canonical-preservation-unit-tests.json",
+    "sha256": "84c7caebf379d1631b342adb3bb760b7e2c748cd987a1502afe61dc7b9f58b8c",
+    "event": "021-canonical-preservation-unit-tests",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-011-baseline-build.json",
+    "sha256": "cc853428a6be64b8c280e9b8ef6162a3136745b502d3f2f15e9c8809ac196440",
+    "event": "package-verification-011-baseline-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-012-baseline-inspect.json",
+    "sha256": "3882a29be30077aee0fe8b03a624195bb726869ec02d6f61dd583bb461bf6571",
+    "event": "package-verification-012-baseline-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-013-json-controls-build.json",
+    "sha256": "cf2da294d313819c4b2ada9a7db398519e7b8d2b90aa1c909c0c309380c78b6b",
+    "event": "package-verification-013-json-controls-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-014-json-controls-inspect.json",
+    "sha256": "651a265e8f260aed85ecea8cdbf6ce002923962263ffa51a4fb6e412d88f2bb6",
+    "event": "package-verification-014-json-controls-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-015-short-clip-build.json",
+    "sha256": "e475efaf3e1396800663b75958887b843a343ffe1e04fb7e1a7052d75de1db1e",
+    "event": "package-verification-015-short-clip-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-016-short-clip-inspect.json",
+    "sha256": "e643dc52ade28039fb063481e5524180477417e20931fd1ab6298733db3ce228",
+    "event": "package-verification-016-short-clip-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-017-preserved-scene-inspect.json",
+    "sha256": "d2429d410f575e9126846270b2465bb47f25f765dcb93c7975fd57066139f0fb",
+    "event": "package-verification-017-preserved-scene-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-018-cli-overrides-build.json",
+    "sha256": "cd80d9f382efb4b809aafd714eb960b924a25ed69beb3169be4466eca8e1a08e",
+    "event": "package-verification-018-cli-overrides-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-019-cli-overrides-inspect.json",
+    "sha256": "b9f330c1eb5c9f68a5281f3ae6580666efceb60caaf11177f1c11321ce113b0c",
+    "event": "package-verification-019-cli-overrides-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-020-invalid-config-rejected.json",
+    "sha256": "e1897b37b1bb9f4649e49468e4f38e4bd31ab56eeb13628b192a66f90d7d28fd",
+    "event": "package-verification-020-invalid-config-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-021-missing-revision-rejected.json",
+    "sha256": "415b8d2e39ae11032e76f43c8bb1de2acda4a97d2e904fbda6b7b0d6a0c79bf1",
+    "event": "package-verification-021-missing-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-022-baseline-selection-plan.json",
+    "sha256": "510673d99856d95d5a8e43107aab8dca35d241b59611e54289040bebadb28d7d",
+    "event": "package-verification-022-baseline-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-023-json-controls-selection-plan.json",
+    "sha256": "3ceb1d066acd1274812a8afe114346ff1023834e27c2407de9d7320d0108525d",
+    "event": "package-verification-023-json-controls-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-024-baseline-audit.json",
+    "sha256": "1a221336fc120d2bbec69aac26271cd4e5b8d8bdac004fd78113ba234e7d0b88",
+    "event": "package-verification-024-baseline-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-025-json-controls-audit.json",
+    "sha256": "ed3fe03b8fe72237f6e5de12077a373416957c5df9063b7db2ee8699330531f1",
+    "event": "package-verification-025-json-controls-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-026-short-clip-audit.json",
+    "sha256": "f0305b0ccb8bd801f0e8d4b763e776f91d839c55be582e3ed9dfdef5dabfe557",
+    "event": "package-verification-026-short-clip-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-027-cpu-short-render.json",
+    "sha256": "4cd0804a3bfaf5da0381840a32d70c323160f9db99be9f58de56c8c8881c282b",
+    "event": "package-verification-027-cpu-short-render",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-028-safe-resume.json",
+    "sha256": "ed9dd94b5698e7376ec76a5e4cc9c5c6979ce779c3a0a61391fde8c65a3cc377",
+    "event": "package-verification-028-safe-resume",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-029-mixed-revision-rejected.json",
+    "sha256": "66b2558a5f6dbbf3039d539d4e7ec1945583aed0b5fcc741475fdb0de1141547",
+    "event": "package-verification-029-mixed-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-030-corrupt-frame-rejected.json",
+    "sha256": "d32b02e022310f3db4788bfebb2f40cdc914f7f683b6bc3c7112cfb9bf96822b",
+    "event": "package-verification-030-corrupt-frame-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-040-encode-and-playback.json",
+    "sha256": "55e419a8ddb755e03386fd86cfc647b7bcfd038c2b4bec87fe23688afd5cd009",
+    "event": "package-verification-040-encode-and-playback",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-041-existing-export-rejected.json",
+    "sha256": "61c051171b9bc647a6c83d2de69536587e058c36f5981c31b24c2d4440625656",
+    "event": "package-verification-041-existing-export-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-098-stopped.json",
+    "sha256": "cceccd117ca2b2d8cd1ee494479ef33fefad7840509cdabb39afb64a7c3b45df",
+    "event": "package-verification-098-stopped",
+    "status": "stopped"
+  },
+  {
     "file": "verification-01-011-baseline-build.json",
     "sha256": "59fccb6194a16ce12347d081d4935532f7010f8c97e12edb48378d5dbf507376",
     "event": "verification-01-011-baseline-build",
