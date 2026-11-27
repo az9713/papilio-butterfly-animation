@@ -162,6 +162,36 @@
     "status": "pass"
   },
   {
+    "file": "journal-closure-001-before-diagnostic.json",
+    "sha256": "e253d7b4ab95a35003a7c8f3c679cdcd5cf9e934e71c0e1e6be012ce6319423e",
+    "event": "journal-closure-001-before-diagnostic",
+    "status": "record"
+  },
+  {
+    "file": "journal-closure-002-preservation-before.json",
+    "sha256": "4eb5de43a1935175cccc6612181d38c4a196da575ffce38c0a5ca30c9fb9c538",
+    "event": "journal-closure-002-preservation-before",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-010-unit-tests.json",
+    "sha256": "3b05b70279e0a0c2c53858810cd39bb07f2da4abb7e4fb5bacbcb80477dedf7c",
+    "event": "journal-closure-010-unit-tests",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-011-working-journal.json",
+    "sha256": "d93c72b361583015c8a7bddba6a5a34eeb479b86708c68b53f21a8af71612aa8",
+    "event": "journal-closure-011-working-journal",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-012-final-unit-tests.json",
+    "sha256": "191a5e62de87576e9fab11d91b29e740d56e0840cf9d5562c2ec08512fe8ca30",
+    "event": "journal-closure-012-final-unit-tests",
+    "status": "pass"
+  },
+  {
     "file": "package-verification-011-baseline-build.json",
     "sha256": "cc853428a6be64b8c280e9b8ef6162a3136745b502d3f2f15e9c8809ac196440",
     "event": "package-verification-011-baseline-build",

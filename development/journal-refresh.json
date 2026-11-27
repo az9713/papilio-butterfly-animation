@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-11-27T23:53:43.509151+00:00",
+  "python": "3.13.5",
+  "platform": "Windows",
+  "scope": "Journal refresh only; no new rendering or browser verification is implied.",
+  "historical_environment": "environment-tested.json is preserved unchanged",
+  "git_history_origin": {
+    "mode": "measured from project Git checkout",
+    "through_commit": "d9968555160bab149b8358ce2f27b8957670a51f"
+  },
+  "measured_evidence_count": 18,
+  "retained_evidence_count": 0
+}

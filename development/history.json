@@ -8,11 +8,13 @@
       "evidence": [
         {
           "path": "concept-v01.png",
-          "sha256": "f12ac160069bbdcce79f044bbe5a24a7e753e8a6d74b3c67b747622bbde8af48"
+          "sha256": "f12ac160069bbdcce79f044bbe5a24a7e753e8a6d74b3c67b747622bbde8af48",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "concept-v02.png",
-          "sha256": "b50031e91cf643c34dbddd12413ffcf075029e5b23f8167f3f997e71cf3e9d09"
+          "sha256": "b50031e91cf643c34dbddd12413ffcf075029e5b23f8167f3f997e71cf3e9d09",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -23,11 +25,13 @@
       "evidence": [
         {
           "path": "stages/blockout-v01/blockout-v01-views.jpg",
-          "sha256": "ca4fc0a993891f487f9feaa1a5067387d35791cb2a0f48d3800c69c95d721349"
+          "sha256": "ca4fc0a993891f487f9feaa1a5067387d35791cb2a0f48d3800c69c95d721349",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "stages/blockout-v02/blockout-v02-views.jpg",
-          "sha256": "7eb89cedbfe869a7e6eebe84972aa23fcfb858fd4898200f52b967c41310c592"
+          "sha256": "7eb89cedbfe869a7e6eebe84972aa23fcfb858fd4898200f52b967c41310c592",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -38,11 +42,13 @@
       "evidence": [
         {
           "path": "wing-profiles.svg",
-          "sha256": "26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99"
+          "sha256": "26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "stages/geometry-v01/geometry-v01-views.jpg",
-          "sha256": "98e9264495d24e142d6e8992779c7df39526b86c2a64e488c986e706a9d5a73e"
+          "sha256": "98e9264495d24e142d6e8992779c7df39526b86c2a64e488c986e706a9d5a73e",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -53,11 +59,13 @@
       "evidence": [
         {
           "path": "stages/lookdev-v01/lookdev-v01-views.jpg",
-          "sha256": "3e1e306160fe9526c973df7b50b99c5d361c1ba64875d2a290b19fc559406e09"
+          "sha256": "3e1e306160fe9526c973df7b50b99c5d361c1ba64875d2a290b19fc559406e09",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "stages/lookdev-v02/lookdev-v02-views.jpg",
-          "sha256": "b03c512285492bfcfbaea96bd3979d4f0ba05c42eeaf3c19f7fcf87626ce419b"
+          "sha256": "b03c512285492bfcfbaea96bd3979d4f0ba05c42eeaf3c19f7fcf87626ce419b",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -68,11 +76,13 @@
       "evidence": [
         {
           "path": "motion-preview-v01.mp4",
-          "sha256": "bef956d3f2518a98622f99e2e1a26f219ce92f67c6047393bb960c00fd890f2e"
+          "sha256": "bef956d3f2518a98622f99e2e1a26f219ce92f67c6047393bb960c00fd890f2e",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "motion-v01-audit.json",
-          "sha256": "969788bf1228496ee2c940d004214c43e62a8231b4352ac143b8903f59beb2cb"
+          "sha256": "969788bf1228496ee2c940d004214c43e62a8231b4352ac143b8903f59beb2cb",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -83,15 +93,18 @@
       "evidence": [
         {
           "path": "papilio-final-1080p.mp4",
-          "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465"
+          "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "stages/final-v01/final-v01.blend",
-          "sha256": "fbfcbe64aeed96f0a29271a0fbc66be5abf9ade9fc35f86e116e8db72caa350a"
+          "sha256": "fbfcbe64aeed96f0a29271a0fbc66be5abf9ade9fc35f86e116e8db72caa350a",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "papilio-final-1080p-review.json",
-          "sha256": "5361c807c1fdfac20ce8736d21f006f3f1222c84b70dc4caaeb30809b81acda9"
+          "sha256": "5361c807c1fdfac20ce8736d21f006f3f1222c84b70dc4caaeb30809b81acda9",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -102,11 +115,13 @@
       "evidence": [
         {
           "path": "development/receipts/002-before-build.json",
-          "sha256": "bdd416adc4bc026d50a2b888f76b682abea8cf8baa63eeef5fad6b71558672a2"
+          "sha256": "bdd416adc4bc026d50a2b888f76b682abea8cf8baa63eeef5fad6b71558672a2",
+          "hash_origin": "measured from present file"
         },
         {
           "path": "development/receipts/003-before-observations.json",
-          "sha256": "6590c68b0eed72d01766f5c7bdd7f261f71bbb8c66b4d286b6ac4432021ed7fe"
+          "sha256": "6590c68b0eed72d01766f5c7bdd7f261f71bbb8c66b4d286b6ac4432021ed7fe",
+          "hash_origin": "measured from present file"
         }
       ]
     },
@@ -117,7 +132,25 @@
       "evidence": [
         {
           "path": "development/receipts/verification-02-099-summary.json",
-          "sha256": "4737999a7fbda13a995fb3eb287a81b52418823948ee47afac0c092088b596c7"
+          "sha256": "4737999a7fbda13a995fb3eb287a81b52418823948ee47afac0c092088b596c7",
+          "hash_origin": "measured from present file"
+        }
+      ]
+    },
+    {
+      "stage": "Standalone journal repair",
+      "decision": "Fix omitted historical media and absent Git checkout; label retained evidence, preserve the tested environment, and validate prerequisites before generated writes.",
+      "origin": "contemporaneous repair receipts",
+      "evidence": [
+        {
+          "path": "development/receipts/journal-closure-001-before-diagnostic.json",
+          "sha256": "e253d7b4ab95a35003a7c8f3c679cdcd5cf9e934e71c0e1e6be012ce6319423e",
+          "hash_origin": "measured from present file"
+        },
+        {
+          "path": "development/receipts/journal-closure-010-unit-tests.json",
+          "sha256": "3b05b70279e0a0c2c53858810cd39bb07f2da4abb7e4fb5bacbcb80477dedf7c",
+          "hash_origin": "measured from present file"
         }
       ]
     }
@@ -152,6 +185,15 @@
       "commit": "1d1229a7137c78d4433da39b14b214ebde04e7b6",
       "date": "2026-11-27T14:24:10-08:00",
       "subject": "fix: verify canonical source exports correctly"
+    },
+    {
+      "commit": "d9968555160bab149b8358ce2f27b8957670a51f",
+      "date": "2026-11-27T14:27:38-08:00",
+      "subject": "docs: publish reliability receipts and release record"
     }
-  ]
+  ],
+  "git_history_origin": {
+    "mode": "measured from project Git checkout",
+    "through_commit": "d9968555160bab149b8358ce2f27b8957670a51f"
+  }
 }

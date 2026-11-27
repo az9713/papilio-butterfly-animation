@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "event": "journal-closure-001-before-diagnostic",
+  "base_git_commit": "d9968555160bab149b8358ce2f27b8957670a51f",
+  "working_source_sha256": {
+    "audit_scene.py": "bbe3d83137a56279c9f41d51367c3d1ebddd46b5fd797a0302108856e7f67381",
+    "build_scene.py": "2eeb7d060d9a46f76461ae10a1718ce1e15ec0231b6fcb4a5e07278ef199eae5",
+    "check_excerpt.py": "3a42e817caa3150fb5e71fd88dd9eaa6e83c485fb70a69bb41ab857bd1c2b4d9",
+    "config.json": "fbfefc971bd5c9b1d76de18770e91843565755f7fd64af572a7752fbd5638888",
+    "development/check_docs.py": "48fde897b1496a3bdfeea48fa8e22363f54dc1d14ed42bbf6a397e842b4b09c2",
+    "development/compare_scenes.py": "4bb62f67bc8be902c082fd257ce01ab6d66ef4d0cafd7c9e01dc2278f6a86af9",
+    "development/inspect_scene.py": "a8934fab034e1388539f84bb0625a08208a271c874f7c54fce11dda05009629f",
+    "development/record_step.py": "8cb842fd6659f2cc277719b4b8c3cf0db4163bcb8ff4ed70751c0a2924f4a844",
+    "development/update_journey.py": "9e34fa88d59fb6b11354d37ba9f32ae22bff356491f1d73305ee55e86f914a5d",
+    "development/verify_reliability.py": "5c16a76837ebe794ea4eb31bdc29a5c9a3d54562ead7525654878b02e6c4ab58",
+    "development/verify_standalone.py": "419dfc179795370a63ec81e6b36f25b18e004917be6b05e9b14fdc0c3455c67c",
+    "encode_review.py": "d277f713912793f9949adfbda8d3d514ab65d406ee485640d0d5d6b6336bec57",
+    "make_package.py": "1a165f39f438fbed771279f7e03bcb5c7e33bd4b27aa58ec0f84da175cdbfaa7",
+    "make_profiles.py": "b7b5f4cc0cff54dca62e91c473ff8aa7465385b7264ef374e91db2ad54705cee",
+    "make_recap.py": "2ce45838a2629b9ff48f4b1e2f62aa89097a68a2eb7531a14dd2ed8305087454",
+    "pipeline_common.py": "0c3b4cdd1cecb5218dddaa75cf6075d3d381ee22f4aa343d88f2e787a21633b0",
+    "present_stage.py": "6a65ed7ee0503953709612d4bb4502a9ae65abd23226c294584e7bfd3323c2b2",
+    "render_saved.py": "4e484fa0286b3b0d2b564e42fc4727860f87ba0d5ff934f2cc8210e18f355671",
+    "tests/test_journal.py": "2099b046bb09ecc353d879b3b655854ceeae669dda848e71b60e02eef12ee5aa",
+    "tests/test_pipeline.py": "345785a31125012e1071c5e351d43e5195ffa4269140c1de1e0db47e51102796",
+    "tests/test_receipts.py": "8ac07203fe95519fa8e4b8754a255b8eb642dc8548941ebe0b15fd1bc3c6cc42",
+    "wing-profiles.svg": "26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99"
+  },
+  "recorded_at_utc": "2026-11-27T23:52:34.198402+00:00",
+  "kind": "retained prior reassessment evidence",
+  "evidence": {
+    "assessment_date_client": "2026-11-27",
+    "recorded_at_utc": "2026-11-27T22:49:49.906523+00:00",
+    "publication_commit": "d9968555160bab149b8358ce2f27b8957670a51f",
+    "source_release": "1.1.0",
+    "source_commit": "1d1229a7137c78d4433da39b14b214ebde04e7b6",
+    "movie_sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+    "package_sha256": "c7ff832da48eca8e59969b2c0115cbf19518001cb93309b57b54c2cb5857c967",
+    "public_movie_matches": true,
+    "public_package_matches": true,
+    "zip_crc_and_manifest_passed": true,
+    "zip_files": 150,
+    "outside_git_checkout": true,
+    "core_build_without_omitted_movies": {
+      "passed": true,
+      "camera_orbits": 2.0,
+      "resolution": [
+        160,
+        90
+      ],
+      "samples": 1,
+      "fps": 12,
+      "frame_range": [
+        1,
+        48
+      ]
+    },
+    "documented_journey_refresh": {
+      "command": [
+        "python",
+        "development/update_journey.py"
+      ],
+      "initial_exit_code": 1,
+      "initial_stderr": "Traceback (most recent call last):\n  File \"<extracted-source>\\development\\update_journey.py\", line 107, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"<extracted-source>\\development\\update_journey.py\", line 41, in main\n    'evidence':[{'path':name,'sha256':sha256(ROOT/name)} for name in paths]})\n                                      ~~~~~~^^^^^^^^^^^\n  File \"<extracted-source>\\pipeline_common.py\", line 25, in sha256\n    with Path(path).open('rb') as handle:\n         ~~~~~~~~~~~~~~~^^^^^^\n  File \"<user-home>\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py\", line 537, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '<user-home>\\\\AppData\\\\Local\\\\Temp\\\\papilio-reassessment-z509321c\\\\motion-preview-v01.mp4'\n",
+      "after_supplying_only_omitted_movies_exit_code": 1,
+      "second_stderr": "fatal: not a git repository (or any of the parent directories): .git\nTraceback (most recent call last):\n  File \"<extracted-source>\\development\\update_journey.py\", line 107, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"<extracted-source>\\development\\update_journey.py\", line 42, in main\n    commits=subprocess.check_output(['git','log','--reverse','--format=%H|%aI|%s'],cwd=ROOT).decode().splitlines()\n            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<user-home>\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 472, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n               **kwargs).stdout\n               ^^^^^^^^^\n  File \"<user-home>\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 577, in run\n    raise CalledProcessError(retcode, process.args,\n                             output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command '['git', 'log', '--reverse', '--format=%H|%aI|%s']' returned non-zero exit status 128.\n",
+      "finding": "The documented journal-refresh helper needs historical movies omitted from the ZIP, then a Git checkout. Core scene construction works outside Git without those movies.",
+      "pipeline_files_changed": false
+    },
+    "production_tree_unchanged": true,
+    "privacy_note": "Local account paths redacted; hashes, commands, observations and exit codes retained."
+  },
+  "original_evidence_sha256": "cff8cbf9a3ead42de5e34fcf62679a7288751098f4e62b02e5b6e51f0d66bb8e"
+}

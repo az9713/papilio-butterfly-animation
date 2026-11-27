@@ -15,7 +15,7 @@ BASE='https://az9713.github.io/papilio-butterfly-animation/'
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',required=True,type=Path)
-    parser.add_argument('--version',default='1.1.0')
+    parser.add_argument('--version',default='1.1.1')
     args=parser.parse_args(argv)
     output=args.output.resolve()
     if output.exists():raise FileExistsError('Preserve the previous package; select a new output name')
@@ -29,6 +29,9 @@ def main(argv=None):
             'papilio-poster.png','production-recap.jpg','papilio-final-1080p-contact.jpg',
             'papilio-final-1080p-boundary.jpg'}
     for name in tracked:
+        # A release receipt contains the ZIP's own hash and can only be created
+        # after packaging. Ship package-manifest.json; publish receipts alongside.
+        if name=='source-release.json':continue
         path=Path(name)
         if (path.suffix in {'.py','.json','.md','.html'} or name in visual or
             name=='requirements-review.txt' or

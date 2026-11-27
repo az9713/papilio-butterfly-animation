@@ -4,10 +4,10 @@
 
 A 12-second, 1080p, 24 fps kinetic sculpture built using the SVG & 3D Design workflow, GPT Image references, and Blender 5.3.
 
-Source reliability release **1.1.0** repairs configuration controls, explicit revision selection, safe render resumption, and scene-derived timing. The existing film, scene checkpoints, and visual assets are preserved.
+Source reliability release **1.1.1** closes the standalone ZIP journal-refresh failure, following the 1.1.0 repairs to configuration controls, explicit revision selection, safe render resumption, and scene-derived timing. The existing film, scene checkpoints, and visual assets are preserved.
 
 - [Development journey, issues, fixes, commands, and evidence](https://az9713.github.io/papilio-butterfly-animation/development/)
-- [Versioned source package](https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.0/papilio-source-v1.1.0.zip)
+- [Versioned source package](https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.1/papilio-source-v1.1.1.zip)
 - [Current build and render instructions](https://az9713.github.io/papilio-butterfly-animation/development/#rebuild)
 - [Configuration contract](https://az9713.github.io/papilio-butterfly-animation/development/#controls)
 - [Verification summary](development/receipts/verification-02-099-summary.json)
@@ -25,6 +25,12 @@ The development record preserves the original failed check and its diagnosis. Ea
 The HTML guide is the complete project documentation. It contains the exact image prompts, tool inputs/outputs, dependencies, commands, and validation limits. The image tool did not expose an exact model version. The Blender scene has no external texture dependencies. The movie is unchanged from the completed production delivery.
 
 Raw frame caches, logs, credentials, and private conversation material are excluded. Blender checkpoint path metadata and JSON receipt paths have been made relative, and PNG metadata has been removed with pixel bytes verified unchanged. Original local production artifacts are preserved separately.
+
+## Standalone journal refresh
+
+After recording a change, run `python development/update_journey.py` from the extracted project root. Journal refresh requires only Python standard-library modules; absent historical media and Git history use explicitly labelled retained evidence. It preserves the historical tested-environment record.
+
+[Issue, repair, acceptance procedure, and revised assessment](development/source-reliability-closure.md) describe the complete build, audit, render, encode, playback, receipt, and refresh acceptance test. Post-packaging verification receipts accompany the frozen source ZIP on GitHub Releases.
 
 ## Sources and references
 
