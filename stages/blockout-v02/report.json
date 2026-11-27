@@ -1,0 +1,36 @@
+{
+  "stage": "blockout",
+  "revision": 2,
+  "blender": "5.3.0",
+  "renders": [
+    {
+      "view": "hero",
+      "path": "stages/blockout-v02/blockout-v02-hero.png",
+      "seconds": 1.175
+    },
+    {
+      "view": "front",
+      "path": "stages/blockout-v02/blockout-v02-front.png",
+      "seconds": 0.672
+    },
+    {
+      "view": "rear",
+      "path": "stages/blockout-v02/blockout-v02-rear.png",
+      "seconds": 0.667
+    },
+    {
+      "view": "side",
+      "path": "stages/blockout-v02/blockout-v02-side.png",
+      "seconds": 0.672
+    }
+  ],
+  "objects": 68,
+  "mesh_vertices": 5822,
+  "wing_controls": [
+    "Left upper wing hinge CONTROL",
+    "Left lower wing hinge CONTROL",
+    "Right upper wing hinge CONTROL",
+    "Right lower wing hinge CONTROL"
+  ],
+  "blend": "stages/blockout-v02/blockout-v02.blend"
+}

@@ -1,0 +1,36 @@
+{
+  "stage": "geometry",
+  "revision": 1,
+  "blender": "5.3.0",
+  "renders": [
+    {
+      "view": "hero",
+      "path": "stages/geometry-v01/geometry-v01-hero.png",
+      "seconds": 1.15
+    },
+    {
+      "view": "front",
+      "path": "stages/geometry-v01/geometry-v01-front.png",
+      "seconds": 0.698
+    },
+    {
+      "view": "rear",
+      "path": "stages/geometry-v01/geometry-v01-rear.png",
+      "seconds": 0.688
+    },
+    {
+      "view": "side",
+      "path": "stages/geometry-v01/geometry-v01-side.png",
+      "seconds": 0.681
+    }
+  ],
+  "objects": 192,
+  "mesh_vertices": 13086,
+  "wing_controls": [
+    "Left upper wing hinge CONTROL",
+    "Left lower wing hinge CONTROL",
+    "Right upper wing hinge CONTROL",
+    "Right lower wing hinge CONTROL"
+  ],
+  "blend": "stages/geometry-v01/geometry-v01.blend"
+}

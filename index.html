@@ -1,0 +1,174 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Papilio — butterfly animation and workflow</title><style>html{color-scheme:dark}body{margin:0;background:#10161b;color:#e4e9ed;font:17px/1.6 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:32px 24px 80px}h1{font-size:clamp(36px,6vw,70px);line-height:1.06;letter-spacing:-.04em}h2{margin-top:2.5em;color:#81d7cf}h3{margin-top:1.7em}a{color:#8fe2d9}nav{display:flex;gap:20px;flex-wrap:wrap;margin:24px 0}video,img,svg{max-width:100%;height:auto;border-radius:12px}video{width:100%;background:#06090b}.meta{color:#b0bdc7}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}figure{margin:0}figcaption{color:#b0bdc7;font-size:15px;margin:8px 0 25px}code,pre{background:#19252e;border-radius:6px}code{padding:2px 5px}pre{padding:18px;overflow:auto}pre code{padding:0}table{border-collapse:collapse;width:100%;font-size:15px}td,th{padding:10px;border-bottom:1px solid #34434e;text-align:left}article{border-top:1px solid #34434e;margin-top:40px}summary{cursor:pointer;color:#8fe2d9}.card{padding:20px;background:#19252e;border-radius:12px}.flow{font-size:15px}.flow rect{fill:#192c35;stroke:#74c8bd}.flow text{fill:#e4e9ed}.flow path{stroke:#c5a766;fill:none;stroke-width:2}</style><main><p class="meta">SVG &amp; 3D Design · GPT Image · Blender · FFmpeg</p><h1>Papilio<br>Butterfly in motion</h1><p>A brass and turquoise kinetic sculpture. Twelve seconds. Six wing cycles. One complete camera orbit.</p><video id="film" controls loop muted playsinline preload="metadata" poster="papilio-poster.png" src="papilio-final-1080p.mp4"></video><nav><a href="papilio-final-1080p.mp4" download>Download movie</a><a href="stages/final-v01/final-v01.blend" download>Editable Blender scene</a><a href="#workflow">Workflow</a><a href="#iterations">Iterations</a><a href="#reproduce">Reproduce</a><a href="#validation">Validation</a></nav><p class="meta">1920 × 1080 · 24 fps · 288 frames · H.264 · silent</p><h2 id="workflow">The creative loop</h2>
+<svg class="flow" viewBox="0 0 1000 195" role="img" aria-label="Concept image, SVG contour, Blender scene, preview, and final movie. Preview feedback returns to design and scene settings.">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6"/></marker></defs>
+<rect x="5" y="20" width="180" height="70" rx="10"/><text x="95" y="48" text-anchor="middle">GPT Image</text><text x="95" y="72" text-anchor="middle">reference PNG</text>
+<rect x="210" y="20" width="180" height="70" rx="10"/><text x="300" y="48" text-anchor="middle">SVG &amp; 3D Design</text><text x="300" y="72" text-anchor="middle">contours + scene code</text>
+<rect x="415" y="20" width="170" height="70" rx="10"/><text x="500" y="48" text-anchor="middle">Blender</text><text x="500" y="72" text-anchor="middle">editable .blend</text>
+<rect x="610" y="20" width="170" height="70" rx="10"/><text x="695" y="48" text-anchor="middle">Preview + review</text><text x="695" y="72" text-anchor="middle">frames + decisions</text>
+<rect x="805" y="20" width="185" height="70" rx="10"/><text x="897" y="48" text-anchor="middle">Cycles + FFmpeg</text><text x="897" y="72" text-anchor="middle">1080p MP4</text>
+<path d="M185,55 H208 M390,55 H413 M585,55 H608 M780,55 H803" marker-end="url(#arrow)"/>
+<path d="M695,90 V130 H300 V92" marker-end="url(#arrow)"/><text x="500" y="164" text-anchor="middle">Iterate: framing, contours, material, light, motion</text></svg>
+<p>The SVG &amp; 3D Design plugin supplies agent instructions for creating editable vector and 3D artifacts. Here its workflow guided an SVG-to-native-Blender build. GPT Image supplied visual references; Blender created the geometry, keyframes, and rendered frames; FFmpeg encoded the video. The image references were interpreted into geometry rather than automatically converted into a mesh.</p>
+<p>The built-in image tool did not expose its exact model identifier, so this project does not claim GPT Image 2 or 2.5. No live Blender MCP connection was used: the scripts ran in a local background Blender process. Original guide: <a href="https://learn.chatgpt.com/guides/svg-3d-design">OpenAI SVG &amp; 3D Design guide</a>.</p>
+<table><thead><tr><th>Stage / tool</th><th>Input</th><th>Output and actual revision</th></tr></thead><tbody>
+<tr><td>Concept / GPT Image</td><td>Text brief, then first PNG + edit prompt</td><td>Two PNGs; legs replaced with support and pedestal</td></tr>
+<tr><td>Profile / agent + SVG</td><td>Wing design and cubic contour points</td><td>Editable M/C/Z SVG, consumed directly by build_scene.py</td></tr>
+<tr><td>Blockout / Blender</td><td>SVG + parameter JSON + script</td><td>Clay .blend + views; widened camera after cropped tips</td></tr>
+<tr><td>Geometry + look / Blender</td><td>Contours, material parameters, lights</td><td>Brass plates, enamel, rims, ribs, fasteners; two look passes</td></tr>
+<tr><td>Motion / EEVEE</td><td>Four hinge controls + periodic keyframes</td><td>12-second preview; framing, crossing, and loop checks</td></tr>
+<tr><td>Final / Cycles + FFmpeg</td><td>Final .blend, 288 rendered PNGs</td><td>1080p H.264 video; decoding and browser playback verified</td></tr>
+</tbody></table>
+<h2 id="iterations">Actual iterations</h2><img src="production-recap.jpg" alt="Eight rendered production stages including concept, clay, geometry, material revisions, and final scene">
+<div class="grid"><figure><img src="concept-v01.png" alt="First brass and turquoise butterfly concept with insect legs"><figcaption>Concept 1: establish palette and wing construction.</figcaption></figure><figure><img src="concept-v02.png" alt="Revised butterfly sculpture on a pedestal"><figcaption>Concept 2: replace legs with a museum sculpture support.</figcaption></figure></div>
+<div class="grid"><figure><img src="stages/blockout-v01/blockout-v01-views.jpg" alt="First clay review"><figcaption>Blockout 1: tips and pedestal were cropped.</figcaption></figure><figure><img src="stages/blockout-v02/blockout-v02-views.jpg" alt="Corrected clay review"><figcaption>Blockout 2: widen orbit radius and field of view.</figcaption></figure><figure><img src="stages/lookdev-v01/lookdev-v01-views.jpg" alt="First material review"><figcaption>Look 1: pale enamel, gold cap, horizon seam.</figcaption></figure><figure><img src="stages/lookdev-v02/lookdev-v02-views.jpg" alt="Revised material review"><figcaption>Look 2: deeper enamel, annular rim, curved backdrop.</figcaption></figure></div>
+<h3>Fast motion preview</h3><video controls muted playsinline preload="none" src="motion-preview-v01.mp4"></video>
+<h3>Final frame sampling and loop boundary</h3><img src="papilio-final-1080p-contact.jpg" alt="Staggered time samples from the final video"><img src="papilio-final-1080p-boundary.jpg" alt="Last two and first two frames of the loop">
+<article id="reproduce"><h2>Open, edit, and reproduce</h2><h1>Papilio butterfly sculpture</h1>
+<p>A 12 second, 24 fps, 1920 by 1080 silent turntable animation. Four articulated brass and enamel wings move through six periodic cycles while the camera makes a complete orbit.</p>
+<h2>Open and edit the scene</h2>
+<p>Open <code>stages/final-v01/final-v01.blend</code> in Blender 5.3. The motion is baked into ordinary object and light keyframes; it needs no external frame handler, image texture, or generated-image service to play. The four objects ending in <code>wing hinge CONTROL</code> carry the complete wing assemblies. Select a control to inspect or change its rotation keyframes. Camera motion is on <code>Orbit camera</code>.</p>
+<p>The scene retains GPU render mode. The command-line render helper selects OptiX explicitly on every run. When opening the file in a Blender installation without a configured Cycles GPU, choose CPU rendering or configure an available GPU before rendering from the UI.</p>
+<h2>Rebuild with parameters</h2>
+<p><code>config.json</code> controls timing, wing amplitude, camera framing, materials, and lighting. <code>wing-profiles.svg</code> supplies the actual upper and lower wing contours. <code>build_scene.py</code> reads the SVG cubic paths, constructs the plates and detail, and bakes the motion. Existing checkpoint scenes are preserved; use a new revision or tag for a new version.</p>
+<p>The profile reader supports the absolute M, C, and Z commands used in the supplied SVG. Preserve that command format when editing the contours; it is a focused profile reader rather than a general SVG importer.</p>
+<p>Example using an installed Blender executable:</p>
+<pre><code class="language-text">blender.exe --background --factory-startup --python-exit-code 1 --python build_scene.py -- --stage final --revision 2 --render stills --views hero --res 1920 1080 --samples 32
+</code></pre>
+<p>On the machine used for production the executable is <code>C:/Program Files/Blender Foundation/Blender 5.3/blender.exe</code>; it is not on PATH. An executable path containing spaces must be quoted by the shell. In PowerShell use the call operator <code>&amp;</code> before the quoted path.</p>
+<p>Change <code>wing_amplitude_degrees</code>, for example, then build a new revision. A separate editability check rebuilds the scene with amplitude 25 instead of 20 degrees and verifies a changed peak hinge angle while retaining the main configuration.</p>
+<h2>Renders and encoding</h2>
+<p><code>render_saved.py</code> resumes the selected final-v01 scene and uses a scene-file SHA-256 manifest to prevent mixing frames from different source scenes. Existing complete frames are skipped. For a changed scene choose a distinct frame directory and update the selected scene path rather than reusing an old sequence.</p>
+<p><code>encode_review.py</code> validates 288 numbered PNGs, encodes an H.264 MP4, verifies its metadata and decoding, and exercises complete playback and loop replay in Edge using Playwright. FFmpeg, ffprobe, Pillow, and Playwright are required for this helper. The Blender construction script itself uses Blender's bundled Python and standard-library modules.</p>
+<h2>Files and stages</h2>
+<ul>
+<li><code>concept-v01.png</code> and <code>concept-v02.png</code>: GPT Image references; exact prompts in the prompt record below.</li>
+<li><code>wing-profiles.svg</code>: editable geometry source; <code>wing-profiles.png</code> is its actual rendered preview.</li>
+<li><code>stages/blockout-v01</code> and <code>stages/blockout-v02</code>: initial framing failure and corrected clay reviews.</li>
+<li><code>stages/geometry-v01</code>: detailed construction and four-angle review.</li>
+<li><code>stages/lookdev-v01</code> and <code>stages/lookdev-v02</code>: material and lighting iterations.</li>
+<li><code>stages/motion-v01</code>: inexpensive EEVEE motion preview scene.</li>
+<li><code>stages/final-v01</code>: final Cycles scene and 1080p pilot.</li>
+<li><code>final-scene-audit.json</code> and related audit receipts: framing, sampled surface intersections, loop transform/velocity checks, and source dependencies.</li>
+<li><code>papilio-final-1080p.mp4</code>: completed 12 second H.264 movie, provided separately from the source archive.</li>
+<li><code>papilio-poster.png</code>: the first frame of the final sequence.</li>
+<li><code>papilio-final-1080p-contact.jpg</code> and <code>papilio-final-1080p-boundary.jpg</code>: final visual review sheets.</li>
+<li><code>papilio-final-1080p-review.json</code>, <code>final-render-report.json</code>, and the validation record below: delivery validation receipts.</li>
+</ul>
+<p>Frame caches, logs, private conversation material, and the original source archive are excluded from this repository. All stage checkpoints and review stills are included. The repository copies of the Blender checkpoints have only local path strings replaced with relative paths; geometry, materials, and animation bytes are retained. JSON receipts have source-root paths made relative. The final movie is byte-identical to the production delivery.</p>
+<p>The sculpture is an artistic asset with procedural materials. No third-party 3D asset or external image texture is needed. It has not been mechanically or fabrication validated.</p>
+<h2>Render and encode commands</h2>
+<p>Run from the repository root. Substitute your installed Blender executable for <code>blender</code>.</p>
+<pre><code class="language-text">blender --background --factory-startup --python-exit-code 1 --python render_saved.py
+python -m pip install -r requirements-review.txt
+python encode_review.py final-frames/final-v01 papilio-rerender.mp4
+</code></pre>
+<p>The supplied render helper targets NVIDIA OptiX. On another system, change its device setup to CPU or your supported Cycles backend; in Blender's UI select the corresponding device. The encoding helper uses FFmpeg and ffprobe on PATH, Microsoft Edge, and Windows Segoe UI fonts. Review helpers were verified on Windows; portability to other operating systems has not been tested. The core scene builder uses Blender's bundled Python and standard library.</p>
+<p>To audit the delivered scene without rendering:</p>
+<pre><code class="language-text">blender --background --factory-startup --python-exit-code 1 --python audit_scene.py -- stages/final-v01/final-v01.blend --output publication-check.json
+</code></pre>
+<p>Rebuild commands preserve existing checkpoints. Use a new <code>--revision</code> or <code>--tag</code>. To change the supplied SVG directly, keep absolute M/C/Z paths; do not run <code>make_profiles.py</code> afterward, because it regenerates the original contours.</p></article><article id="progress"><h2>Production decisions</h2><h1>Butterfly animation production record</h1>
+<h2>Reference development</h2>
+<p>The initial preflight concept established the brass and turquoise palette and four-wing construction. A GPT Image edit replaced insect legs with a curved support and a low dark pedestal. Both reference images and the exact prompts are retained.</p>
+<h2>Geometry development</h2>
+<p>The first clay review showed a connected support, body, and four hinge assemblies but cropped the upper wing tips and pedestal. The second blockout widened the framing: radius 11.8 to 14, lens 43 to 40 mm, and a slightly higher target. Multi-view renders then showed the whole sculpture.</p>
+<p>The detailed geometry reads cubic wing paths from an editable SVG and constructs thick brass plates, separate enamel layers, front and rear raised rims, ribs, fasteners, and hinge controls. Front, side, rear, and three-quarter views were reviewed. The SVG budget check passed: 1513 byte SVG, 20621 byte actual 400 by 600 PNG export.</p>
+<h2>Materials and lighting</h2>
+<p>The first color review showed washed-out front enamel, an unintended solid-gold pedestal top, and a background horizon seam. The second pass deepened the enamel palette, reduced clearcoat/specular reflection, replaced the cap with an annular brass rim, and added a curved studio backdrop. Actual Cycles renders confirmed the revised front and rear appearance.</p>
+<h2>Motion and review</h2>
+<p>The complete inexpensive EEVEE preview contains 288 frames, six wing cycles, a complete camera orbit, and periodic subtle lighting. All 288 camera-framing checks passed. A sampled surface-intersection screen found no wing/wing or wing/body crossings. Camera and hinge transforms and boundary velocity estimates match across the loop. No external image dependencies were found.</p>
+<p>The preview was encoded and decoded successfully. Browser playback reached the end of the complete 12 second file, and two encoded seam replays passed. The contact sheet and subsecond final-quality samples were visually inspected. Playback checks and visual sampling are recorded separately; no audio was requested.</p>
+<h2>Editability check</h2>
+<p>A separate configuration raised wing amplitude from 20 to 25 degrees. Rebuilding produced 40 degree upper-wing peaks instead of 35 degrees while preserving framing, loop continuity, and the sampled intersection checks. The delivered configuration was left at amplitude 20. The altered scene is clearly named editability-check and is not the selected delivery scene.</p>
+<h2>Final rendering</h2>
+<p>The 1080p Cycles/OptiX pilot was reviewed. All 288 final frames rendered successfully in 1231.077 seconds using 32 maximum adaptive samples, the OptiX denoiser, and a fixed seed. The first three seconds were encoded during rendering as an intermediate final-quality check and passed complete browser playback.</p>
+<h2>Final movie verification</h2>
+<p><code>papilio-final-1080p.mp4</code> is a 6775983 byte H.264 movie at 1920 by 1080, 24 fps, with 288 decoded frames and a duration of exactly 12.000000 seconds. Every source PNG was checked for integrity and consistent dimensions. Complete decoding and browser playback passed, followed by two encoded loop replays.</p>
+<p>The final contact sheet uses staggered time samples to avoid phase-locking to the two-second wing cycle. The contact sheet, selected full-resolution frames, and the last-to-first boundary strip were visually reviewed. Source-frame seam mean difference is 3.684983 RGB levels, compared with the average adjacent-frame difference near the boundary; the ratio is 1.005782. This image comparison complements the exact saved-scene transform and velocity checks. It is not a claim of pixel identity between successive moving frames.</p>
+<h2>Delivery</h2>
+<p>The Space production page contains the two image references, clay and geometry reviews, material revisions, complete motion preview, final-quality excerpt, validated final Blender scene, and validation receipts. The final film, poster, final contact sheet, boundary strip, and editable source archive are published with the completed delivery section. Raw frame caches remain in the local project; the archive includes the scene and scripts needed to reproduce them.</p></article><article id="prompts"><h2>Exact image prompts</h2><h1>Image reference prompts</h1>
+<p>Both references were produced using built-in image generation. The tool does not reveal an independently verified model version.</p>
+<h2>Initial reference from preflight</h2>
+<p>Use case: stylized-concept. Asset type: single preflight reference image to verify image generation for a Blender project. Create one simple three-quarter concept view of a small brass butterfly sculpture with turquoise enamel wing panels and visible hinges, on a plain dark background. Keep the entire object in frame. No text, no logo, no extra objects. A clear simple study is sufficient; this is an access test, not a final production design.</p>
+<h2>Production concept refinement</h2>
+<p>Edit target: concept-v01.png.</p>
+<p>Use case: precise-object-edit. Edit this brass-and-turquoise butterfly into a museum kinetic sculpture. Preserve the four distinct wing shapes, enamel inlays, brass rims, exposed hinges, and segmented body. Remove the insect legs. Mount the body on one slender curved brass support rising from a low circular black basalt pedestal with a narrow brass rim. Show the whole sculpture and pedestal with generous margin in a three-quarter product view, dark charcoal studio background, clear soft highlights. Do not crop wing tips. No text, logos, extra objects, or invented floating parts. This is concept reference for building real editable 3D geometry.</p></article><article id="validation"><h2>Delivery validation</h2><h1>Papilio final validation</h1>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final render</td>
+<td>288 frames, 1920 by 1080, Cycles with OptiX GPU and denoiser</td>
+</tr>
+<tr>
+<td>Render duration</td>
+<td>1231.077 seconds on the production machine</td>
+</tr>
+<tr>
+<td>Movie</td>
+<td>H.264, 1920 by 1080, 24 fps, 12.000000 seconds, 288 decoded frames</td>
+</tr>
+<tr>
+<td>Movie file size</td>
+<td>6775983 bytes</td>
+</tr>
+<tr>
+<td>All source PNGs</td>
+<td>Integrity and consistent-dimension checks passed</td>
+</tr>
+<tr>
+<td>Encoded decoding</td>
+<td>Passed without reported errors</td>
+</tr>
+<tr>
+<td>Complete browser playback</td>
+<td>Reached 12 seconds with no video-element error</td>
+</tr>
+<tr>
+<td>Encoded seam replay</td>
+<td>Two replays across the loop boundary passed</td>
+</tr>
+<tr>
+<td>Saved scene reopening</td>
+<td>Passed</td>
+</tr>
+<tr>
+<td>All-frame camera bounds</td>
+<td>288 frames checked; no required-margin violations</td>
+</tr>
+<tr>
+<td>Sampled surface intersections</td>
+<td>No wing/wing or wing/body crossings found at sampled poses</td>
+</tr>
+<tr>
+<td>Loop transform error</td>
+<td>0.0 in the recorded camera and hinge matrix comparison</td>
+</tr>
+<tr>
+<td>Loop boundary velocity error</td>
+<td>0.0 in the recorded finite-difference comparison</td>
+</tr>
+<tr>
+<td>Missing external images</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Parameter editing</td>
+<td>Independent amplitude change from 20 to 25 produced peak angle 40 rather than 35 degrees</td>
+</tr>
+<tr>
+<td>SVG export budget</td>
+<td>1513 byte SVG below its actual 20621 byte PNG export at 400 by 600</td>
+</tr>
+</tbody>
+</table>
+<p>Visual review covered the clay and material iterations, multiple viewpoints, final contact sheets, selected full-resolution frames, and the loop-boundary strip. Complete encoded playback and loop replay were checked separately. The movie is intentionally silent.</p>
+<p>The source-frame seam mean RGB difference was 3.684983, with a seam-to-neighbor difference ratio of 1.005782. Successive frames intentionally differ because the sculpture and camera keep moving; the exported clip omits the duplicate endpoint at time 12 seconds.</p>
+<p>The sculpture is an artistic model. The surface-intersection screen is not mechanical or fabrication validation. No audio, third-party 3D model, external texture, or paid 3D-generation provider was used.</p></article><article id="brief"><h2>Original creative brief</h2><h1>Papilio kinetic butterfly</h1>
+<p>Create a silent 12 second seamless looping museum film at 1920 by 1080 and 24 fps. The editable sculpture has four brass-rimmed turquoise enamel wings, exposed hinge assemblies, a segmented body, curved antennae, a slender support, and a low dark stone pedestal. The camera completes one full orbit; the wings complete six gentle cycles. This is an artistic sculpture, not a mechanically validated manufacturing design.</p>
+<p>Use GPT Image concept references, editable SVG wing outlines as a geometry source, and the SVG &amp; 3D Design workflow to construct the Blender scene. Preserve stage checkpoints and actual renders, record visible issues and corrections, and inspect the entire encoded animation before delivery.</p>
+<p>The reference refinement removes legs from the initial preflight concept and replaces them with a pedestal support. Preserve a coherent silhouette and useful reference cues while constructing actual thickness, rear surfaces, and connected parts.</p></article></main></html>

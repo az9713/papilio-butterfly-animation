@@ -1,0 +1,22 @@
+# Local agent notes and private material
+HANDOFF.md
+AGENTS.md
+.env
+.env.*
+!.env.example
+*credentials*
+*token*.txt
+# Regenerable frames, render progress, and local receipts
+__pycache__/
+*.py[cod]
+*.log
+*.blend1
+*.blend2
+preview-frames/
+final-frames/
+render-progress.*
+*.tmp
+*-playback.png
+source-manifest.json
+*.zip
+publication-check.json

@@ -1,0 +1,86 @@
+{
+  "stage": "final",
+  "revision": 1,
+  "blender": "5.3.0",
+  "renders": [],
+  "cycles_devices": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "type": "CUDA",
+      "use": false
+    },
+    {
+      "name": "12th Gen Intel Core i5-12450H",
+      "type": "CPU",
+      "use": false
+    },
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "type": "OPTIX",
+      "use": true
+    }
+  ],
+  "denoiser": "OPTIX",
+  "engine": "CYCLES",
+  "objects": 194,
+  "mesh_vertices": 15550,
+  "wing_controls": [
+    "Left upper wing hinge CONTROL",
+    "Left lower wing hinge CONTROL",
+    "Right upper wing hinge CONTROL",
+    "Right lower wing hinge CONTROL"
+  ],
+  "framing_samples": [
+    {
+      "frame": 1,
+      "min_x": 0.29907622933387756,
+      "max_x": 0.7203773260116577,
+      "min_y": 0.04762255400419235,
+      "max_y": 0.9092653393745422
+    },
+    {
+      "frame": 49,
+      "min_x": 0.4063448905944824,
+      "max_x": 0.608170747756958,
+      "min_y": 0.06728950887918472,
+      "max_y": 0.9140092134475708
+    },
+    {
+      "frame": 97,
+      "min_x": 0.2884410321712494,
+      "max_x": 0.676530122756958,
+      "min_y": 0.042371317744255066,
+      "max_y": 0.9099826216697693
+    },
+    {
+      "frame": 145,
+      "min_x": 0.30429506301879883,
+      "max_x": 0.7151514291763306,
+      "min_y": 0.047622907906770706,
+      "max_y": 0.9084910154342651
+    },
+    {
+      "frame": 193,
+      "min_x": 0.4066706597805023,
+      "max_x": 0.6206966638565063,
+      "min_y": 0.06728889048099518,
+      "max_y": 0.9139468669891357
+    },
+    {
+      "frame": 241,
+      "min_x": 0.2885812819004059,
+      "max_x": 0.6858258247375488,
+      "min_y": 0.04237174987792969,
+      "max_y": 0.9106483459472656
+    },
+    {
+      "frame": 289,
+      "min_x": 0.29907622933387756,
+      "max_x": 0.7203773260116577,
+      "min_y": 0.04762255400419235,
+      "max_y": 0.9092653393745422
+    }
+  ],
+  "loop_matrix_max_error": 0.0,
+  "blend": "stages/editability-check/editability-check.blend"
+}

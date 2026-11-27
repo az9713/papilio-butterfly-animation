@@ -1,0 +1,82 @@
+{
+  "movie": "papilio-final-1080p.mp4",
+  "bytes": 6775983,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "duration": "12.000000",
+        "nb_read_frames": "288"
+      }
+    ],
+    "format": {
+      "duration": "12.000000"
+    }
+  },
+  "all_pngs_verified": true,
+  "decode_passed": true,
+  "browser_playback": {
+    "ended": true,
+    "currentTime": 12,
+    "width": 1920,
+    "height": 1080,
+    "error": null
+  },
+  "loop_replays": [
+    0.0134,
+    0.0113
+  ],
+  "sampled_frame_differences": [
+    {
+      "between": [
+        1,
+        2
+      ],
+      "mean_rgb_difference": 3.7625186471193417
+    },
+    {
+      "between": [
+        2,
+        3
+      ],
+      "mean_rgb_difference": 3.799099151234568
+    },
+    {
+      "between": [
+        72,
+        73
+      ],
+      "mean_rgb_difference": 2.2592078189300415
+    },
+    {
+      "between": [
+        144,
+        145
+      ],
+      "mean_rgb_difference": 3.299655832047325
+    },
+    {
+      "between": [
+        216,
+        217
+      ],
+      "mean_rgb_difference": 2.6335495434670784
+    },
+    {
+      "between": [
+        287,
+        288
+      ],
+      "mean_rgb_difference": 3.5650795717592594
+    }
+  ],
+  "source_frame_seam_mean_difference": 3.6849831211419755,
+  "seam_to_neighbor_difference_ratio": 1.0057819795981984,
+  "contact_sheet": "papilio-final-1080p-contact.jpg",
+  "note": "Encoded playback and sample/contact-sheet review are separate checks; no audio was requested."
+}

@@ -1,0 +1,40 @@
+{
+  "files_scanned": 87,
+  "privacy_scan_matches": [],
+  "html_local_links_checked": 19,
+  "browser": "Microsoft Edge via Playwright",
+  "browser_playback": {
+    "ended": true,
+    "time": 12,
+    "error": null,
+    "width": 1920,
+    "height": 1080
+  },
+  "desktop_and_mobile_layout_checks_passed": true,
+  "final_movie_byte_identity_passed": true,
+  "final_scene_audit": {
+    "scene": "stages/final-v01/final-v01.blend",
+    "fps": 24,
+    "frames": [
+      1,
+      288
+    ],
+    "hinges": 4,
+    "framing_violations": [],
+    "surface_intersections": [],
+    "all_frame_projected_bounds": {
+      "min_x": 0.2585166096687317,
+      "max_x": 0.7337502837181091,
+      "min_y": 0.040589671581983566,
+      "max_y": 0.9446465969085693
+    },
+    "loop_matrix_max_error": 0.0,
+    "loop_velocity_max_error": 0.0,
+    "upper_peak_angle_degrees": [
+      34.99999983559887,
+      -34.99999983559887
+    ],
+    "external_images": [],
+    "passed": true
+  }
+}

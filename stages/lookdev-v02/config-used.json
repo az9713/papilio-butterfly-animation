@@ -1,0 +1,27 @@
+{
+  "title": "Papilio",
+  "duration_seconds": 12,
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "wing_period_seconds": 2,
+  "wing_rest_degrees": 15,
+  "wing_amplitude_degrees": 20,
+  "lower_wing_amplitude_factor": 0.85,
+  "camera_orbits": 1,
+  "camera_radius": 14.0,
+  "camera_height": 6.1,
+  "camera_lens_mm": 40,
+  "camera_target_height": 2.8,
+  "camera_start_degrees": -65,
+  "light_period_seconds": 4,
+  "light_breath_fraction": 0.08,
+  "root_height": 3.15,
+  "root_tilt_degrees": 70,
+  "metal_roughness": 0.29,
+  "enamel_roughness": 0.3,
+  "lighting_revision": 2,
+  "final_samples": 32
+}

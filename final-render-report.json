@@ -1,0 +1,28 @@
+{
+  "frames": 288,
+  "seconds": 1231.077,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "samples": 32,
+  "denoiser": "OPTIX",
+  "engine": "CYCLES",
+  "devices": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "type": "CUDA",
+      "use": false
+    },
+    {
+      "name": "12th Gen Intel Core i5-12450H",
+      "type": "CPU",
+      "use": false
+    },
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "type": "OPTIX",
+      "use": true
+    }
+  ]
+}

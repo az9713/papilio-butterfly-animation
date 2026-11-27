@@ -1,0 +1,364 @@
+{
+  "checkpoint_path_strings_replaced": {
+    "stages/blockout-v01/blockout-v01.blend": 2,
+    "stages/blockout-v02/blockout-v02.blend": 2,
+    "stages/editability-check/editability-check.blend": 2,
+    "stages/final-v01/final-v01.blend": 2,
+    "stages/geometry-v01/geometry-v01.blend": 2,
+    "stages/lookdev-v01/lookdev-v01.blend": 2,
+    "stages/lookdev-v02/lookdev-v02.blend": 2,
+    "stages/motion-v01/motion-v01.blend": 2
+  },
+  "method": "Only null-terminated local path bytes replaced with relative strings and zero padding. Every other decompressed byte preserved. Geometry, materials and animation retained. JSON source-root paths made relative.",
+  "production_movie_sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+  "image_metadata_cleanup": [
+    {
+      "path": "papilio-poster.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v01/blockout-v01-front.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v01/blockout-v01-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v01/blockout-v01-rear.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v01/blockout-v01-side.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v02/blockout-v02-front.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v02/blockout-v02-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v02/blockout-v02-rear.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/blockout-v02/blockout-v02-side.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/final-v01/final-v01-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/geometry-v01/geometry-v01-front.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/geometry-v01/geometry-v01-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/geometry-v01/geometry-v01-rear.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/geometry-v01/geometry-v01-side.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v01/lookdev-v01-front.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v01/lookdev-v01-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v01/lookdev-v01-rear.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v01/lookdev-v01-side.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v02/lookdev-v02-front.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v02/lookdev-v02-hero.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v02/lookdev-v02-rear.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    },
+    {
+      "path": "stages/lookdev-v02/lookdev-v02-side.png",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "pixel_bytes_unchanged": true
+    }
+  ]
+}
