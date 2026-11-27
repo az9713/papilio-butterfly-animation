@@ -75,7 +75,25 @@ def main():
         for e in s['evidence']:
             if e['path'] in {'motion-preview-v01.mp4','papilio-final-1080p.mp4'}:
                 assert e['sha256']==old_hashes[e['path']]
+    loop_code='''import json,sys
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    browser=p.chromium.launch(channel='msedge')
+    page=browser.new_page()
+    page.goto(sys.argv[1])
+    page.wait_for_function('document.querySelector("video")?.readyState>=2')
+    page.locator('video').evaluate('v=>{window.wraps=0;let last=0;v.addEventListener("timeupdate",()=>{if(v.currentTime<last)window.wraps++;last=v.currentTime});v.muted=true;v.loop=true;return v.play()}')
+    page.wait_for_function('window.wraps>=1',timeout=15000)
+    observed=page.locator('video').evaluate('v=>({wraps:window.wraps,error:v.error?.message??null})')
+    assert observed['wraps']>=1 and observed['error'] is None
+    print(json.dumps(observed))
+    browser.close()
+'''
+    loop=step('018-browser-loop-replay',[python,'-c',loop_code,
+              (source/'.reliability-work'/(args.run_id+'-workflow')/'verification.mp4').as_uri()])
+    loop_observation=json.loads(loop.stdout)
     for p in (source/'development/receipts').glob(args.run_id+'*.json'):
+        if p.name in historical:continue  # Already retained; only collect newly executed steps.
         target=ROOT/'development/receipts'/p.name
         if target.exists():raise FileExistsError('Do not overwrite retained receipts: '+p.name)
         target.write_bytes(p.read_bytes())
@@ -85,6 +103,7 @@ def main():
              'manifest_entries_checked':len(manifest['files']),'outside_any_git_checkout':True,
              'omitted_movies_remained_absent':True,'isolated_venv_declared_dependencies':True,
              'unit_tests_passed':unit_count,
+             'browser_loop_replay':loop_observation,
              'journal_with_no_site_packages_or_external_tools':True,
              'journal_after_new_event_indexed':True,'historical_receipts_unchanged':len(historical),
              'historical_git_snapshot_preserved':True,'historical_media_hashes_retained_and_labelled':True,

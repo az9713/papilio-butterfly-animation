@@ -190,10 +190,15 @@
       "commit": "d9968555160bab149b8358ce2f27b8957670a51f",
       "date": "2026-11-27T14:27:38-08:00",
       "subject": "docs: publish reliability receipts and release record"
+    },
+    {
+      "commit": "e39c3947cdd7dbab487f4c62a60910b20dba2c8c",
+      "date": "2026-11-27T15:54:08-08:00",
+      "subject": "fix: refresh the source journal without Git or omitted media"
     }
   ],
   "git_history_origin": {
     "mode": "measured from project Git checkout",
-    "through_commit": "d9968555160bab149b8358ce2f27b8957670a51f"
+    "through_commit": "e39c3947cdd7dbab487f4c62a60910b20dba2c8c"
   }
 }

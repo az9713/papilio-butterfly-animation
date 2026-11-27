@@ -12,6 +12,8 @@ Journal refresh uses only Python's standard library. It does not require Git, Bl
 
 All input parsing, evidence fallbacks, Git-history fallback, and guide validation finish before the first generated file is written. Individual output files use temporary siblings and atomic replacement. This protects against the diagnosed prerequisite failures; it is not an all-files transaction against a disk failure. Missing media links use the published website.
 
+A candidate acceptance run completed the production and journal commands, then stopped during receipt collection because a shared prefix also matched already-packaged historical receipts. The collector correctly refused to overwrite one. The final verifier collects only newly created receipts; the stopped run and diagnosis remain in `receipts/journal-closure-098-stopped.json` and `receipts/journal-closure-019-collection-diagnosis.json`.
+
 ## Complete standalone acceptance
 
 The repeatable verifier extracts the exact source ZIP into a fresh system temporary directory outside any Git checkout. It does not supply the omitted movies. It creates a new Python virtual environment and installs only the pinned review dependencies.
