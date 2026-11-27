@@ -147,6 +147,11 @@
       "commit": "b603f6630c0805fbd7b2c801847c7041ec84037d",
       "date": "2026-11-27T14:20:20-08:00",
       "subject": "fix: retain receipts outside a git checkout"
+    },
+    {
+      "commit": "1d1229a7137c78d4433da39b14b214ebde04e7b6",
+      "date": "2026-11-27T14:24:10-08:00",
+      "subject": "fix: verify canonical source exports correctly"
     }
   ]
 }

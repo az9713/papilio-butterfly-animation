@@ -126,6 +126,42 @@
     "status": "pass"
   },
   {
+    "file": "022-source-package-final.json",
+    "sha256": "3bb68205860846f8ff123e54c9600257c1b31ef1d6c4d73090322ab4c4c83de3",
+    "event": "022-source-package-final",
+    "status": "pass"
+  },
+  {
+    "file": "023-final-extracted-unit-tests.json",
+    "sha256": "580bba0f1f5bcf0734ce757bd1ae9e9fbd7e6a6371cadf8d7db5e1b52095b82c",
+    "event": "023-final-extracted-unit-tests",
+    "status": "pass"
+  },
+  {
+    "file": "024-final-extracted-integration.json",
+    "sha256": "4969a206ea2fa982ab0c5928d7bc1f7bfafe5adea7b029e6dddab38c5c302672",
+    "event": "024-final-extracted-integration",
+    "status": "pass"
+  },
+  {
+    "file": "025-retrospective-edit-attempt.json",
+    "sha256": "7e3ac3cb9d4c483926731a1ef1083c3d52f83884fc58428b7248d90280a506ff",
+    "event": "025-retrospective-edit-attempt",
+    "status": "record"
+  },
+  {
+    "file": "026-final-package-and-preservation.json",
+    "sha256": "48c5299ae2476de6159bb183d5f007daf1c9800fb439aee4dead8373dcf484b5",
+    "event": "026-final-package-and-preservation",
+    "status": "pass"
+  },
+  {
+    "file": "027-final-publication-preflight.json",
+    "sha256": "52a9a14d6151dfa354adaab36a2d0d0b6634c5013fe698c33cab0c63443e7298",
+    "event": "027-final-publication-preflight",
+    "status": "pass"
+  },
+  {
     "file": "package-verification-011-baseline-build.json",
     "sha256": "cc853428a6be64b8c280e9b8ef6162a3136745b502d3f2f15e9c8809ac196440",
     "event": "package-verification-011-baseline-build",
@@ -262,6 +298,144 @@
     "sha256": "cceccd117ca2b2d8cd1ee494479ef33fefad7840509cdabb39afb64a7c3b45df",
     "event": "package-verification-098-stopped",
     "status": "stopped"
+  },
+  {
+    "file": "package-verification-final-011-baseline-build.json",
+    "sha256": "625d62f07658a57f35443992c546788c31b2cafb784dff911e45d196bcaf06ab",
+    "event": "package-verification-final-011-baseline-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-012-baseline-inspect.json",
+    "sha256": "b736c9aa99b1fc82b45521ea53376c3638950a1fadea252d88cf2b0ea1580dc5",
+    "event": "package-verification-final-012-baseline-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-013-json-controls-build.json",
+    "sha256": "d380d0b216417b3136bafbc840fd1cfcfa3cca551aeb62b48d9fce0cac563f31",
+    "event": "package-verification-final-013-json-controls-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-014-json-controls-inspect.json",
+    "sha256": "533bf5aa11c22b45c02a7f38046b39498461f91ec4e26646207f355d8cb3ec58",
+    "event": "package-verification-final-014-json-controls-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-015-short-clip-build.json",
+    "sha256": "63b253b3edb4fe2ddf3021c344ad2e4d91087c26a01c72956d7f0e8c8529b044",
+    "event": "package-verification-final-015-short-clip-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-016-short-clip-inspect.json",
+    "sha256": "a9beefc7320849c536e607a43fa1a6a396afbf75d2419e0b570e695f93646093",
+    "event": "package-verification-final-016-short-clip-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-017-preserved-scene-inspect.json",
+    "sha256": "e5e9383c9dd3afec1766d01db28b1e18d0ebcbc720b9ac528ac2ce44f533afde",
+    "event": "package-verification-final-017-preserved-scene-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-018-cli-overrides-build.json",
+    "sha256": "f6aa861cefee766e4b787b7b16ae50bab1bfbae83a91a182006deb497638564b",
+    "event": "package-verification-final-018-cli-overrides-build",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-019-cli-overrides-inspect.json",
+    "sha256": "a451be9c360411ac3c4c2d57adef1dcfc19b8b499887987c12546ce46b93ade2",
+    "event": "package-verification-final-019-cli-overrides-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-020-invalid-config-rejected.json",
+    "sha256": "93d5cff52b00278c0d492f8df56068188947233f7be55bb60de23098b3252db3",
+    "event": "package-verification-final-020-invalid-config-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-021-missing-revision-rejected.json",
+    "sha256": "51e988f2bf685c1cc6d66ba1671e7cd1ae53fccc6304814281e6973e46471751",
+    "event": "package-verification-final-021-missing-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-022-baseline-selection-plan.json",
+    "sha256": "421dd6c104e8ddcf1679b1e099a5da921f016368e39676574dab798aaa13f4f9",
+    "event": "package-verification-final-022-baseline-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-023-json-controls-selection-plan.json",
+    "sha256": "3e0f95296631106cb9bf3ce55496bbe58453de7b5d9f55e7da7eb811dede2690",
+    "event": "package-verification-final-023-json-controls-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-024-baseline-audit.json",
+    "sha256": "224d9f5439d4caa16d6970f4c2e615ce56a359ec7ac36cf9d955e24e30437301",
+    "event": "package-verification-final-024-baseline-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-025-json-controls-audit.json",
+    "sha256": "07e1e5113e6bf1f8fe037bd383c987165732786454fa44992565359f227842fb",
+    "event": "package-verification-final-025-json-controls-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-026-short-clip-audit.json",
+    "sha256": "633096a9c2e8b5c7997ac6aed2fb5977c65632f9e8735b3af7068009ceba4921",
+    "event": "package-verification-final-026-short-clip-audit",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-027-cpu-short-render.json",
+    "sha256": "d77e0339c471955644f7ab459cb047673c98bc538d108f69a01a57377ad9fb75",
+    "event": "package-verification-final-027-cpu-short-render",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-028-safe-resume.json",
+    "sha256": "639c4c81d5e8f9133fa97fe3de5c29f3e7a2e2359667b83548fa62239c8f46f6",
+    "event": "package-verification-final-028-safe-resume",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-029-mixed-revision-rejected.json",
+    "sha256": "540468e24b6bf10b495a1accf7cc0e1b37a6a321f1620f3eb36993a702b7765f",
+    "event": "package-verification-final-029-mixed-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-030-corrupt-frame-rejected.json",
+    "sha256": "3e2ab4fc49eb80e364379aa37219874ec421b69292d186c7d2f5ac42519b1631",
+    "event": "package-verification-final-030-corrupt-frame-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-040-encode-and-playback.json",
+    "sha256": "fbb73fbead527ba10339373a756d8999a788cf2a830aab04fd06def4fd9a6910",
+    "event": "package-verification-final-040-encode-and-playback",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-041-existing-export-rejected.json",
+    "sha256": "dc16fff88cfca0c91d1193aeb1a7476a209a440478e63dd720acab9f4d5cde06",
+    "event": "package-verification-final-041-existing-export-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "package-verification-final-099-summary.json",
+    "sha256": "b8ac1878959355454420824228e90894262249af77c08d1066b0d4ad94555777",
+    "event": "package-verification-final-099-summary",
+    "status": "pass"
   },
   {
     "file": "verification-01-011-baseline-build.json",
