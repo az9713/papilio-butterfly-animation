@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-026-short-clip-audit",
+  "recorded_at_utc": "2026-11-27T22:11:29.524472+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\audit_scene.py",
+    "--",
+    "<project>\\.reliability-work\\verification-02\\stages\\short-clip\\short-clip.blend",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\short-clip-audit.json"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.234  blend            | Read blend: \"<project>\\.reliability-work\\verification-02\\stages\\short-clip\\short-clip.blend\"\nBUTTERFLY_AUDIT {\"scene\": \".reliability-work/verification-02/stages/short-clip/short-clip.blend\", \"scene_sha256\": \"96a64257f335f82b40a609ffc7d80225628a1d6a0eb055df645766ffc98586ae\", \"fps\": 6.0, \"frames\": [1, 12], \"hinges\": 4, \"framing_violations\": [], \"surface_intersections\": [], \"all_frame_projected_bounds\": {\"min_x\": 0.26106178760528564, \"max_x\": 0.738896906375885, \"min_y\": 0.04237128794193268, \"max_y\": 0.9408202767372131}, \"camera_orbits\": 1.0, \"loop_matrix_max_error\": 0.0, \"loop_velocity_max_error\": 0.0, \"intersection_sample_step_frames\": 3, \"upper_peak_angle_degrees\": [32.32050637891911, -32.32050637891911], \"external_images\": [], \"passed\": true}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

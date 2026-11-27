@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-011-baseline-build",
+  "recorded_at_utc": "2026-11-27T22:10:34.176127+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\build_scene.py",
+    "--",
+    "--stage",
+    "final",
+    "--tag",
+    "baseline",
+    "--config",
+    "<project>\\.reliability-work\\verification-02\\baseline.json",
+    "--output-root",
+    "<project>\\.reliability-work\\verification-02\\stages",
+    "--render",
+    "none",
+    "--device",
+    "cpu"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "Info: Saved as \"baseline.blend\"\nBUTTERFLY_STAGE_COMPLETE {\"stage\": \"final\", \"revision\": 1, \"tag\": \"baseline\", \"blender\": \"5.3.0\", \"renders\": [], \"effective_config\": {\"title\": \"Papilio\", \"duration_seconds\": 12, \"fps\": 24, \"resolution\": [1920, 1080], \"wing_period_seconds\": 2, \"wing_rest_degrees\": 15, \"wing_amplitude_degrees\": 20, \"lower_wing_amplitude_factor\": 0.85, \"camera_orbits\": 1, \"camera_radius\": 14.0, \"camera_height\": 6.1, \"camera_lens_mm\": 40, \"camera_target_height\": 2.8, \"camera_start_degrees\": -65, \"light_period_seconds\": 4, \"light_breath_fraction\": 0.08, \"root_height\": 3.15, \"root_tilt_degrees\": 70, \"metal_roughness\": 0.29, \"enamel_roughness\": 0.3, \"lighting_revision\": 2, \"final_samples\": 32}, \"cli_overrides\": {}, \"config_source_sha256\": \"c12c003942687bdf7d4568cf0ad16508746f971f0fa8daa0ac370f3acdb9fb3c\", \"builder_sha256\": \"2eeb7d060d9a46f76461ae10a1718ce1e15ec0231b6fcb4a5e07278ef199eae5\", \"profiles_sha256\": \"26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99\", \"device\": {\"requested\": \"cpu\", \"selected\": \"CPU\", \"devices\": [\"CPU\"]}, \"denoiser\": \"OPENIMAGEDENOISE\", \"engine\": \"CYCLES\", \"objects\": 194, \"mesh_vertices\": 15550, \"wing_controls\": [\"Left upper wing hinge CONTROL\", \"Left lower wing hinge CONTROL\", \"Right upper wing hinge CONTROL\", \"Right lower wing hinge CONTROL\"], \"framing_samples\": [{\"frame\": 1, \"min_x\": 0.29907622933387756, \"max_x\": 0.7203773260116577, \"min_y\": 0.04762255400419235, \"max_y\": 0.9092653393745422}, {\"frame\": 49, \"min_x\": 0.4063448905944824, \"max_x\": 0.608170747756958, \"min_y\": 0.06728950887918472, \"max_y\": 0.9140092134475708}, {\"frame\": 97, \"min_x\": 0.2884410321712494, \"max_x\": 0.676530122756958, \"min_y\": 0.042371317744255066, \"max_y\": 0.9099826216697693}, {\"frame\": 145, \"min_x\": 0.30429506301879883, \"max_x\": 0.7151514291763306, \"min_y\": 0.047622907906770706, \"max_y\": 0.9084910154342651}, {\"frame\": 193, \"min_x\": 0.4066706597805023, \"max_x\": 0.6206966638565063, \"min_y\": 0.06728889048099518, \"max_y\": 0.9139468669891357}, {\"frame\": 241, \"min_x\": 0.2885812819004059, \"max_x\": 0.6858258247375488, \"min_y\": 0.04237174987792969, \"max_y\": 0.9106483459472656}, {\"frame\": 289, \"min_x\": 0.29907622933387756, \"max_x\": 0.7203773260116577, \"min_y\": 0.04762255400419235, \"max_y\": 0.9092653393745422}], \"loop_matrix_max_error\": 0.0, \"blend\": \".reliability-work/verification-02/stages/baseline/baseline.blend\", \"blend_sha256\": \"44ea1c2c6e0a5fb9a1637f1cbcb1763b3f75621602cfa335005a03781191f453\"}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": "<project>\\build_scene.py:67: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0\n  m=bpy.data.materials.new(name);m.use_nodes=True\n<project>\\build_scene.py:242: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0\n  world=bpy.data.worlds.new('Dark studio environment');world.use_nodes=True;scene.world=world\n"
+}

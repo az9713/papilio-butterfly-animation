@@ -18,37 +18,50 @@ from mathutils.geometry import tessellate_polygon
 from bpy_extras.object_utils import world_to_camera_view
 
 ROOT=Path(__file__).parent
+sys.path.insert(0,str(ROOT))
+from pipeline_common import load_config, validate_tag, configure_device, sha256, path_label, write_json
 parser=argparse.ArgumentParser()
 parser.add_argument('--stage',choices=['blockout','geometry','lookdev','motion','final'],default='blockout')
 parser.add_argument('--revision',type=int,default=1)
 parser.add_argument('--render',choices=['none','stills','preview','final'],default='stills')
 parser.add_argument('--views',nargs='+',default=['hero','front','rear','side'])
-parser.add_argument('--samples',type=int,default=24)
-parser.add_argument('--res',nargs=2,type=int,default=[960,540])
+parser.add_argument('--samples',type=int,help='Explicit override of config.final_samples')
+parser.add_argument('--res',nargs=2,type=int,help='Explicit override of config.resolution')
 parser.add_argument('--config',type=Path,default=ROOT/'config.json')
+parser.add_argument('--output-root',type=Path,default=ROOT/'stages')
+parser.add_argument('--device',choices=['auto','cpu','optix','cuda','hip','metal','oneapi'],default='auto')
 parser.add_argument('--tag',help='Unique checkpoint folder name; existing scenes are preserved')
 args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
-cfg=json.loads(args.config.read_text())
-tag=args.tag or f'{args.stage}-v{args.revision:02d}'
-out=ROOT/'stages'/tag
+cfg,overrides=load_config(args.config,resolution=args.res,samples=args.samples)
+if args.revision<1:raise ValueError('revision must be positive')
+tag=validate_tag(args.tag or f'{args.stage}-v{args.revision:02d}')
+out=args.output_root.resolve()/tag
+if out.exists() and any(out.iterdir()):
+ raise RuntimeError('Checkpoint directory already contains files. Choose a new --revision or --tag.')
 out.mkdir(parents=True,exist_ok=True)
 if (out/f'{tag}.blend').exists():
  raise RuntimeError('Checkpoint already exists. Choose a new --revision or --tag to preserve the last good scene.')
-(out/'config-used.json').write_text(json.dumps(cfg,indent=2))
+write_json(out/'config-used.json',cfg)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene=bpy.context.scene
+scene['papilio_title']=cfg['title']
+scene['papilio_config_json']=json.dumps(cfg,sort_keys=True)
+scene['papilio_revision']=tag
+scene['papilio_profiles_sha256']=sha256(ROOT/'wing-profiles.svg')
 scene.unit_settings.system='METRIC'
 scene.render.fps=cfg['fps']
 scene.frame_start=1
 scene.frame_end=round(cfg['duration_seconds']*cfg['fps'])
-scene.render.resolution_x=args.res[0]
-scene.render.resolution_y=args.res[1]
+scene.render.resolution_x=cfg['resolution'][0]
+scene.render.resolution_y=cfg['resolution'][1]
 scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG'
 scene.render.image_settings.color_mode='RGB'
 scene.render.image_settings.compression=35
 clay=args.stage in ['blockout','geometry']
-report={'stage':args.stage,'revision':args.revision,'blender':bpy.app.version_string,'renders':[]}
+report={'stage':args.stage,'revision':args.revision,'tag':tag,'blender':bpy.app.version_string,'renders':[],
+ 'effective_config':cfg,'cli_overrides':overrides,'config_source_sha256':sha256(args.config),
+ 'builder_sha256':sha256(__file__),'profiles_sha256':sha256(ROOT/'wing-profiles.svg')}
 
 def material(name,color,metallic=0,roughness=.4):
  m=bpy.data.materials.new(name);m.use_nodes=True
@@ -257,7 +270,7 @@ if args.stage in ['motion','final']:
    angle=cfg['wing_rest_degrees']+cfg['wing_amplitude_degrees']*factor*math.sin(2*math.pi*t/cfg['wing_period_seconds'])
    hinge.rotation_euler.y=-side*math.radians(angle)
    hinge.keyframe_insert(data_path='rotation_euler',frame=frame)
-  angle=math.radians(cfg['camera_start_degrees'])+2*math.pi*t/cfg['duration_seconds']
+  angle=math.radians(cfg['camera_start_degrees'])+2*math.pi*cfg['camera_orbits']*t/cfg['duration_seconds']
   pose_camera(angle)
   q=camera.rotation_quaternion.copy()
   if previous is not None and previous.dot(q)<0:q.negate()
@@ -276,29 +289,24 @@ if clay or args.render=='preview':
  if clay:scene.view_layers[0].material_override=claymat
 else:
  scene.render.engine='CYCLES'
- prefs=bpy.context.preferences.addons['cycles'].preferences
- prefs.compute_device_type='OPTIX';prefs.get_devices()
- for dev in prefs.devices:dev.use=dev.type=='OPTIX'
- scene.cycles.device='GPU';scene.cycles.samples=args.samples
+ scene.cycles.samples=cfg['final_samples']
  scene.cycles.use_denoising=True
  scene.cycles.seed=42
  if hasattr(scene.cycles,'use_animated_seed'):scene.cycles.use_animated_seed=False
- try:scene.cycles.denoiser='OPTIX'
- except TypeError:pass
+ report['device']=configure_device(scene,args.device)
  scene.cycles.adaptive_threshold=.045
  scene.cycles.max_bounces=6;scene.cycles.diffuse_bounces=2;scene.cycles.glossy_bounces=4
- report['cycles_devices']=[{'name':d.name,'type':d.type,'use':d.use} for d in prefs.devices]
  report['denoiser']=scene.cycles.denoiser
 scene.render.use_persistent_data=True
 report['engine']=scene.render.engine
 
 scene.render.film_transparent=False
-scene.render.filepath=str(out/'frame_')
+scene.render.filepath='//frame_'
 report['objects']=len(scene.objects)
 report['mesh_vertices']=sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH')
 report['wing_controls']=[o.name for o,_,_ in hinges]
 if args.stage in ['motion','final']:
- sample_frames=[1,49,97,145,193,241,289]
+ sample_frames=sorted(set([1+round(scene.frame_end*i/6) for i in range(6)]+[scene.frame_end+1]))
  extent=[]
  for f in sample_frames:
   scene.frame_set(f);bpy.context.view_layer.update()
@@ -311,13 +319,19 @@ if args.stage in ['motion','final']:
  report['framing_samples']=extent
  scene.frame_set(1);bpy.context.view_layer.update()
  transforms={o.name:[list(row) for row in o.matrix_world] for o in [camera]+[h for h,_,_ in hinges]}
- scene.frame_set(289);bpy.context.view_layer.update()
+ scene.frame_set(scene.frame_end+1);bpy.context.view_layer.update()
  report['loop_matrix_max_error']=max(abs(o.matrix_world[r][c]-transforms[o.name][r][c]) for o in [camera]+[h for h,_,_ in hinges] for r in range(4) for c in range(4))
  scene.frame_set(1)
 
 blend=out/f'{tag}.blend'
+for screen in bpy.data.screens:
+ for area_space in screen.areas:
+  for space in area_space.spaces:
+   if space.type=='FILE_BROWSER' and space.params is not None:
+    space.params.directory=b'//'
 bpy.ops.wm.save_as_mainfile(filepath=str(blend),compress=True)
-report['blend']=str(blend)
+report['blend']=path_label(blend)
+report['blend_sha256']=sha256(blend)
 if args.render=='stills':
  angles={'hero':cfg['camera_start_degrees'],'front':-90,'rear':90,'side':0}
  if camera.animation_data:camera.animation_data_clear()
@@ -325,13 +339,9 @@ if args.render=='stills':
   pose_camera(math.radians(angles[view]));bpy.context.view_layer.update()
   scene.render.filepath=str(out/f'{tag}-{view}.png')
   start=time.perf_counter();bpy.ops.render.render(write_still=True)
-  report['renders'].append({'view':view,'path':scene.render.filepath,'seconds':round(time.perf_counter()-start,3)})
+  report['renders'].append({'view':view,'path':path_label(scene.render.filepath),'seconds':round(time.perf_counter()-start,3)})
 elif args.render in ['preview','final']:
- directory=ROOT/('preview-frames' if args.render=='preview' else 'final-frames')/tag
- directory.mkdir(parents=True,exist_ok=True)
- scene.render.filepath=str(directory/'frame_')
- scene.render.use_overwrite=False
- start=time.perf_counter();bpy.ops.render.render(animation=True)
- report['renders'].append({'frames':str(directory),'seconds':round(time.perf_counter()-start,3),'count':len(list(directory.glob('frame_*.png')))})
-(out/'report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+ from render_saved import main as render_selected
+ report['renders'].append(render_selected(['--scene',str(blend),'--output',str(out/'frames'),'--device',args.device]))
+write_json(out/'report.json',report)
 print('BUTTERFLY_STAGE_COMPLETE '+json.dumps(report),flush=True)

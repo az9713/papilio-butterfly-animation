@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "event": "003-before-observations",
+  "recorded_at_utc": "2026-11-27T22:02:43.137208+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\development\\inspect_scene.py",
+    "--",
+    "<project>\\.reliability-work\\before\\stages\\before-controls\\before-controls.blend"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.141  blend            | Read blend: \"<project>\\.reliability-work\\before\\stages\\before-controls\\before-controls.blend\"\nRELIABILITY_INSPECTION {\"checkpoint\": \"before-controls.blend\", \"project_title\": null, \"objects\": 194, \"hinges\": 4, \"resolution\": [960, 540], \"samples\": 24, \"camera_orbits\": 0.9999999999999997, \"upper_peak_degrees\": [39.99999883637168, -39.99999883637168], \"fps\": 24, \"frame_range\": [1, 288], \"geometry_sha256\": \"a451bd79a0ab642e0ba4b7db0f6ccbd735ec44d54da9fee8f943c197eddcab42\", \"embedded_config\": {}, \"external_images\": []}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

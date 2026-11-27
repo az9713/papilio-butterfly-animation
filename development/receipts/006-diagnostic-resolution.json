@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "event": "006-diagnostic-resolution",
+  "recorded_at_utc": "2026-11-27T22:10:26.331704+00:00",
+  "issue": "Canonical mesh comparison",
+  "finding": "All vertex coordinates and frame-1 world matrices were identical; face array ordering differed on generated spheres. Compare sorted oriented faces while preserving vertex order and winding. The initial failed hash check remains retained.",
+  "observer_correction": "Record upper-wing peak before resetting the scene to its first frame. Full-timeline control assertions were unaffected."
+}

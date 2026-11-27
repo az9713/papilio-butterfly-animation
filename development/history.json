@@ -1,0 +1,142 @@
+{
+  "recording_policy": "Preserve evidence and failed attempts. Earlier production chronology is reconstructed from saved artifacts; per-step machine receipts start with the reliability repair. Do not fabricate missing historical timestamps.",
+  "historical_stages": [
+    {
+      "stage": "Concept references",
+      "decision": "Generated brass/turquoise concept; refined legs into a pedestal-mounted sculpture.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "concept-v01.png",
+          "sha256": "f12ac160069bbdcce79f044bbe5a24a7e753e8a6d74b3c67b747622bbde8af48"
+        },
+        {
+          "path": "concept-v02.png",
+          "sha256": "b50031e91cf643c34dbddd12413ffcf075029e5b23f8167f3f997e71cf3e9d09"
+        }
+      ]
+    },
+    {
+      "stage": "Blockout and camera repair",
+      "decision": "First clay framing cropped tips and pedestal; second pass widened framing.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "stages/blockout-v01/blockout-v01-views.jpg",
+          "sha256": "ca4fc0a993891f487f9feaa1a5067387d35791cb2a0f48d3800c69c95d721349"
+        },
+        {
+          "path": "stages/blockout-v02/blockout-v02-views.jpg",
+          "sha256": "7eb89cedbfe869a7e6eebe84972aa23fcfb858fd4898200f52b967c41310c592"
+        }
+      ]
+    },
+    {
+      "stage": "Editable geometry",
+      "decision": "Built wing plates, enamel faces, rims, ribs, fasteners and four hinge controls from SVG contours.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "wing-profiles.svg",
+          "sha256": "26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99"
+        },
+        {
+          "path": "stages/geometry-v01/geometry-v01-views.jpg",
+          "sha256": "98e9264495d24e142d6e8992779c7df39526b86c2a64e488c986e706a9d5a73e"
+        }
+      ]
+    },
+    {
+      "stage": "Material and lighting repair",
+      "decision": "Deepened enamel, replaced the gold cap with an annular rim, and removed the horizon seam.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "stages/lookdev-v01/lookdev-v01-views.jpg",
+          "sha256": "3e1e306160fe9526c973df7b50b99c5d361c1ba64875d2a290b19fc559406e09"
+        },
+        {
+          "path": "stages/lookdev-v02/lookdev-v02-views.jpg",
+          "sha256": "b03c512285492bfcfbaea96bd3979d4f0ba05c42eeaf3c19f7fcf87626ce419b"
+        }
+      ]
+    },
+    {
+      "stage": "Motion review",
+      "decision": "Created a 12-second preview with six wing cycles and a complete orbit; checked framing, sampled intersections and loop boundaries.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "motion-preview-v01.mp4",
+          "sha256": "bef956d3f2518a98622f99e2e1a26f219ce92f67c6047393bb960c00fd890f2e"
+        },
+        {
+          "path": "motion-v01-audit.json",
+          "sha256": "969788bf1228496ee2c940d004214c43e62a8231b4352ac143b8903f59beb2cb"
+        }
+      ]
+    },
+    {
+      "stage": "Original delivery",
+      "decision": "Rendered and delivered the silent 1080p film, native scene and initial source archive.",
+      "origin": "reconstructed from saved production artifacts",
+      "evidence": [
+        {
+          "path": "papilio-final-1080p.mp4",
+          "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465"
+        },
+        {
+          "path": "stages/final-v01/final-v01.blend",
+          "sha256": "fbfcbe64aeed96f0a29271a0fbc66be5abf9ade9fc35f86e116e8db72caa350a"
+        },
+        {
+          "path": "papilio-final-1080p-review.json",
+          "sha256": "5361c807c1fdfac20ce8736d21f006f3f1222c84b70dc4caaeb30809b81acda9"
+        }
+      ]
+    },
+    {
+      "stage": "Rubric and reliability diagnosis",
+      "decision": "Five dimensions: Intent, Appearance, Motion, Delivery, Editability. Assessment profile was 3,3,3,3,2; source control and revision handling needed repair.",
+      "origin": "contemporaneous repair receipts",
+      "evidence": [
+        {
+          "path": "development/receipts/002-before-build.json",
+          "sha256": "bdd416adc4bc026d50a2b888f76b682abea8cf8baa63eeef5fad6b71558672a2"
+        },
+        {
+          "path": "development/receipts/003-before-observations.json",
+          "sha256": "6590c68b0eed72d01766f5c7bdd7f261f71bbb8c66b4d286b6ac4432021ed7fe"
+        }
+      ]
+    },
+    {
+      "stage": "Source reliability repair",
+      "decision": "Connected all 22 JSON settings, required scene selection, bound resume to source/settings, generalized timing, and tested a fresh default rebuild and edited variants.",
+      "origin": "contemporaneous repair receipts",
+      "evidence": [
+        {
+          "path": "development/receipts/verification-02-099-summary.json",
+          "sha256": "4737999a7fbda13a995fb3eb287a81b52418823948ee47afac0c092088b596c7"
+        }
+      ]
+    }
+  ],
+  "git_history": [
+    {
+      "commit": "d08915033c568801701127ad7bb34cae54aa6670",
+      "date": "2026-11-27T03:02:00-08:00",
+      "subject": "feat: add Papilio butterfly animation"
+    },
+    {
+      "commit": "9fb1dfaeb3bb7ad2eefede85311fc5dec38ecbfc",
+      "date": "2026-11-27T03:04:57-08:00",
+      "subject": "docs: enable public GitHub Pages guide"
+    },
+    {
+      "commit": "4628836babf0c5aec6a8fb1f278119a7ebc147d6",
+      "date": "2026-11-27T03:12:11-08:00",
+      "subject": "docs: credit source references and project inputs"
+    }
+  ]
+}

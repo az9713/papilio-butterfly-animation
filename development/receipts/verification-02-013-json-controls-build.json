@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-013-json-controls-build",
+  "recorded_at_utc": "2026-11-27T22:10:42.017019+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\build_scene.py",
+    "--",
+    "--stage",
+    "final",
+    "--tag",
+    "json-controls",
+    "--config",
+    "<project>\\.reliability-work\\verification-02\\json-controls.json",
+    "--output-root",
+    "<project>\\.reliability-work\\verification-02\\stages",
+    "--render",
+    "none",
+    "--device",
+    "cpu"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "Info: Saved as \"json-controls.blend\"\nBUTTERFLY_STAGE_COMPLETE {\"stage\": \"final\", \"revision\": 1, \"tag\": \"json-controls\", \"blender\": \"5.3.0\", \"renders\": [], \"effective_config\": {\"title\": \"Papilio control verification\", \"duration_seconds\": 4, \"fps\": 12, \"resolution\": [320, 180], \"wing_period_seconds\": 1, \"wing_rest_degrees\": 10, \"wing_amplitude_degrees\": 25, \"lower_wing_amplitude_factor\": 0.6, \"camera_orbits\": 2, \"camera_radius\": 15, \"camera_height\": 6.4, \"camera_lens_mm\": 38, \"camera_target_height\": 2.9, \"camera_start_degrees\": -40, \"light_period_seconds\": 2, \"light_breath_fraction\": 0.05, \"root_height\": 3.25, \"root_tilt_degrees\": 68, \"metal_roughness\": 0.33, \"enamel_roughness\": 0.36, \"lighting_revision\": 1, \"final_samples\": 8}, \"cli_overrides\": {}, \"config_source_sha256\": \"144b2de4fa792e666587ae49f1a8337bc4b0ab2d2f29e0d765a002a5029f330d\", \"builder_sha256\": \"2eeb7d060d9a46f76461ae10a1718ce1e15ec0231b6fcb4a5e07278ef199eae5\", \"profiles_sha256\": \"26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99\", \"device\": {\"requested\": \"cpu\", \"selected\": \"CPU\", \"devices\": [\"CPU\"]}, \"denoiser\": \"OPENIMAGEDENOISE\", \"engine\": \"CYCLES\", \"objects\": 192, \"mesh_vertices\": 12990, \"wing_controls\": [\"Left upper wing hinge CONTROL\", \"Left lower wing hinge CONTROL\", \"Right upper wing hinge CONTROL\", \"Right lower wing hinge CONTROL\"], \"framing_samples\": [{\"frame\": 1, \"min_x\": 0.35930007696151733, \"max_x\": 0.6771906018257141, \"min_y\": 0.08298341184854507, \"max_y\": 0.8591819405555725}, {\"frame\": 9, \"min_x\": 0.3031550347805023, \"max_x\": 0.7179343104362488, \"min_y\": 0.10046246647834778, \"max_y\": 0.822032630443573}, {\"frame\": 17, \"min_x\": 0.3896976113319397, \"max_x\": 0.6285604238510132, \"min_y\": 0.091947540640831, \"max_y\": 0.8930651545524597}, {\"frame\": 25, \"min_x\": 0.35930007696151733, \"max_x\": 0.6771906018257141, \"min_y\": 0.08298341184854507, \"max_y\": 0.8591819405555725}, {\"frame\": 33, \"min_x\": 0.3031550347805023, \"max_x\": 0.7179343104362488, \"min_y\": 0.10046246647834778, \"max_y\": 0.822032630443573}, {\"frame\": 41, \"min_x\": 0.3896976113319397, \"max_x\": 0.6285604238510132, \"min_y\": 0.091947540640831, \"max_y\": 0.8930651545524597}, {\"frame\": 49, \"min_x\": 0.35930007696151733, \"max_x\": 0.6771906018257141, \"min_y\": 0.08298341184854507, \"max_y\": 0.8591819405555725}], \"loop_matrix_max_error\": 0.0, \"blend\": \".reliability-work/verification-02/stages/json-controls/json-controls.blend\", \"blend_sha256\": \"941bdb54de739e8c28c2adf17297ac7f0ea0f93034e558458662e586a242fe77\"}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": "<project>\\build_scene.py:67: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0\n  m=bpy.data.materials.new(name);m.use_nodes=True\n<project>\\build_scene.py:242: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0\n  world=bpy.data.worlds.new('Dark studio environment');world.use_nodes=True;scene.world=world\n"
+}

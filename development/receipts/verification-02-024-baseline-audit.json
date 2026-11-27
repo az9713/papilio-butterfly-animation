@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-024-baseline-audit",
+  "recorded_at_utc": "2026-11-27T22:11:22.967771+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\audit_scene.py",
+    "--",
+    "<project>\\.reliability-work\\verification-02\\stages\\baseline\\baseline.blend",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\baseline-audit.json"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.375  blend            | Read blend: \"<project>\\.reliability-work\\verification-02\\stages\\baseline\\baseline.blend\"\nBUTTERFLY_AUDIT {\"scene\": \".reliability-work/verification-02/stages/baseline/baseline.blend\", \"scene_sha256\": \"44ea1c2c6e0a5fb9a1637f1cbcb1763b3f75621602cfa335005a03781191f453\", \"fps\": 24.0, \"frames\": [1, 288], \"hinges\": 4, \"framing_violations\": [], \"surface_intersections\": [], \"all_frame_projected_bounds\": {\"min_x\": 0.2585166096687317, \"max_x\": 0.7337502837181091, \"min_y\": 0.040589671581983566, \"max_y\": 0.9446465969085693}, \"camera_orbits\": 0.9999999999999997, \"loop_matrix_max_error\": 0.0, \"loop_velocity_max_error\": 0.0, \"intersection_sample_step_frames\": 12, \"upper_peak_angle_degrees\": [34.99999983559887, -34.99999983559887], \"external_images\": [], \"passed\": true}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

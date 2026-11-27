@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event": "007-canonical-geometry-comparison",
+  "recorded_at_utc": "2026-11-27T22:10:29.105009+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\development\\compare_scenes.py",
+    "--",
+    "<project>\\stages\\final-v01\\final-v01.blend",
+    "<project>\\.reliability-work\\verification-01\\stages\\baseline\\baseline.blend"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.203  blend            | Read blend: \"<project>\\stages\\final-v01\\final-v01.blend\"\n00:02.281  blend            | Read blend: \"<project>\\.reliability-work\\verification-01\\stages\\baseline\\baseline.blend\"\nGEOMETRY_COMPARISON {\"same_objects\": true, \"differences\": [], \"max_coordinate_error\": 0.0, \"max_world_matrix_error\": 0.0, \"equivalent_within_1e-5\": true}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

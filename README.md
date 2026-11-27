@@ -4,6 +4,18 @@
 
 A 12-second, 1080p, 24 fps kinetic sculpture built using the SVG & 3D Design workflow, GPT Image references, and Blender 5.3.
 
+Source reliability release **1.1.0** repairs configuration controls, explicit revision selection, safe render resumption, and scene-derived timing. The existing film, scene checkpoints, and visual assets are preserved.
+
+- [Development journey, issues, fixes, commands, and evidence](https://az9713.github.io/papilio-butterfly-animation/development/)
+- [Versioned source package](https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.0/papilio-source-v1.1.0.zip)
+- [Current build and render instructions](https://az9713.github.io/papilio-butterfly-animation/development/#rebuild)
+- [Configuration contract](https://az9713.github.io/papilio-butterfly-animation/development/#controls)
+- [Verification summary](development/receipts/verification-02-099-summary.json)
+
+JSON settings supply the defaults; explicit `--res` and `--samples` flags override them and are recorded. Rendering requires both `--scene` and `--output`. Use `--plan` to inspect the selected scene and settings before rendering. The source-only ZIP includes the matching guide, dependencies, checkpoints, and receipts; movie links in its guide use the published website.
+
+The development record preserves the original failed check and its diagnosis. Earlier production stages are reconstructed from saved artifacts; execution receipts are recorded from the reliability repair onward. Tests cover Windows, Blender 5.3, CPU rendering, automatic OptiX selection, and Edge playback. Other platforms remain unverified.
+
 - [Watch the animation and explore the visual guide](https://az9713.github.io/papilio-butterfly-animation/)
 - [Download or play the final film](papilio-final-1080p.mp4)
 - [Open the editable Blender scene](stages/final-v01/final-v01.blend)

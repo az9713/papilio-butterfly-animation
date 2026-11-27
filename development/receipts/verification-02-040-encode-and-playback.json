@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-040-encode-and-playback",
+  "recorded_at_utc": "2026-11-27T22:11:51.688010+00:00",
+  "command": [
+    "<user-home>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "<project>\\encode_review.py",
+    "<project>\\.reliability-work\\verification-02\\frames",
+    "<project>\\.reliability-work\\verification-02\\verification.mp4",
+    "--browser-check"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "PAPILIO_ENCODE_COMPLETE {\"schema_version\": 1, \"kind\": \"encode\", \"recorded_at_utc\": \"2026-11-27T22:11:51.654329+00:00\", \"movie\": \".reliability-work/verification-02/verification.mp4\", \"movie_sha256\": \"a44c4d22abd93c4c71903e942c83937b28e27cb92b1765072900331eaa5667ea\", \"bytes\": 19320, \"render_manifest_sha256\": \"62694ebba24bffa3b54f591afaf5dddad1e6b668c6c1f4b7ca5e16247d8ac814\", \"source_scene_sha256\": \"96a64257f335f82b40a609ffc7d80225628a1d6a0eb055df645766ffc98586ae\", \"source_revision\": \"short-clip\", \"metadata\": {\"programs\": [], \"stream_groups\": [], \"streams\": [{\"codec_name\": \"h264\", \"width\": 160, \"height\": 90, \"r_frame_rate\": \"6/1\", \"nb_read_frames\": \"12\"}], \"format\": {\"duration\": \"2.000000\"}}, \"all_pngs_verified\": true, \"decode_passed\": true, \"browser_playback\": {\"ended\": true, \"time\": 2, \"error\": null}, \"passed\": true}\n",
+  "stderr": ""
+}

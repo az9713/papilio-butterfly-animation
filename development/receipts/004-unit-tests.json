@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event": "004-unit-tests",
+  "recorded_at_utc": "2026-11-27T22:08:00.068408+00:00",
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "",
+  "stderr": "test_checkpoint_path_injection_is_rejected (test_pipeline.ConfigurationTests.test_checkpoint_path_injection_is_rejected) ... ok\ntest_default_and_explicit_override_precedence (test_pipeline.ConfigurationTests.test_default_and_explicit_override_precedence) ... ok\ntest_invalid_controls_are_rejected (test_pipeline.ConfigurationTests.test_invalid_controls_are_rejected) ... ok\ntest_png_integrity_detects_truncation (test_pipeline.ConfigurationTests.test_png_integrity_detects_truncation) ... ok\ntest_unknown_and_missing_fields_are_rejected (test_pipeline.ConfigurationTests.test_unknown_and_missing_fields_are_rejected) ... ok\ntest_zero_motion_is_supported (test_pipeline.ConfigurationTests.test_zero_motion_is_supported) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.045s\n\nOK\n"
+}

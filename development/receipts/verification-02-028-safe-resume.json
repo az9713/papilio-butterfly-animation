@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-028-safe-resume",
+  "recorded_at_utc": "2026-11-27T22:11:39.322572+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\render_saved.py",
+    "--",
+    "--scene",
+    "<project>\\.reliability-work\\verification-02\\stages\\short-clip\\short-clip.blend",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\frames",
+    "--device",
+    "cpu",
+    "--samples",
+    "1"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.344  blend            | Read blend: \"<project>\\.reliability-work\\verification-02\\stages\\short-clip\\short-clip.blend\"\nInfo: No frames rendered, skipped to not overwrite\nPAPILIO_RENDER_COMPLETE {\"schema_version\": 1, \"kind\": \"render\", \"recorded_at_utc\": \"2026-11-27T22:11:39.086338+00:00\", \"render_spec\": {\"schema_version\": 1, \"scene\": \".reliability-work/verification-02/stages/short-clip/short-clip.blend\", \"scene_sha256\": \"96a64257f335f82b40a609ffc7d80225628a1d6a0eb055df645766ffc98586ae\", \"revision\": \"short-clip\", \"frame_range\": [1, 12], \"fps\": 6.0, \"resolution\": [160, 90], \"engine\": \"CYCLES\", \"samples\": 1, \"device\": {\"requested\": \"cpu\", \"selected\": \"CPU\", \"devices\": [\"CPU\"]}, \"denoiser\": \"OPENIMAGEDENOISE\", \"seed\": 42, \"color_mode\": \"RGB\", \"color_depth\": \"8\"}, \"requested_frame_range\": [1, 12], \"seconds\": 0.023, \"previously_present_frames\": 12, \"frames\": [{\"file\": \"frame_0001.png\", \"sha256\": \"b63339a4b663e63eedb6a3b9072d4187220d68105a5ed1347804671cb93501dd\", \"bytes\": 19742}, {\"file\": \"frame_0002.png\", \"sha256\": \"95bebdb211fbfe742633d1deb268891dd06a30a5fb6af0741448d51cbd1f793e\", \"bytes\": 18510}, {\"file\": \"frame_0003.png\", \"sha256\": \"3eb2a3f900adb353a7798c053d2cd9d01d119a68517589e8a7a691d79940bea9\", \"bytes\": 17413}, {\"file\": \"frame_0004.png\", \"sha256\": \"07d91875b8fe6cdb4d8249273a04de1cae9ce6aa2b098199ce26b463ab1aecbd\", \"bytes\": 17691}, {\"file\": \"frame_0005.png\", \"sha256\": \"6eb911156c292db1087d64141c59fd55343444ab6d1dc973a6fec7de9928dfec\", \"bytes\": 18952}, {\"file\": \"frame_0006.png\", \"sha256\": \"cd8a49ad6e6d5e6ab1a1955f028f14c6540d4597b493cb7c60c9996ef8627664\", \"bytes\": 19441}, {\"file\": \"frame_0007.png\", \"sha256\": \"8aa2e79c20af777d0dbd6b7e534e14329ec38710cfd8d9373ff1056e0e80c356\", \"bytes\": 18875}, {\"file\": \"frame_0008.png\", \"sha256\": \"a2b7c024f9c7cc00560c618963b6bb77f53dc91aba0c7c312bba3c042d68128d\", \"bytes\": 17874}, {\"file\": \"frame_0009.png\", \"sha256\": \"9b9eb4d0790fea6a45b08d0c9cc960b0ac17de8979a2bc9e834aa8e8207717a1\", \"bytes\": 16505}, {\"file\": \"frame_0010.png\", \"sha256\": \"6e6c4410e1e6f603c8f1b4cf116d8f24ba9b8ad40158969ddd5d0e87fbdc7e57\", \"bytes\": 16998}, {\"file\": \"frame_0011.png\", \"sha256\": \"cadde7cfaacd3d391b93dc63511bdc210f7d3a1a07dda76d1dabe17243620656\", \"bytes\": 18877}, {\"file\": \"frame_0012.png\", \"sha256\": \"c5cdcf1fdb313cd2a23bfb89548544276b20fbb28930602cdd4ce1ce89d98080\", \"bytes\": 19947}], \"passed\": true}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

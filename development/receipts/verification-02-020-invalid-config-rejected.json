@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-020-invalid-config-rejected",
+  "recorded_at_utc": "2026-11-27T22:11:06.612472+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\build_scene.py",
+    "--",
+    "--stage",
+    "final",
+    "--tag",
+    "invalid",
+    "--config",
+    "<project>\\.reliability-work\\verification-02\\invalid.json",
+    "--output-root",
+    "<project>\\.reliability-work\\verification-02\\stages",
+    "--render",
+    "none"
+  ],
+  "exit_code": 1,
+  "expected_exit": -1,
+  "accepted": true,
+  "stdout": "Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": "Traceback (most recent call last):\n  File \"<project>\\build_scene.py\", line 35, in <module>\n    cfg,overrides=load_config(args.config,resolution=args.res,samples=args.samples)\n                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<project>\\pipeline_common.py\", line 103, in load_config\n    validate_config(config)\n    ~~~~~~~~~~~~~~~^^^^^^^^\n  File \"<project>\\pipeline_common.py\", line 71, in validate_config\n    raise ValueError(key + ' must be an integer')\nValueError: camera_orbits must be an integer\n\nError: script failed, file: '<project>\\build_scene.py', exiting.\n"
+}

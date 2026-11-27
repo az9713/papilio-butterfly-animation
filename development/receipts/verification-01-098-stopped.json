@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "event": "verification-01-098-stopped",
+  "recorded_at_utc": "2026-11-27T22:09:53.584250+00:00",
+  "accepted": false,
+  "reason": "Exact geometry SHA-256 assertion differed between preserved and fresh scene. Integration stopped before rendering. Per-object numerical comparison follows; original scene and film unchanged.",
+  "evidence": [
+    "verification-01-012-baseline-inspect.json",
+    "verification-01-017-preserved-scene-inspect.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-021-missing-revision-rejected",
+  "recorded_at_utc": "2026-11-27T22:11:09.269978+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\render_saved.py",
+    "--",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\should-not-exist"
+  ],
+  "exit_code": 2,
+  "expected_exit": -1,
+  "accepted": true,
+  "stdout": "Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n",
+  "stderr": "usage: blender.exe [-h] --scene SCENE --output OUTPUT\n                   [--device {auto,cpu,optix,cuda,hip,metal,oneapi}]\n                   [--engine {CYCLES,BLENDER_EEVEE}] [--samples SAMPLES]\n                   [--frame-start FRAME_START] [--frame-end FRAME_END]\n                   [--plan]\nblender.exe: error: the following arguments are required: --scene\n"
+}

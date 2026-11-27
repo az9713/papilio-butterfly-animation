@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-022-baseline-selection-plan",
+  "recorded_at_utc": "2026-11-27T22:11:12.288040+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\render_saved.py",
+    "--",
+    "--scene",
+    "<project>\\.reliability-work\\verification-02\\stages\\baseline\\baseline.blend",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\plan-only",
+    "--device",
+    "cpu",
+    "--plan"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.188  blend            | Read blend: \"<project>\\.reliability-work\\verification-02\\stages\\baseline\\baseline.blend\"\nPAPILIO_RENDER_PLAN {\"schema_version\": 1, \"kind\": \"render-plan\", \"recorded_at_utc\": \"2026-11-27T22:11:12.094309+00:00\", \"render_spec\": {\"schema_version\": 1, \"scene\": \".reliability-work/verification-02/stages/baseline/baseline.blend\", \"scene_sha256\": \"44ea1c2c6e0a5fb9a1637f1cbcb1763b3f75621602cfa335005a03781191f453\", \"revision\": \"baseline\", \"frame_range\": [1, 288], \"fps\": 24.0, \"resolution\": [1920, 1080], \"engine\": \"CYCLES\", \"samples\": 32, \"device\": {\"requested\": \"cpu\", \"selected\": \"CPU\", \"devices\": [\"CPU\"]}, \"denoiser\": \"OPENIMAGEDENOISE\", \"seed\": 42, \"color_mode\": \"RGB\", \"color_depth\": \"8\"}, \"requested_frame_range\": [1, 288], \"output\": \".reliability-work/verification-02/plan-only\"}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}

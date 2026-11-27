@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event": "verification-02-025-json-controls-audit",
+  "recorded_at_utc": "2026-11-27T22:11:26.608518+00:00",
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "<project>\\audit_scene.py",
+    "--",
+    "<project>\\.reliability-work\\verification-02\\stages\\json-controls\\json-controls.blend",
+    "--output",
+    "<project>\\.reliability-work\\verification-02\\json-controls-audit.json"
+  ],
+  "exit_code": 0,
+  "expected_exit": 0,
+  "accepted": true,
+  "stdout": "00:02.235  blend            | Read blend: \"<project>\\.reliability-work\\verification-02\\stages\\json-controls\\json-controls.blend\"\nBUTTERFLY_AUDIT {\"scene\": \".reliability-work/verification-02/stages/json-controls/json-controls.blend\", \"scene_sha256\": \"941bdb54de739e8c28c2adf17297ac7f0ea0f93034e558458662e586a242fe77\", \"fps\": 12.0, \"frames\": [1, 48], \"hinges\": 4, \"framing_violations\": [], \"surface_intersections\": [], \"all_frame_projected_bounds\": {\"min_x\": 0.28081634640693665, \"max_x\": 0.7179343104362488, \"min_y\": 0.08298341184854507, \"max_y\": 0.8983758091926575}, \"camera_orbits\": 2.0, \"loop_matrix_max_error\": 0.0, \"loop_velocity_max_error\": 0.0, \"intersection_sample_step_frames\": 6, \"upper_peak_angle_degrees\": [34.99999983559887, -34.99999983559887], \"external_images\": [], \"passed\": true}\nBlender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)\n\nBlender quit\n",
+  "stderr": ""
+}
