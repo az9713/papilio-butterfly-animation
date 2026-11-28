@@ -1,13 +1,13 @@
 # Animation Studio
 
-Two peer animation projects share one discovery, evaluation and publication workflow.
+Two peer animation projects share one discovery, evaluation and publication workflow. Both use SVG as an editable source layer. Butterfly derives its wing geometry from SVG contours. Tooth derives mechanism pin events and soundtrack notes from an SVG score. Blender, generated image plates, Python compositing and audio tools produce the finished animations.
 
 | Project | Film | Sources and development |
 | --- | --- | --- |
 | [Papilio butterfly](projects/butterfly/) | Twelve-second silent kinetic-sculpture loop | Editable Blender scene, SVG wing profiles, source release 1.1.1 and retained reliability receipts. |
 | [The Tooth That Didn’t Sing](projects/tooth/) | Accepted sixteen-second film with sound | SVG pin score, Blender layers, character plates, ElevenLabs audio, scripted edit, prior cuts and acceptance evidence. |
 
-[Open the public studio](https://az9713.github.io/animation-studio/) · [Watch Tooth](https://az9713.github.io/animation-studio/projects/tooth/) · [Watch Papilio](https://az9713.github.io/animation-studio/projects/butterfly/)
+[Open the public studio](https://az9713.github.io/svg-3d-animation-studio/) · [Watch Tooth](https://az9713.github.io/svg-3d-animation-studio/projects/tooth/) · [Watch Papilio](https://az9713.github.io/svg-3d-animation-studio/projects/butterfly/)
 
 ## Shared documents
 
@@ -33,7 +33,7 @@ tools/           site construction and publication validation
 publication/     migration and publication evidence
 ~~~
 
-The repository is named animation-studio, and its Git remote uses that name. Earlier publication receipts retain the previous name as historical evidence. Git records the butterfly files as moves into projects/butterfly. The Pages build creates compatibility copies of earlier butterfly paths. Known legacy root hash links route to the butterfly guide.
+The repository is named svg-3d-animation-studio, and its Git remote uses that name. Earlier publication receipts retain the previous name as historical evidence. Git records the butterfly files as moves into projects/butterfly. The Pages build creates compatibility copies of earlier butterfly paths. Known legacy root hash links route to the butterfly guide.
 
 ## Build the public site
 

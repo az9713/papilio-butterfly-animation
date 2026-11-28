@@ -16,7 +16,7 @@ def shell(title,body,depth=0):
     return f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} · Animation Studio</title><link rel="stylesheet" href="{prefix}assets/studio.css">
 <nav class="nav"><a href="{prefix}index.html">Animation Studio</a><a href="{prefix}docs/getty-aat.html">Getty AAT</a><a href="{prefix}docs/rubric.html">Rubric</a><a href="{prefix}docs/concepts.html">Thirty concepts</a><a href="{prefix}docs/workflow.html">Workflow</a></nav>
-<main class="document">{body}</main><footer><a href="https://github.com/az9713/animation-studio">Source repository</a></footer></html>'''
+<main class="document">{body}</main><footer><a href="https://github.com/az9713/svg-3d-animation-studio">Source repository</a></footer></html>'''
 
 def rewrite_markdown_links(body,path):
     def fix(match):
@@ -100,9 +100,9 @@ def main():
     for target in list(OUT.rglob('*.html'))+list(OUT.rglob('*.md')):
         page=target.read_text(encoding='utf8')
         updated=page.replace('https://az9713.github.io/papilio-butterfly-animation/',
-                             'https://az9713.github.io/animation-studio/')
+                             'https://az9713.github.io/svg-3d-animation-studio/')
         updated=updated.replace('https://github.com/az9713/papilio-butterfly-animation',
-                                'https://github.com/az9713/animation-studio')
+                                'https://github.com/az9713/svg-3d-animation-studio')
         if updated!=page:write_utf8(target,updated)
     receipt={'canonical_projects':['projects/butterfly/','projects/tooth/'],'legacy_butterfly_paths':legacy,
              'rendered_documents':len(list(OUT.rglob('*.html')))}

@@ -46,8 +46,8 @@ def main():
         if old=='README.md':
             # Allow exactly the reversible repository-name substitution. All
             # other bytes of the original README must still match the baseline.
-            restored=moved.read_bytes().replace(b'az9713/animation-studio',b'az9713/papilio-butterfly-animation')
-            restored=restored.replace(b'az9713.github.io/animation-studio/',b'az9713.github.io/papilio-butterfly-animation/')
+            restored=moved.read_bytes().replace(b'az9713/svg-3d-animation-studio',b'az9713/papilio-butterfly-animation')
+            restored=restored.replace(b'az9713.github.io/svg-3d-animation-studio/',b'az9713.github.io/papilio-butterfly-animation/')
             preserved_digest=hashlib.sha256(restored).hexdigest()
         assert preserved_digest in {sha,canonical},('butterfly migration changed bytes',old)
         preserved+=1

@@ -6,17 +6,17 @@ A 12-second, 1080p, 24 fps kinetic sculpture built using the SVG & 3D Design wor
 
 Source reliability release **1.1.1** closes the standalone ZIP journal-refresh failure, following the 1.1.0 repairs to configuration controls, explicit revision selection, safe render resumption, and scene-derived timing. The existing film, scene checkpoints, and visual assets are preserved.
 
-- [Development journey, issues, fixes, commands, and evidence](https://az9713.github.io/animation-studio/development/)
-- [Versioned source package](https://github.com/az9713/animation-studio/releases/download/v1.1.1/papilio-source-v1.1.1.zip)
-- [Current build and render instructions](https://az9713.github.io/animation-studio/development/#rebuild)
-- [Configuration contract](https://az9713.github.io/animation-studio/development/#controls)
+- [Development journey, issues, fixes, commands, and evidence](https://az9713.github.io/svg-3d-animation-studio/development/)
+- [Versioned source package](https://github.com/az9713/svg-3d-animation-studio/releases/download/v1.1.1/papilio-source-v1.1.1.zip)
+- [Current build and render instructions](https://az9713.github.io/svg-3d-animation-studio/development/#rebuild)
+- [Configuration contract](https://az9713.github.io/svg-3d-animation-studio/development/#controls)
 - [Complete standalone verification summary](development/receipts/journal-closure-099-summary.json)
 
 JSON settings supply the defaults; explicit `--res` and `--samples` flags override them and are recorded. Rendering requires both `--scene` and `--output`. Use `--plan` to inspect the selected scene and settings before rendering. The source-only ZIP includes the matching guide, dependencies, checkpoints, and receipts; movie links in its guide use the published website.
 
 The development record preserves the original failed check and its diagnosis. Earlier production stages are reconstructed from saved artifacts; execution receipts are recorded from the reliability repair onward. Tests cover Windows, Blender 5.3, CPU rendering, automatic OptiX selection, and Edge playback. Other platforms remain unverified.
 
-- [Watch the animation and explore the visual guide](https://az9713.github.io/animation-studio/)
+- [Watch the animation and explore the visual guide](https://az9713.github.io/svg-3d-animation-studio/)
 - [Download or play the final film](papilio-final-1080p.mp4)
 - [Open the editable Blender scene](stages/final-v01/final-v01.blend)
 - [Local HTML guide](index.html): after cloning or downloading the repository, open `index.html` in a browser. The live guide is published through GitHub Pages from `main`, at the repository root.
@@ -34,7 +34,7 @@ After recording a change, run `python development/update_journey.py` from the ex
 
 ## Sources and references
 
-The [full bibliography and project-input provenance](https://az9713.github.io/animation-studio/#sources) are also included in the HTML guide.
+The [full bibliography and project-input provenance](https://az9713.github.io/svg-3d-animation-studio/#sources) are also included in the HTML guide.
 
 ### Original tutorial and plugin
 
@@ -73,7 +73,7 @@ The concept images were generated for this project. The SVG and parameters are t
 
 - [First generated concept](concept-v01.png)
 - [Refined sculpture concept](concept-v02.png)
-- [Exact image prompts](https://az9713.github.io/animation-studio/#prompts)
+- [Exact image prompts](https://az9713.github.io/svg-3d-animation-studio/#prompts)
 - [Editable SVG wing contours](wing-profiles.svg)
 - [Original contour control points](profile-control-points.json)
 - [Selected scene parameters](config.json)

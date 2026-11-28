@@ -1,0 +1,62 @@
+{
+  "action": "user-selected repository rename after verifying SVG role",
+  "checked_at_utc": "2026-11-28T06:47:49.610698+00:00",
+  "repository_id": 1474322770,
+  "original_name": "papilio-butterfly-animation",
+  "intermediate_name": "animation-studio",
+  "name": "svg-3d-animation-studio",
+  "repository": "https://github.com/az9713/svg-3d-animation-studio",
+  "site": "https://az9713.github.io/svg-3d-animation-studio/",
+  "svg_verification": {
+    "conclusion": "Both current projects use editable SVG source inputs. The final films combine SVG-informed geometry or score with Blender, generated imagery, compositing and audio.",
+    "butterfly": {
+      "source": "projects/butterfly/wing-profiles.svg",
+      "consumer": "projects/butterfly/build_scene.py",
+      "role": "read_profiles parses M/C/Z paths and constructs the extruded wing geometry. Blender keyframes provide wing and camera motion."
+    },
+    "tooth": {
+      "sources": [
+        "projects/tooth/production/score.svg",
+        "projects/tooth/production/revision-5/score.svg"
+      ],
+      "consumers": [
+        "projects/tooth/production/mechanism.py",
+        "projects/tooth/production/revision-5/sound.py"
+      ],
+      "role": "data-beat, data-midi and data-cadence drive pin positions, comb animation and musical events. The accepted edit uses Blender layers and generated character and hand plates composited in Python."
+    }
+  },
+  "navigation_changes": [
+    {
+      "file": "README.md",
+      "before_sha256": "0712031cb59ae9652d28260f4213143dc49b8461dcc7a87c1725fc981afe07bc",
+      "after_sha256": "159c58498e314cc6382c4c1599a42b5ecce46cbfa4cf12a193394765a0610128"
+    },
+    {
+      "file": "index.html",
+      "before_sha256": "d6c66b916cc717fb3413f89db86a79c73191cfe8ccc933d949bb5d1f2a4cc0a4",
+      "after_sha256": "d6446597fa36e9c21eec96011f6334e77c68058f76f7d2be2c56f7906774479f"
+    },
+    {
+      "file": "projects/tooth/README.md",
+      "before_sha256": "eb95acbda6703ba27f0ae773eee5eea77403b39d96644c96c324b80e2c633131",
+      "after_sha256": "747c1cd57ecb3d9adf8bc224566b0c33cf91c3f7b3bcf8a4b9b2a611fb6c8076"
+    },
+    {
+      "file": "projects/butterfly/README.md",
+      "before_sha256": "97fadc5a2d9925d3a17d6fb3765b10288707798c6ad75c16f231d574f9c78038",
+      "after_sha256": "28a144095c86b4cc9e0dd49da7e66a89d774b3823abd7b8d887f938638d2b09a"
+    },
+    {
+      "file": "tools/build_site.py",
+      "before_sha256": "0247433cfd8f8ec9f58579ad90549eea151ee18defe5d6e63629176e7dcab53d",
+      "after_sha256": "c2988cba7421c7d5def8112bf325cfcc3894c8a5cfddcd9d10b27af7fbf4b1b1"
+    },
+    {
+      "file": "tools/verify_live.py",
+      "before_sha256": "bb0205f48e306e0cf770f6680017067c158a1dacddcb02de8b8427691b19981c",
+      "after_sha256": "0f62fe0c32d6397b3cd7cd2565641392738d1bfbdb163798de86ea4a6b1c8f82"
+    }
+  ],
+  "preservation": "Accepted films and source packages unchanged. Historical receipts keep their recorded names and URLs. Original butterfly README changes only the repository name in links."
+}
