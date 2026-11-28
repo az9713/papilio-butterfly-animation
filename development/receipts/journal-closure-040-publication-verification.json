@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "event": "journal-closure-040-publication-verification",
+  "base_git_commit": "ca74ce5ad3ddb58a49e7ce3a92b5d62123c9fbcd",
+  "working_source_sha256": {
+    "audit_scene.py": "bbe3d83137a56279c9f41d51367c3d1ebddd46b5fd797a0302108856e7f67381",
+    "build_scene.py": "2eeb7d060d9a46f76461ae10a1718ce1e15ec0231b6fcb4a5e07278ef199eae5",
+    "check_excerpt.py": "3a42e817caa3150fb5e71fd88dd9eaa6e83c485fb70a69bb41ab857bd1c2b4d9",
+    "config.json": "fbfefc971bd5c9b1d76de18770e91843565755f7fd64af572a7752fbd5638888",
+    "development/check_docs.py": "48fde897b1496a3bdfeea48fa8e22363f54dc1d14ed42bbf6a397e842b4b09c2",
+    "development/compare_scenes.py": "4bb62f67bc8be902c082fd257ce01ab6d66ef4d0cafd7c9e01dc2278f6a86af9",
+    "development/inspect_scene.py": "a8934fab034e1388539f84bb0625a08208a271c874f7c54fce11dda05009629f",
+    "development/record_step.py": "8cb842fd6659f2cc277719b4b8c3cf0db4163bcb8ff4ed70751c0a2924f4a844",
+    "development/update_journey.py": "bd65e140ff780cc9a1721c334d52c5f2425c60f92d1bf3e9af0687b9f2c72ec2",
+    "development/verify_reliability.py": "5c16a76837ebe794ea4eb31bdc29a5c9a3d54562ead7525654878b02e6c4ab58",
+    "development/verify_standalone.py": "d8d5b3b50005546955d4cf04751715599c49aef676adbfe322c0149fe59bfb7a",
+    "encode_review.py": "d277f713912793f9949adfbda8d3d514ab65d406ee485640d0d5d6b6336bec57",
+    "make_package.py": "edc961e1f4c5dfee01c44a37a123723b9385d4e5e2a741fc2ce6b7460023ffd1",
+    "make_profiles.py": "b7b5f4cc0cff54dca62e91c473ff8aa7465385b7264ef374e91db2ad54705cee",
+    "make_recap.py": "2ce45838a2629b9ff48f4b1e2f62aa89097a68a2eb7531a14dd2ed8305087454",
+    "pipeline_common.py": "0c3b4cdd1cecb5218dddaa75cf6075d3d381ee22f4aa343d88f2e787a21633b0",
+    "present_stage.py": "6a65ed7ee0503953709612d4bb4502a9ae65abd23226c294584e7bfd3323c2b2",
+    "render_saved.py": "4e484fa0286b3b0d2b564e42fc4727860f87ba0d5ff934f2cc8210e18f355671",
+    "tests/test_journal.py": "2099b046bb09ecc353d879b3b655854ceeae669dda848e71b60e02eef12ee5aa",
+    "tests/test_pipeline.py": "345785a31125012e1071c5e351d43e5195ffa4269140c1de1e0db47e51102796",
+    "tests/test_receipts.py": "8ac07203fe95519fa8e4b8754a255b8eb642dc8548941ebe0b15fd1bc3c6cc42",
+    "wing-profiles.svg": "26933176b94b481b7c2b16c97a41a4074be41df92caf4ef3f0de76c1f67b0e99"
+  },
+  "recorded_at_utc": "2026-11-28T00:01:32.937222+00:00",
+  "passed": true,
+  "publication_commit": "ca74ce5ad3ddb58a49e7ce3a92b5d62123c9fbcd",
+  "source_commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903",
+  "release": "v1.1.1",
+  "checks": {
+    "index.html": {
+      "status": 200,
+      "sha256": "d5d1edc8e24b6cb00fdee0bd8a9a1976f32e879b1c1348e113594d2d8eb43643",
+      "matches_commit": true
+    },
+    "development/index.html": {
+      "status": 200,
+      "sha256": "8698e366fe5431a5e9d12e4f907fa5b7998084dd8f81b2fb92ddaebba704ebe4",
+      "matches_commit": true
+    },
+    "source-release.json": {
+      "status": 200,
+      "sha256": "a44e62a3aada84157640303decf0afbb07782c400bfd51d04d9cc4780d005edd",
+      "matches_commit": true
+    },
+    "development/receipts/journal-closure-099-summary.json": {
+      "status": 200,
+      "sha256": "2227ed70b482c23b70188b1e7f8f5a4d4f8a0440cf4421d9e727586d9ddd2beb",
+      "matches_commit": true
+    },
+    "published_original_movie": {
+      "status": 200,
+      "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+      "unchanged": true
+    },
+    "public_release_zip": {
+      "status": 200,
+      "sha256": "7cef56c52aabd309cdb9b3ac1f6c461eb5bf1a06fd484cb3145d6f50c0d0f664",
+      "manifest_entries": 220,
+      "matches_exact_standalone_tested_archive": true
+    },
+    "public_standalone_verification": {
+      "status": 200,
+      "sha256": "cd591f25f35f7f72eb235867572e2694339369b49d43dc00a3ea88aef8076477",
+      "passed": true
+    },
+    "served_edge_pages": {
+      "root_release_heading": true,
+      "development_closure_heading": true,
+      "desktop_horizontal_overflow": false,
+      "original_video_reference": {
+        "src": "https://az9713.github.io/papilio-butterfly-animation/papilio-final-1080p.mp4",
+        "poster": "https://az9713.github.io/papilio-butterfly-animation/papilio-poster.png",
+        "error": null
+      }
+    }
+  },
+  "protected_original_assets": {
+    "mode": "working-copy-bytes",
+    "checked": 47,
+    "intentionally_omitted": []
+  },
+  "scope": "Published GitHub Pages and release asset bytes, desktop Edge rendering, unchanged original film and 47 working-copy protected assets."
+}

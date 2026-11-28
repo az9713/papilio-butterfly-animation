@@ -153,6 +153,38 @@
           "hash_origin": "measured from present file"
         }
       ]
+    },
+    {
+      "stage": "Standalone acceptance closure",
+      "decision": "Exact source ZIP passed outside Git in a new Python environment: 16 tests, 22 controls, build/audit/render/resume/encode/playback/loop, event recording and journal refresh. Published bytes and 47 protected assets verified. Editability rises from 2 to 3; source reliability closed for the agreed Windows environment.",
+      "origin": "contemporaneous acceptance and publication receipts",
+      "evidence": [
+        {
+          "path": "development/receipts/journal-closure-099-summary.json",
+          "sha256": "84a0ba7b6de1db421f3923ef3ad18973ef86d24d4ef42c0f91e1805a78cee61f",
+          "hash_origin": "measured from present file"
+        },
+        {
+          "path": "development/receipts/journal-closure-030-github-push.json",
+          "sha256": "122ba62769d28c0f24fb86d2d0a055814d1b424eb5fc2c96931444326bf46168",
+          "hash_origin": "measured from present file"
+        },
+        {
+          "path": "development/receipts/journal-closure-031-github-release.json",
+          "sha256": "6e5c492d84a08d9e271932a1ef471de0a9177d366092cb90b1f161d57c1b6c43",
+          "hash_origin": "measured from present file"
+        },
+        {
+          "path": "development/receipts/journal-closure-032-pages-deployment.json",
+          "sha256": "afba19477df907b2d6f4ccf4ef2efe49f15df72c4bc9bd52349bee5e4b353ac0",
+          "hash_origin": "measured from present file"
+        },
+        {
+          "path": "development/receipts/journal-closure-040-publication-verification.json",
+          "sha256": "2589a55539ade2bf15ce1fa4cd389fe6ba68ab152b4e39a86a48b48215f2e19a",
+          "hash_origin": "measured from present file"
+        }
+      ]
     }
   ],
   "git_history": [
@@ -200,10 +232,15 @@
       "commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903",
       "date": "2026-11-27T15:57:33-08:00",
       "subject": "fix: retain standalone verification history during receipt collection"
+    },
+    {
+      "commit": "ca74ce5ad3ddb58a49e7ce3a92b5d62123c9fbcd",
+      "date": "2026-11-27T16:00:40-08:00",
+      "subject": "docs: close source reliability with standalone acceptance receipts"
     }
   ],
   "git_history_origin": {
     "mode": "measured from project Git checkout",
-    "through_commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903"
+    "through_commit": "ca74ce5ad3ddb58a49e7ce3a92b5d62123c9fbcd"
   }
 }

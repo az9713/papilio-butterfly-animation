@@ -1,13 +1,13 @@
 {
-  "recorded_at_utc": "2026-11-28T00:00:40.126758+00:00",
+  "recorded_at_utc": "2026-11-28T00:02:05.215493+00:00",
   "python": "3.13.5",
   "platform": "Windows",
   "scope": "Journal refresh only; no new rendering or browser verification is implied.",
   "historical_environment": "environment-tested.json is preserved unchanged",
   "git_history_origin": {
     "mode": "measured from project Git checkout",
-    "through_commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903"
+    "through_commit": "ca74ce5ad3ddb58a49e7ce3a92b5d62123c9fbcd"
   },
-  "measured_evidence_count": 18,
+  "measured_evidence_count": 23,
   "retained_evidence_count": 0
 }

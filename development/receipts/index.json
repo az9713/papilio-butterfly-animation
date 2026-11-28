@@ -258,6 +258,30 @@
     "status": "pass"
   },
   {
+    "file": "journal-closure-030-github-push.json",
+    "sha256": "122ba62769d28c0f24fb86d2d0a055814d1b424eb5fc2c96931444326bf46168",
+    "event": "journal-closure-030-github-push",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-031-github-release.json",
+    "sha256": "6e5c492d84a08d9e271932a1ef471de0a9177d366092cb90b1f161d57c1b6c43",
+    "event": "journal-closure-031-github-release",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-032-pages-deployment.json",
+    "sha256": "afba19477df907b2d6f4ccf4ef2efe49f15df72c4bc9bd52349bee5e4b353ac0",
+    "event": "journal-closure-032-pages-deployment",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-040-publication-verification.json",
+    "sha256": "2589a55539ade2bf15ce1fa4cd389fe6ba68ab152b4e39a86a48b48215f2e19a",
+    "event": "journal-closure-040-publication-verification",
+    "status": "pass"
+  },
+  {
     "file": "journal-closure-098-stopped.json",
     "sha256": "2ffce531f46e3d7a3a38eec5036fa1984402ea3d65dd4b8cf587747526abdb8e",
     "event": "journal-closure-098-stopped",

@@ -10,7 +10,7 @@ Source reliability release **1.1.1** closes the standalone ZIP journal-refresh f
 - [Versioned source package](https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.1/papilio-source-v1.1.1.zip)
 - [Current build and render instructions](https://az9713.github.io/papilio-butterfly-animation/development/#rebuild)
 - [Configuration contract](https://az9713.github.io/papilio-butterfly-animation/development/#controls)
-- [Verification summary](development/receipts/verification-02-099-summary.json)
+- [Complete standalone verification summary](development/receipts/journal-closure-099-summary.json)
 
 JSON settings supply the defaults; explicit `--res` and `--samples` flags override them and are recorded. Rendering requires both `--scene` and `--output`. Use `--plan` to inspect the selected scene and settings before rendering. The source-only ZIP includes the matching guide, dependencies, checkpoints, and receipts; movie links in its guide use the published website.
 
