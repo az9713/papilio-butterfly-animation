@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:24.239433+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "A heavy wooden picture frame gently creaks as it is tilted, cloth wiping glass, then three tiny clear wooden footsteps onto a table. No music or voices.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.33,
+  "sha256": "2e6d333dfe05a56cfb6bc1a3325ad9c405b343104c5da6aaae297850cd1b8a6b",
+  "bytes": 224905
+}

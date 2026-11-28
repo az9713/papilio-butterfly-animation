@@ -1,0 +1,12 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration": 14,
+  "sha256": "6927f587021a9ff1092291fa6b0e584a80329623c77622a56bdf2359a7f8f1f5",
+  "rebuild": "python source/mix_audio.py",
+  "supersedes": [
+    "mix.json",
+    "cued-mix.json"
+  ],
+  "scope": "Final retained-stem mix with explicit 48 kHz output after loudness normalization. Earlier mix receipts remain iteration records."
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:19.210676+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Hot metal flowing and soft furnace roar, increasing pressure, then a short clean air release through a small vent and a resonant cooling metal tick. No music or speech.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.74,
+  "sha256": "79f176e62c6c1f8c6720d8149603dadd36e94e51b707c80f613a09a5ccdc0893",
+  "bytes": 224905
+}

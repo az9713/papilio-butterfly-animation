@@ -1,0 +1,12 @@
+{
+  "music": "audio/music.mp3",
+  "effects": "audio/sfx.mp3",
+  "mix": "audio/mix.wav",
+  "duration": 14,
+  "music_gain": 0.68,
+  "sfx_gain": 0.32,
+  "loudness_target_lufs": -18,
+  "true_peak_target_db": -1.5,
+  "scope": "Two original ElevenLabs stems. Generated effect sequence is a sound bed, with event recognition and final synchronization reviewed in the encoded film.",
+  "mix_sha256": "fc61491aaf37a903b0bb835a1e0f36647c85009d90da76028b38d178175eb73d"
+}

@@ -1,0 +1,22 @@
+{
+  "concept_id": 4,
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "frames": 336,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "svg_roles": [
+    "ring",
+    "rete",
+    "pointer"
+  ],
+  "svg_sha256": "c2e1db92e3b28df49c47c61ed58ae333989c33086b449f232c035a6cf39e37cc",
+  "timeline_sha256": "0e05ed7ba902ccc5244952b46d3cd2b5a59fa0fc6800a029054a6299e7ae90ff",
+  "objects": 182,
+  "scene_sha256": "59d639a22b324f1eafb01d2a2ad58632dbbbf8f8e9d9015c5a31fa2df394e0d8",
+  "scope": "Baked editable scene. Preview and encoded-film review are separate stages.",
+  "builder_sha256": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:05.759311+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Fine brass astrolabe mechanism rotating with delicate ratchet clicks. A single gentle metal detent click, followed by quiet open night wind. No music or speech.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.17,
+  "sha256": "4150f33fd391feff27f80b888948792d29d0685a473effba1ba9baa53755de39",
+  "bytes": 224905
+}

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "films": [
+    {
+      "concept_id": 1,
+      "slug": "whale-in-berth-six",
+      "film_sha256": "2fd7d16a9b53e6c8b99055ace116c586065701b03ab9c28552161583c88cccf4",
+      "source_zip_sha256": "8408f2a259714e2c4beae13243128119db1315c8bc56a58dca163acbd741fa1f",
+      "source_members": 27,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.1566984953703703
+    },
+    {
+      "concept_id": 3,
+      "slug": "botanists-washing-line",
+      "film_sha256": "df241daf2c83e913e1ab604a3f19110c177cedf0afb8e258ffdf4cf627f2beb2",
+      "source_zip_sha256": "58bf90686cac067a3d8a27b8a562c14f0b8b0ae84e307edfe4e16bd2dd147e6a",
+      "source_members": 31,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.4130978732638888
+    },
+    {
+      "concept_id": 4,
+      "slug": "sky-has-a-hinge",
+      "film_sha256": "0cd2fa0deb943217bf37c6a9295e31a593749f0b5835b92a9fe9e7399b2dd2ef",
+      "source_zip_sha256": "19a329263fa58bfd1bf7f8aed595633b907b15af7e21671e2380569100447c7f",
+      "source_members": 30,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.3784942853009259
+    },
+    {
+      "concept_id": 7,
+      "slug": "dress-code-for-a-peacock",
+      "film_sha256": "d163c742cd827f3c6bdb8b3cbcdb4e014033978f5c65e627a5c352c086d24fdd",
+      "source_zip_sha256": "15533997e379161fee23377c27190c106e0cf3b28c3f5dcb16fef55c067056c6",
+      "source_members": 26,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.433349609375
+    },
+    {
+      "concept_id": 9,
+      "slug": "his-excellency-the-spill",
+      "film_sha256": "2890b9c489b625bb7c0bf24ae35530cfcc7223673706e1e1877ed97a2183cf37",
+      "source_zip_sha256": "f155f3c7fa5702245df0f626e1c39dc7e261fa098001b8266da6aadd64079d3d",
+      "source_members": 30,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.5075141059027777
+    },
+    {
+      "concept_id": 15,
+      "slug": "last-passage-for-the-bronze",
+      "film_sha256": "3af87ea2cefe732d87ca4c722f5a0547938dfc302aeaedb2af611ba3b1c8a625",
+      "source_zip_sha256": "24a4ceb7d4f871089a27897d11dc40af027a6f88cdf7bc9550d184dfc8e8b7b0",
+      "source_members": 30,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.189918258101852
+    },
+    {
+      "concept_id": 19,
+      "slug": "seat-facing-backwards",
+      "film_sha256": "ab82ff2756e9151a3e4901780083d4db7b213724f02cd05f30210a23c42bfa63",
+      "source_zip_sha256": "400e174e9b51cc6d955907d5e331c4ce5b46af8facac3f9bc5fe340960dd425f",
+      "source_members": 26,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.5545927372685184
+    },
+    {
+      "concept_id": 25,
+      "slug": "second-tenant",
+      "film_sha256": "9447252d1639069b0a26bdd15c8d947b5a27b6e7db3ab21fb8c44ebddc704b53",
+      "source_zip_sha256": "6dfcfa008f8a3f2a3ee4bbce0514f5a3063abf7052089872554d50cd0fd5f5e4",
+      "source_members": 30,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.996624710648148
+    },
+    {
+      "concept_id": 28,
+      "slug": "letter-wide-enough-to-wear",
+      "film_sha256": "7440734310ee254bab5e464f3c397a7facde448343fb55744bee4f86ee617b81",
+      "source_zip_sha256": "5d3cfa2a9b021025b0498b9f238066e54ef42199c47b4f3bbe33e8997a49e6b0",
+      "source_members": 26,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.601341869212963
+    },
+    {
+      "concept_id": 30,
+      "slug": "water-for-last-balcony",
+      "film_sha256": "4618ffaf902dd5cf94aa9482936ff59f9d3510acd2b3246f532a4ee05bcf2080",
+      "source_zip_sha256": "faa603bce289e69c7dd37959cf8426be8e0b2e5fc8c8f5d31554677395af5098",
+      "source_members": 30,
+      "duration_seconds": 14,
+      "browser_completed_unmuted": true,
+      "source_rebuilt_outside_git": true,
+      "rebuilt_hero_mean_pixel_difference": 1.973093532986111
+    }
+  ],
+  "new_film_count": 10,
+  "total_new_film_seconds": 140,
+  "existing_films_unchanged": true,
+  "readmes": 12,
+  "scope": "Delivery and extracted-source evidence. First-time audience understanding and artistic excellence are not inferred from these checks."
+}

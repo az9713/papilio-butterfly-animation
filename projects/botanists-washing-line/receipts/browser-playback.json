@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "browser": "Chrome",
+  "surface": "local HTTP project player",
+  "duration": 14,
+  "current_time": 14,
+  "ended": true,
+  "muted": false,
+  "film_sha256": "df241daf2c83e913e1ab604a3f19110c177cedf0afb8e258ffdf4cf627f2beb2",
+  "scope": "Complete normal-speed playback of the final soundtrack export through the visible Play with sound control. New-viewer comprehension remains unverified."
+}

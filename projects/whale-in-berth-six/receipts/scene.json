@@ -1,0 +1,21 @@
+{
+  "concept_id": 1,
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "frames": 336,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "svg_roles": [
+    "whale",
+    "eye"
+  ],
+  "svg_sha256": "db2019848600c0ff946ba5b9e596cf162de252e897b307b68447b5965163f360",
+  "timeline_sha256": "861ec5cd9e0b2955ffc78b5815c247f53dab83e1c00d02ec9738325840d7c9df",
+  "objects": 75,
+  "scene_sha256": "7c52c7642aec1935603f498df8bf3af38733b308612007ea1328eda1dc2acac6",
+  "scope": "Baked editable scene. Preview and encoded-film review are separate stages.",
+  "builder_sha256": "b41de60565ee0b07d71cec291ff073feaccfa6e2c11b075b9b6d07cd1b85e64e"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:03.578446+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental miniature. Delicate prepared piano, brushed water percussion, airy marimba, clear spring sunlight. Curious first phrase, a brief rush at five seconds, luminous blue wash chord at nine seconds, tiny playful discovery at twelve. No voices, no lyrics.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.95,
+  "sha256": "fc52e03fdfe442230dca42444e605f4810ed57469676b76badd9bd4a4c64e14c",
+  "bytes": 337004
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:17.134302+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental foundry suspense. Low modular pulse, bowed metal, contrabass, rising strings. Heat and pressure build to eleven seconds, then one bright released overtone and a noble bronze chord. No vocals or speech.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 3.08,
+  "sha256": "885d7ed22a99219ec577dbcd8ac85d6547118e3c7141deb6de54d76afaf8ea8d",
+  "bytes": 337004
+}

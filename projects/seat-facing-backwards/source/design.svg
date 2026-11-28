@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 -7 22 14" width="1280" height="720">
+  <title>The Seat Facing Backwards editable construction profiles</title>
+  <polyline id="mountains" data-role="mountains" points="-9.00000,1.00000 -8.00000,-1.00000 -7.00000,0.00000 -5.00000,-2.00000 -3.00000,-0.50000 -1.00000,-2.20000 1.00000,-1.00000 3.00000,-1.70000 5.00000,-0.30000 7.00000,-1.00000 9.00000,1.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="roof" data-role="roof" points="-1.00000,0.00000 0.00000,-1.00000 1.00000,0.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="track" data-role="track" points="-10.00000,1.60000 10.00000,1.60000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+</svg>

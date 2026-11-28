@@ -1,0 +1,40 @@
+{
+  "concept_id": 19,
+  "slug": "seat-facing-backwards",
+  "title": "The Seat Facing Backwards",
+  "aat": {
+    "term": "panorama boxes",
+    "id": "300266498",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=panoramas&logic=AND&note=&english=N&prev_page=1&subjectid=300266498"
+  },
+  "original_pitch": "A widow cranks a hand-painted train journey past the window of a panorama box. Her late husband painted only the view from his seat. At their station she lets the crank run on, hoping to see herself waiting. The last handspan is bare linen.",
+  "selection_justification": "A finite painted panorama can unfold into an emotionally striking absence, using warm mechanical intimacy instead of spectacle.",
+  "adaptation": "A hand-cranked panorama box carries a painted railway past its window. At a station, the painted view runs out. A stitched edge passes and bare linen replaces the landscape. A solitary wooden viewer waits beside the empty window.",
+  "story_beats": [
+    "0\u20134 s: miniature painted railway moves",
+    "4\u20139 s: station passes and viewer leans closer",
+    "9\u201312 s: stitched end exposes blank linen",
+    "12\u201314 s: crank and viewer stop"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1019,
+  "music_prompt": "Fourteen second instrumental elegy. Felt piano, muted cello, small harmonium. Tender hand-cranked motion, a remembered train journey. Let melody stop at ten seconds, leave a bare soft sustained chord and silence at the end. No voices.",
+  "sfx_prompt": "Quiet wooden panorama crank, soft fabric scroll moving over rollers, faint old railway rhythm in the distance. The crank slows and stops. No speech or music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

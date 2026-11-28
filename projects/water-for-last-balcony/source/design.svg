@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 -7 22 14" width="1280" height="720">
+  <title>Water for the Last Balcony editable construction profiles</title>
+  <polyline id="channel" data-role="channel" points="-4.00000,-3.00000 -1.80000,-3.00000 -1.20000,-2.00000 1.50000,-2.00000 2.00000,-1.00000 -0.80000,-1.00000 -1.30000,0.00000 1.50000,0.00000 2.00000,1.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="bird" data-role="bird" points="-0.70000,0.00000 -0.20000,-0.20000 0.10000,-0.60000 0.50000,-0.50000 0.80000,-0.25000 0.40000,-0.15000 0.30000,0.20000 -0.10000,0.30000 -0.70000,0.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="wing" data-role="wing" points="0.00000,0.00000 -0.80000,-1.10000 0.50000,-0.40000 0.00000,0.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+</svg>

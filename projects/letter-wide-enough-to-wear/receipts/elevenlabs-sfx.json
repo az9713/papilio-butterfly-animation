@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:26.707729+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Miniature wooden weaving loom. Clear shuttle strokes, delicate thread tension and soft cloth brushing over fingertips. Slow from steady work into one final gentle pull. No voice or music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.2,
+  "sha256": "8f4eb038dddb695dd5e546f3ae5fb0f1672cac8df017bbdb95ec27ae1eebff07",
+  "bytes": 224905
+}

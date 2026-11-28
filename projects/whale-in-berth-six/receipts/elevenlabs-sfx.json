@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:00.623467+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Abandoned harbor atmosphere. Low sea swell, wind through steel cranes, a distant deep ship hull resonance. No voices or music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.53,
+  "sha256": "c53bdc89f1f3128206e252786586c6983df26e8ddb0902c4f6ad18a4dd1ff519",
+  "bytes": 224905
+}

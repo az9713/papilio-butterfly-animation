@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:09.558668+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental celestial clockwork. Glass harmonica, bowed vibraphone, a low cello and warm analog air. Precise delicate pulses at first, stop the ticking at seven seconds, one bright high bell bloom at ten seconds, warm spacious ending. No singing, no speech.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 6.08,
+  "sha256": "af5bc926e9556efa90e38ac04de01c7ce77a467fbe5d570aadefc5a1143ed890",
+  "bytes": 337004
+}

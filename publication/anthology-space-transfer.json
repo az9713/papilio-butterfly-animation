@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "film_count": 10,
+  "source_package_count": 10,
+  "all_file_access_confirmed": true,
+  "all_film_and_zip_hashes_match": true,
+  "scope": "Native Space files match the final verified publication files. Private Page and Library identifiers are omitted."
+}

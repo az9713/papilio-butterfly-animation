@@ -6,7 +6,7 @@ import markdown
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
-SKIP={'.git','.reliability-work','__pycache__','dist'}
+SKIP={'.git','.reliability-work','__pycache__','dist','frames'}
 
 def write_utf8(path,text):
     path.write_bytes(text.encode('utf8'))
@@ -56,13 +56,13 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir()
     (OUT/'.studio-build').write_text('Animation studio static build')
-    for folder in ['projects','docs','assets','publication']:
+    for folder in ['projects','docs','assets','publication','production']:
         for source in (ROOT/folder).rglob('*'):
             if source.is_file() and not any(p in SKIP for p in source.parts) and source.suffix not in {'.pyc','.log'}:
                 destination=OUT/source.relative_to(ROOT)
                 destination.parent.mkdir(parents=True,exist_ok=True)
                 shutil.copyfile(source,destination)
-    for name in ['index.html','README.md','.nojekyll']:
+    for name in ['index.html','README.md','anthology.html','.nojekyll']:
         shutil.copyfile(ROOT/name,OUT/name)
     # Preserve earlier published butterfly paths in the build output. The source
     # repository keeps one canonical butterfly directory.

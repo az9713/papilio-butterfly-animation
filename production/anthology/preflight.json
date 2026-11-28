@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-28T06:54:50.245985+00:00",
+  "blender_available": true,
+  "ffmpeg_available": true,
+  "ffprobe_available": true,
+  "python_modules": {
+    "requests": true,
+    "numpy": true,
+    "PIL": true,
+    "cv2": true,
+    "scipy": true,
+    "playwright": true
+  },
+  "free_disk_gb": 368.5,
+  "elevenlabs_http_status": 200,
+  "scope": "Read-only local dependencies and ElevenLabs subscription access. GPU rendering and generation endpoints require separate smoke tests.",
+  "elevenlabs_credit_capacity_available": true
+}

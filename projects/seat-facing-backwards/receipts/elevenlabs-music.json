@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:20.309598+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental elegy. Felt piano, muted cello, small harmonium. Tender hand-cranked motion, a remembered train journey. Let melody stop at ten seconds, leave a bare soft sustained chord and silence at the end. No voices.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 3.17,
+  "sha256": "db5c0ea03b210ed12ad8d487967216deb0ec420389a1c9aeb62165f775659fa1",
+  "bytes": 337004
+}

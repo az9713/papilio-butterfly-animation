@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:14.053142+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "An exaggerated single adult sneeze, a small liquid splash, then wet paper peeling slowly from a shallow printmaking tray. No words, no music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.31,
+  "sha256": "8ced90e3facedf4f223d408da4dd9080abbfd7f17cd0db3e56bbbb4b5c01c625",
+  "bytes": 224905
+}

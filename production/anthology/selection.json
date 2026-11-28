@@ -1,0 +1,402 @@
+[
+  {
+    "concept_id": 1,
+    "slug": "whale-in-berth-six",
+    "title": "The Whale in Berth Six",
+    "aat": {
+      "term": "anamorphoses",
+      "id": "300033725",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=anamorphoses&logic=AND&note=&english=N&prev_page=1&subjectid=300033725"
+    },
+    "original_pitch": "A surveyor follows white scuffs through an abandoned dry dock. From the height of a departing deckhand\u00e2\u20ac\u2122s eye, marks on six separate cranes join into a life-size whale. One step down the gangplank takes it apart.",
+    "selection_justification": "Perspective builds a creature from industrial fragments. Vast scale and a single uncut reveal distinguish it from the intimate films.",
+    "adaptation": "An abandoned dry dock of six gantries carries separate luminous whale fragments. The camera finds the one viewpoint that joins them, holds, then steps aside and loses the whale.",
+    "story_beats": [
+      "0\u20134 s: separate scuffs and gantries",
+      "4\u20138 s: the camera finds the whale",
+      "8\u201311 s: hold the complete animal",
+      "11\u201314 s: a lateral departure splits it again"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1001,
+    "music_prompt": "Fourteen second cinematic instrumental. Low bowed double bass, muted brass harmonics, suspended oceanic strings. Industrial midnight harbor, solitary wonder. Build from near silence to one immense warm open chord at eight seconds, hold then dissolve. No vocals, no lyrics, no whale calls.",
+    "sfx_prompt": "Abandoned harbor atmosphere. Low sea swell, wind through steel cranes, a distant deep ship hull resonance. No voices or music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 3,
+    "slug": "botanists-washing-line",
+    "title": "The Botanist\u00e2\u20ac\u2122s Washing Line",
+    "aat": {
+      "term": "cyanotypes (photographic prints)",
+      "id": "300134811",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=cyanotypes&logic=AND&note=&english=N&prev_page=1&subjectid=300134811"
+    },
+    "original_pitch": "A gust steals every pressed specimen from a botanist\u00e2\u20ac\u2122s exposure paper. She thinks she has lost a summer\u00e2\u20ac\u2122s work. In the wash, pale leaf outlines survive inside a blue field. One tiny many-legged outline identifies the stowaway that ate the collection.",
+    "selection_justification": "Cyan blue, ivory botanical silhouettes and a tiny insect reveal give a graphic material transformation with a comic discovery.",
+    "adaptation": "A miniature cyanotype sheet loses its pressed leaves to a gust. A wash turns the paper deep blue, leaving ivory leaf impressions. A many-legged silhouette appears beneath the leaves.",
+    "story_beats": [
+      "0\u20134 s: pressed leaves on pale paper",
+      "4\u20137 s: gust removes the specimens",
+      "7\u201311 s: blue rinse reveals the plant shadows",
+      "11\u201314 s: push toward the insect impression"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1003,
+    "music_prompt": "Fourteen second instrumental miniature. Delicate prepared piano, brushed water percussion, airy marimba, clear spring sunlight. Curious first phrase, a brief rush at five seconds, luminous blue wash chord at nine seconds, tiny playful discovery at twelve. No voices, no lyrics.",
+    "sfx_prompt": "Close gentle paper flutter and one fresh gust through dry leaves, followed by a soft water rinse and one tiny insect scuttle. Natural quiet Foley, no music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 4,
+    "slug": "sky-has-a-hinge",
+    "title": "The Sky Has a Hinge",
+    "aat": {
+      "term": "astrolabes",
+      "id": "300195790",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=astrolabes&logic=AND&note=&english=N&prev_page=1&subjectid=300195790"
+    },
+    "original_pitch": "An apprentice finds a brass fragment in a drawer of clock pieces. It fits no clock. Against the night sky she turns its pierced star map over a latitude plate. The marks meet the horizon just as the missing star rises over the workshop roof.",
+    "selection_justification": "Pierced brass, engraved astronomical geometry and a star prediction combine precision with cosmic scale.",
+    "adaptation": "A pierced astrolabe rotates against a midnight sky. Its pointer selects a position before one brilliant star rises into the same alignment. The camera draws back to the night beyond the brass.",
+    "story_beats": [
+      "0\u20134 s: the rete and pointer turn independently",
+      "4\u20138 s: pointer settles on a sky position",
+      "8\u201311 s: the predicted star rises into alignment",
+      "11\u201314 s: camera reveals the night beyond the instrument"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1004,
+    "music_prompt": "Fourteen second instrumental celestial clockwork. Glass harmonica, bowed vibraphone, a low cello and warm analog air. Precise delicate pulses at first, stop the ticking at seven seconds, one bright high bell bloom at ten seconds, warm spacious ending. No singing, no speech.",
+    "sfx_prompt": "Fine brass astrolabe mechanism rotating with delicate ratchet clicks. A single gentle metal detent click, followed by quiet open night wind. No music or speech.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 7,
+    "slug": "dress-code-for-a-peacock",
+    "title": "Dress Code for a Peacock",
+    "aat": {
+      "term": "iridescence",
+      "id": "300056212",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=iridescence&logic=AND&note=&english=N&prev_page=1&subjectid=300056212"
+    },
+    "original_pitch": "At a monochrome banquet a guest\u00e2\u20ac\u2122s beetle-shell jacket looks regulation black to the doorman and scandalously green to the hostess. Both walk around him to prove their case. The guest never moves and is eventually awarded best dressed and ejected in the same shot.",
+    "selection_justification": "Angle-dependent emerald and violet color can produce a comic contradiction within sculptural fashion photography.",
+    "adaptation": "A beetle-shell jacket stands motionless between two monochrome officials. As the camera and officials move around it, the jacket shifts from black to emerald and violet. A BEST medal and an EXIT verdict arrive together.",
+    "story_beats": [
+      "0\u20134 s: a black jacket passes inspection",
+      "4\u20139 s: observers orbit and brilliant color appears",
+      "9\u201312 s: medal and EXIT arrow arrive together",
+      "12\u201314 s: hold their contradictory verdicts"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1007,
+    "music_prompt": "Fourteen second instrumental fashion comedy. Pizzicato bass, dry bass clarinet, brushed jazz snare, glistening harp. Stately and monochrome at first, a flamboyant color flourish at six seconds, two contradictory final accents at ten and eleven seconds, dry comic pause. No vocals.",
+    "sfx_prompt": "Polished shoes walking slowly around a mannequin on marble, subtle fabric rustle, two small ceremonial metal pin clicks. Dry theatrical Foley, no voice or music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 9,
+    "slug": "his-excellency-the-spill",
+    "title": "His Excellency the Spill",
+    "aat": {
+      "term": "marbling",
+      "id": "300053812",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=marbling&logic=AND&note=&english=N&prev_page=1&subjectid=300053812"
+    },
+    "original_pitch": "A court painter combs floating pigment into a minister\u00e2\u20ac\u2122s majestic profile. A sneeze gives him three chins. The minister storms in. His reflection in the tray supplies a fourth. The printer takes an impression before anyone can object.",
+    "selection_justification": "Surface marbling can turn portraiture into a fluid political joke, with a printed impression as an irreversible punchline.",
+    "adaptation": "Floating pigment forms a grand ministerial profile in a gilded tray. A sneeze jolts the pigment into extra chins. The minister approaches as an ivory sheet lifts the fixed caricature.",
+    "story_beats": [
+      "0\u20134 s: combed ceremonial portrait",
+      "4\u20137 s: sneeze distorts the floating profile",
+      "7\u201310 s: the offended minister leans over the tray",
+      "10\u201314 s: paper lifts the fixed caricature"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1009,
+    "music_prompt": "Fourteen second instrumental court comedy. Harpsichord, bassoon, plucked strings. Exaggerated royal dignity, one sudden musical stumble at five seconds, mischievous descending bassoon at eight, final stamped chord at twelve. No singing, no speech.",
+    "sfx_prompt": "An exaggerated single adult sneeze, a small liquid splash, then wet paper peeling slowly from a shallow printmaking tray. No words, no music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 15,
+    "slug": "last-passage-for-the-bronze",
+    "title": "The Last Passage for the Bronze",
+    "aat": {
+      "term": "lost-wax process",
+      "id": "300053113",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=lost-wax%20casting&logic=AND&note=&english=N&prev_page=1&subjectid=300053113"
+    },
+    "original_pitch": "Inside a mold for a bronze horse, molten metal advances through the cavity the wax left behind. A tiny pocket of air retreats ahead of it. At the horse\u00e2\u20ac\u2122s highest ear the air finds its vent, an instant before the two metal fronts close the passage.",
+    "selection_justification": "An illuminated cutaway turns casting into an interior chase between molten metal and the last trapped air pocket.",
+    "adaptation": "Inside a stylized horse-shaped mold, luminous bronze rises behind a trapped air pocket. The bubble climbs the neck and escapes through the ear vent before the fill reaches the top. The mold retreats to reveal the bronze horse.",
+    "story_beats": [
+      "0\u20134 s: dark horse mold and first molten entry",
+      "4\u20139 s: bronze climbs the cavity behind the air",
+      "9\u201311 s: bubble escapes through the ear vent",
+      "11\u201314 s: the complete bronze horse emerges"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1015,
+    "music_prompt": "Fourteen second instrumental foundry suspense. Low modular pulse, bowed metal, contrabass, rising strings. Heat and pressure build to eleven seconds, then one bright released overtone and a noble bronze chord. No vocals or speech.",
+    "sfx_prompt": "Hot metal flowing and soft furnace roar, increasing pressure, then a short clean air release through a small vent and a resonant cooling metal tick. No music or speech.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 19,
+    "slug": "seat-facing-backwards",
+    "title": "The Seat Facing Backwards",
+    "aat": {
+      "term": "panorama boxes",
+      "id": "300266498",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=panoramas&logic=AND&note=&english=N&prev_page=1&subjectid=300266498"
+    },
+    "original_pitch": "A widow cranks a hand-painted train journey past the window of a panorama box. Her late husband painted only the view from his seat. At their station she lets the crank run on, hoping to see herself waiting. The last handspan is bare linen.",
+    "selection_justification": "A finite painted panorama can unfold into an emotionally striking absence, using warm mechanical intimacy instead of spectacle.",
+    "adaptation": "A hand-cranked panorama box carries a painted railway past its window. At a station, the painted view runs out. A stitched edge passes and bare linen replaces the landscape. A solitary wooden viewer waits beside the empty window.",
+    "story_beats": [
+      "0\u20134 s: miniature painted railway moves",
+      "4\u20139 s: station passes and viewer leans closer",
+      "9\u201312 s: stitched end exposes blank linen",
+      "12\u201314 s: crank and viewer stop"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1019,
+    "music_prompt": "Fourteen second instrumental elegy. Felt piano, muted cello, small harmonium. Tender hand-cranked motion, a remembered train journey. Let melody stop at ten seconds, leave a bare soft sustained chord and silence at the end. No voices.",
+    "sfx_prompt": "Quiet wooden panorama crank, soft fabric scroll moving over rollers, faint old railway rhythm in the distance. The crank slows and stops. No speech or music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 25,
+    "slug": "second-tenant",
+    "title": "The Second Tenant",
+    "aat": {
+      "term": "lenticular photographs",
+      "id": "300451699",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=lenticular%20photographs&logic=AND&note=&english=N&prev_page=1&subjectid=300451699"
+    },
+    "original_pitch": "A child in a lenticular family portrait spends her life switching between two poses as visitors pass. A cleaner lifts the frame and rocks it slowly. In the sliver between the approved views the child takes one unauthorized step out of line.",
+    "selection_justification": "A lenticular portrait can use viewpoint as a prison and a sliver of angle as an escape.",
+    "adaptation": "A lenticular-inspired family portrait shifts between two formal poses as the camera passes. A cleaner rocks the frame slowly. The smallest child steps out of the line and crosses the bottom edge of the picture.",
+    "story_beats": [
+      "0\u20134 s: approved family pose A",
+      "4\u20138 s: turn reveals approved pose B",
+      "8\u201311 s: a slow frame rock exposes the in-between view",
+      "11\u201314 s: the child steps out beyond the picture"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1025,
+    "music_prompt": "Fourteen second instrumental uncanny liberation. Celesta, muted chamber strings, soft bass clarinet. Restrained repeated formal phrase, a suspended middle sliver at eight seconds, a curious free ascending melody at eleven. Warm ending. No speech or vocals.",
+    "sfx_prompt": "A heavy wooden picture frame gently creaks as it is tilted, cloth wiping glass, then three tiny clear wooden footsteps onto a table. No music or voices.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 28,
+    "slug": "letter-wide-enough-to-wear",
+    "title": "A Letter Wide Enough to Wear",
+    "aat": {
+      "term": "jacquard looms",
+      "id": "300023516",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=Jacquard%20looms&logic=AND&note=&english=N&prev_page=1&subjectid=300023516"
+    },
+    "original_pitch": "A weaver needs to send a farewell through a factory that permits only the company pattern. She alters the punched cards so the familiar flowers hold on the face while long floats on the reverse spell a message. Her sister turns the finished cuff inside out.",
+    "selection_justification": "A woven front and reverse can carry two different messages in one material, with the final turn revealing an intimate rebellion.",
+    "adaptation": "A miniature loom interlaces an indigo and copper panel with a prescribed floral face. The panel turns over to reveal BYE on the reverse. Two small wooden hands meet at the cloth.",
+    "story_beats": [
+      "0\u20134 s: loom and prescribed flower pattern",
+      "4\u20139 s: warp and weft interlace",
+      "9\u201312 s: cuff rotates to show the reverse message",
+      "12\u201314 s: two hands meet at the cloth"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1028,
+    "music_prompt": "Fourteen second instrumental textile farewell. Soft mechanical loom rhythm, plucked kora-like strings, breathy flute without voice, restrained cello. Orderly first half, warm bittersweet melody on the turn at ten seconds, tender final two notes. No singing or speech.",
+    "sfx_prompt": "Miniature wooden weaving loom. Clear shuttle strokes, delicate thread tension and soft cloth brushing over fingertips. Slow from steady work into one final gentle pull. No voice or music.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  },
+  {
+    "concept_id": 30,
+    "slug": "water-for-last-balcony",
+    "title": "Water for the Last Balcony",
+    "aat": {
+      "term": "aqueducts",
+      "id": "300006165",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=aqueducts&logic=AND&note=&english=N&prev_page=1&subjectid=300006165"
+    },
+    "original_pitch": "A hillside block receives one trickle of water. Each household can keep it or tilt a tile toward the next balcony down. The camera follows the stream all afternoon. On the last balcony a child fills a birdbath, and the bird flies back uphill.",
+    "selection_justification": "A downhill ribbon connects miniature architecture into a collective action, ending with the bird carrying the movement uphill.",
+    "adaptation": "Three households open their gates in sequence to pass a trickle through terracotta channels. Water reaches the dry birdbath on the lowest balcony. A bird drinks, then flies back uphill past the opened gates.",
+    "story_beats": [
+      "0\u20134 s: trickle reaches first gate",
+      "4\u20139 s: three gates pass water downhill",
+      "9\u201311 s: lowest birdbath fills and bird drinks",
+      "11\u201314 s: bird returns uphill above the roofs"
+    ],
+    "duration": 14,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "seed": 1030,
+    "music_prompt": "Fourteen second instrumental Mediterranean miniature. Nylon guitar harmonics, warm hand percussion, flute and chamber strings. A sparse trickle grows into an interconnected dancing phrase, a gentle pause for a bird at ten seconds, ascending airy final phrase. No voices.",
+    "sfx_prompt": "A small stream trickles through terracotta channels, three light clay tile taps, water filling a shallow stone birdbath, then one clear small bird chirp and soft wingbeats. No music or speech.",
+    "sfx_start": 0,
+    "sfx_gain": 0.32,
+    "key_times": [
+      0,
+      4,
+      7,
+      10,
+      13.958333
+    ],
+    "status": "source development",
+    "source_inputs": [
+      "source/design.svg",
+      "source/timeline.json"
+    ]
+  }
+]

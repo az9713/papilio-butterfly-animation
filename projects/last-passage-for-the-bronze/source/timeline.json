@@ -1,0 +1,40 @@
+{
+  "concept_id": 15,
+  "slug": "last-passage-for-the-bronze",
+  "title": "The Last Passage for the Bronze",
+  "aat": {
+    "term": "lost-wax process",
+    "id": "300053113",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=lost-wax%20casting&logic=AND&note=&english=N&prev_page=1&subjectid=300053113"
+  },
+  "original_pitch": "Inside a mold for a bronze horse, molten metal advances through the cavity the wax left behind. A tiny pocket of air retreats ahead of it. At the horse\u00e2\u20ac\u2122s highest ear the air finds its vent, an instant before the two metal fronts close the passage.",
+  "selection_justification": "An illuminated cutaway turns casting into an interior chase between molten metal and the last trapped air pocket.",
+  "adaptation": "Inside a stylized horse-shaped mold, luminous bronze rises behind a trapped air pocket. The bubble climbs the neck and escapes through the ear vent before the fill reaches the top. The mold retreats to reveal the bronze horse.",
+  "story_beats": [
+    "0\u20134 s: dark horse mold and first molten entry",
+    "4\u20139 s: bronze climbs the cavity behind the air",
+    "9\u201311 s: bubble escapes through the ear vent",
+    "11\u201314 s: the complete bronze horse emerges"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1015,
+  "music_prompt": "Fourteen second instrumental foundry suspense. Low modular pulse, bowed metal, contrabass, rising strings. Heat and pressure build to eleven seconds, then one bright released overtone and a noble bronze chord. No vocals or speech.",
+  "sfx_prompt": "Hot metal flowing and soft furnace roar, increasing pressure, then a short clean air release through a small vent and a resonant cooling metal tick. No music or speech.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

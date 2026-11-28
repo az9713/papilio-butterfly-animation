@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 -7 22 14" width="1280" height="720">
+  <title>The Second Tenant editable construction profiles</title>
+  <polyline id="child" data-role="child" points="-0.30000,0.70000 -0.40000,-0.30000 -0.20000,-0.70000 0.20000,-0.70000 0.40000,-0.30000 0.30000,0.70000 -0.30000,0.70000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="frame" data-role="frame" points="-4.00000,3.00000 -4.00000,-3.00000 4.00000,-3.00000 4.00000,3.00000 -4.00000,3.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+</svg>

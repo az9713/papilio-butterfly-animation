@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:03.472602+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Close gentle paper flutter and one fresh gust through dry leaves, followed by a soft water rinse and one tiny insect scuttle. Natural quiet Foley, no music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.33,
+  "sha256": "d6926fd225002141374a90b2c76e6c7e3817fadf8ddebad70e497be874fcaaed",
+  "bytes": 224905
+}

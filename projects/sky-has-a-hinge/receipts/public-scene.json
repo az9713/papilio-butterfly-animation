@@ -1,0 +1,8 @@
+{
+  "path_fields_replaced": 1,
+  "only_path_field_bytes_changed": true,
+  "before_sha256": "8c0400fd9b0b320c20d2d85c398bc10d5f5b1cf08bdb21accee6362e10fd95f0",
+  "after_sha256": "59d639a22b324f1eafb01d2a2ad58632dbbbf8f8e9d9015c5a31fa2df394e0d8",
+  "film_unchanged_during_source_refresh": true,
+  "scope": "Final source identity refreshed without rendering or changing the movie. Any absolute local user path fields are replaced with relative fields."
+}

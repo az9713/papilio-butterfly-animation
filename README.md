@@ -1,6 +1,6 @@
 # Animation Studio
 
-Two peer animation projects share one discovery, evaluation and publication workflow. Both use SVG as an editable source layer. Butterfly derives its wing geometry from SVG contours. Tooth derives mechanism pin events and soundtrack notes from an SVG score. Blender, generated image plates, Python compositing and audio tools produce the finished animations.
+Twelve peer animation projects share one discovery, evaluation and publication workflow. All use SVG as an editable source layer. The original Butterfly derives its wing geometry from SVG contours. Tooth derives mechanism pin events and soundtrack notes from an SVG score. Blender, compositing and audio tools produce the finished animations, with generated image plates also used in the original Tooth film.
 
 | Project | Film | Sources and development |
 | --- | --- | --- |
@@ -50,3 +50,23 @@ Papilio’s commands and acceptance scope are retained in [its project README](p
 Tooth’s accepted source can be rebuilt from [the public source package](projects/tooth/downloads/tooth-accepted-source.zip), or from [the checked-in production sources](projects/tooth/production/revision-5/README.md). Its published film remains byte-identical to the accepted production export. Two local user-path fields in the public Blender source files were replaced with relative fields, and every other decompressed byte was verified unchanged.
 
 The original Space production remains the collaborative record. The public repository contains the requested artistic discussion, sources and receipts with account-specific attachment links removed. Private .env and personal text inputs are excluded.
+
+
+## Ten new films
+
+[Screen all ten films](https://az9713.github.io/svg-3d-animation-studio/anthology.html) · [Selection, adaptations and assessments](docs/anthology.md) · [Production journey](production/anthology/journey.md)
+
+| Board concept | Project and README |
+| --- | --- |
+| #1 | [The Whale in Berth Six](projects/whale-in-berth-six/README.md) |
+| #3 | [The Botanistâ€™s Washing Line](projects/botanists-washing-line/README.md) |
+| #4 | [The Sky Has a Hinge](projects/sky-has-a-hinge/README.md) |
+| #7 | [Dress Code for a Peacock](projects/dress-code-for-a-peacock/README.md) |
+| #9 | [His Excellency the Spill](projects/his-excellency-the-spill/README.md) |
+| #15 | [The Last Passage for the Bronze](projects/last-passage-for-the-bronze/README.md) |
+| #19 | [The Seat Facing Backwards](projects/seat-facing-backwards/README.md) |
+| #25 | [The Second Tenant](projects/second-tenant/README.md) |
+| #28 | [A Letter Wide Enough to Wear](projects/letter-wide-enough-to-wear/README.md) |
+| #30 | [Water for the Last Balcony](projects/water-for-last-balcony/README.md) |
+
+All ten new films are fourteen seconds at 1280×720 and 24 fps. Each has direct SVG source, a saved Blender scene, original ElevenLabs music and sound, and a standalone source package.

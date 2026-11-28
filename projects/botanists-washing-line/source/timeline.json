@@ -1,0 +1,40 @@
+{
+  "concept_id": 3,
+  "slug": "botanists-washing-line",
+  "title": "The Botanist\u00e2\u20ac\u2122s Washing Line",
+  "aat": {
+    "term": "cyanotypes (photographic prints)",
+    "id": "300134811",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=cyanotypes&logic=AND&note=&english=N&prev_page=1&subjectid=300134811"
+  },
+  "original_pitch": "A gust steals every pressed specimen from a botanist\u00e2\u20ac\u2122s exposure paper. She thinks she has lost a summer\u00e2\u20ac\u2122s work. In the wash, pale leaf outlines survive inside a blue field. One tiny many-legged outline identifies the stowaway that ate the collection.",
+  "selection_justification": "Cyan blue, ivory botanical silhouettes and a tiny insect reveal give a graphic material transformation with a comic discovery.",
+  "adaptation": "A miniature cyanotype sheet loses its pressed leaves to a gust. A wash turns the paper deep blue, leaving ivory leaf impressions. A many-legged silhouette appears beneath the leaves.",
+  "story_beats": [
+    "0\u20134 s: pressed leaves on pale paper",
+    "4\u20137 s: gust removes the specimens",
+    "7\u201311 s: blue rinse reveals the plant shadows",
+    "11\u201314 s: push toward the insect impression"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1003,
+  "music_prompt": "Fourteen second instrumental miniature. Delicate prepared piano, brushed water percussion, airy marimba, clear spring sunlight. Curious first phrase, a brief rush at five seconds, luminous blue wash chord at nine seconds, tiny playful discovery at twelve. No voices, no lyrics.",
+  "sfx_prompt": "Close gentle paper flutter and one fresh gust through dry leaves, followed by a soft water rinse and one tiny insect scuttle. Natural quiet Foley, no music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

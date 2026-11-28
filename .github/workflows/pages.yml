@@ -24,6 +24,7 @@ jobs:
       - run: python -m pip install -r requirements-site.txt
       - run: python tools/build_site.py
       - run: python tools/verify_site.py
+      - run: python tools/verify_anthology.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

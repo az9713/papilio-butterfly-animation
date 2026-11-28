@@ -15,6 +15,14 @@ checks={
     'papilio-final-1080p.mp4':ROOT/'projects/butterfly/papilio-final-1080p.mp4',
     'projects/butterfly/papilio-final-1080p.mp4':ROOT/'projects/butterfly/papilio-final-1080p.mp4'
 }
+catalog=ROOT/'production/anthology/selection.json'
+if catalog.exists():
+    routes+=['anthology.html','docs/anthology.html']
+    for plan in json.loads(catalog.read_text(encoding='utf8')):
+        prefix='projects/'+plan['slug']+'/'
+        routes.extend([prefix,prefix+'README.html'])
+        checks[prefix+'film.mp4']=ROOT/prefix/'film.mp4'
+        checks[prefix+'downloads/'+plan['slug']+'-source.zip']=ROOT/prefix/'downloads'/f"{plan['slug']}-source.zip"
 
 def fetch(path):
     with urllib.request.urlopen(BASE+path,timeout=35) as response:

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "concept_id": 7,
+  "archive_sha256": "15533997e379161fee23377c27190c106e0cf3b28c3f5dcb16fef55c067056c6",
+  "members": 26,
+  "outside_git": true,
+  "retained_audio_mix_byte_identical": true,
+  "geometry_and_sampled_motion_identical": true,
+  "scene_audit": {
+    "geometry_and_motion_sha256": "afd4e0bcb75fd36f860523d10c355dfcf22aa46ac8bb594274d90cccc75e2ed3",
+    "objects": 44,
+    "frames": 336,
+    "fps": 24,
+    "resolution": [
+      1280,
+      720
+    ],
+    "svg_identity_matches": true,
+    "timeline_identity_matches": true,
+    "svg_sha256": "7842aba392e44f8620c89d4654b7298369f173b0deb4e87fa10a40a60e4fa95a",
+    "timeline_sha256": "cf823e81162c5925a57f2b8027b0f88487453891173f95228e0cf269dca76744",
+    "external_images": []
+  },
+  "rebuilt_hero_frame_mean_pixel_difference_from_encoded": 1.433349609375,
+  "checked_at_utc": "2026-11-28T07:45:05.508042+00:00",
+  "scope": "Every ZIP member verified. Retained stems re-mixed byte for byte. Blender geometry and transforms at frames 1,169,336 rebuilt identically outside Git. A full-resolution hero frame was rerendered and compared with the encoded film. Full image sequence was not rerendered in this package test."
+}

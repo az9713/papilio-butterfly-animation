@@ -1,0 +1,40 @@
+{
+  "concept_id": 9,
+  "slug": "his-excellency-the-spill",
+  "title": "His Excellency the Spill",
+  "aat": {
+    "term": "marbling",
+    "id": "300053812",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=marbling&logic=AND&note=&english=N&prev_page=1&subjectid=300053812"
+  },
+  "original_pitch": "A court painter combs floating pigment into a minister\u00e2\u20ac\u2122s majestic profile. A sneeze gives him three chins. The minister storms in. His reflection in the tray supplies a fourth. The printer takes an impression before anyone can object.",
+  "selection_justification": "Surface marbling can turn portraiture into a fluid political joke, with a printed impression as an irreversible punchline.",
+  "adaptation": "Floating pigment forms a grand ministerial profile in a gilded tray. A sneeze jolts the pigment into extra chins. The minister approaches as an ivory sheet lifts the fixed caricature.",
+  "story_beats": [
+    "0\u20134 s: combed ceremonial portrait",
+    "4\u20137 s: sneeze distorts the floating profile",
+    "7\u201310 s: the offended minister leans over the tray",
+    "10\u201314 s: paper lifts the fixed caricature"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1009,
+  "music_prompt": "Fourteen second instrumental court comedy. Harpsichord, bassoon, plucked strings. Exaggerated royal dignity, one sudden musical stumble at five seconds, mischievous descending bassoon at eight, final stamped chord at twelve. No singing, no speech.",
+  "sfx_prompt": "An exaggerated single adult sneeze, a small liquid splash, then wet paper peeling slowly from a shallow printmaking tray. No words, no music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

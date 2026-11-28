@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-28T07:07:55.633873+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "One clear small songbird chirp followed by a brief flutter of wings taking flight. Natural dry close bird sound. No wind, no voice, no music.",
+    "duration_seconds": 1.6,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.8
+  },
+  "status": 200,
+  "request_id": null,
+  "sha256": "044358bcecfa25811277aeefe2a155f0f4447a6948afa536b682e2f65f91c718"
+}

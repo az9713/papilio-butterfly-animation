@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-28T07:07:54.258304+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "One short clean puff of pressurized air escaping from a tiny foundry mold vent, then a quiet cooling metal tick. No voices, no music.",
+    "duration_seconds": 1.0,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.8
+  },
+  "status": 200,
+  "request_id": null,
+  "sha256": "140eda4ccc05c96090212228534fe10be6178239d25eb2701edde0bec087f174"
+}

@@ -1,0 +1,12 @@
+{
+  "cue": {
+    "start_s": 4.8,
+    "duration_s": 1.2,
+    "gain": 0.6,
+    "prompt": "One adult male comic sneeze, a clearly recognizable loud ah-CHOO sneeze. One sneeze only, dry close recording in silence. No words or music."
+  },
+  "music_gain": 0.68,
+  "effects_bed_gain": 0.15,
+  "mix_sha256": "cce3636dd0057411499351277a6159dc4905373ecd8947ae10565a231086afbd",
+  "scope": "Signature ElevenLabs effect placed at the declared event time. Original two-stem mix receipt is retained as the preceding iteration."
+}

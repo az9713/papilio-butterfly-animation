@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:29.727969+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "A small stream trickles through terracotta channels, three light clay tile taps, water filling a shallow stone birdbath, then one clear small bird chirp and soft wingbeats. No music or speech.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.33,
+  "sha256": "f42dda0e23010b4dee945f1e981c80d47daa566bfe6664e82fa9782c27392ef0",
+  "bytes": 224905
+}

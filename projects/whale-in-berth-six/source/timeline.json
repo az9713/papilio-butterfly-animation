@@ -1,0 +1,40 @@
+{
+  "concept_id": 1,
+  "slug": "whale-in-berth-six",
+  "title": "The Whale in Berth Six",
+  "aat": {
+    "term": "anamorphoses",
+    "id": "300033725",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=anamorphoses&logic=AND&note=&english=N&prev_page=1&subjectid=300033725"
+  },
+  "original_pitch": "A surveyor follows white scuffs through an abandoned dry dock. From the height of a departing deckhand\u00e2\u20ac\u2122s eye, marks on six separate cranes join into a life-size whale. One step down the gangplank takes it apart.",
+  "selection_justification": "Perspective builds a creature from industrial fragments. Vast scale and a single uncut reveal distinguish it from the intimate films.",
+  "adaptation": "An abandoned dry dock of six gantries carries separate luminous whale fragments. The camera finds the one viewpoint that joins them, holds, then steps aside and loses the whale.",
+  "story_beats": [
+    "0\u20134 s: separate scuffs and gantries",
+    "4\u20138 s: the camera finds the whale",
+    "8\u201311 s: hold the complete animal",
+    "11\u201314 s: a lateral departure splits it again"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1001,
+  "music_prompt": "Fourteen second cinematic instrumental. Low bowed double bass, muted brass harmonics, suspended oceanic strings. Industrial midnight harbor, solitary wonder. Build from near silence to one immense warm open chord at eight seconds, hold then dissolve. No vocals, no lyrics, no whale calls.",
+  "sfx_prompt": "Abandoned harbor atmosphere. Low sea swell, wind through steel cranes, a distant deep ship hull resonance. No voices or music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

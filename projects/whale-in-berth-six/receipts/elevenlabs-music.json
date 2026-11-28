@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:01.142122+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second cinematic instrumental. Low bowed double bass, muted brass harmonics, suspended oceanic strings. Industrial midnight harbor, solitary wonder. Build from near silence to one immense warm open chord at eight seconds, hold then dissolve. No vocals, no lyrics, no whale calls.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 3.05,
+  "sha256": "407eae03cb76fb73e0bf8283d22ada936f7c86d71b14849ad402582eb7e1d0d6",
+  "bytes": 337004
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:16.463849+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental court comedy. Harpsichord, bassoon, plucked strings. Exaggerated royal dignity, one sudden musical stumble at five seconds, mischievous descending bassoon at eight, final stamped chord at twelve. No singing, no speech.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 6.68,
+  "sha256": "57d45000b828fc44dd26af1561c4fb9e13d84574caa83eddb252c3f502ec0149",
+  "bytes": 360620
+}

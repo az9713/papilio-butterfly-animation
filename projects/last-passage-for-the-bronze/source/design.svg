@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 -7 22 14" width="1280" height="720">
+  <title>The Last Passage for the Bronze editable construction profiles</title>
+  <polyline id="horse" data-role="horse" points="-3.00000,1.00000 -3.00000,-1.00000 -3.60000,-1.70000 -3.40000,-2.00000 -2.70000,-1.40000 -0.50000,-1.50000 0.60000,-3.00000 1.30000,-3.30000 1.10000,-4.00000 1.60000,-3.80000 2.10000,-3.50000 2.70000,-3.20000 2.80000,-2.80000 1.80000,-2.70000 1.00000,-1.20000 1.50000,1.00000 0.90000,1.00000 0.00000,-0.70000 -1.00000,-0.50000 -1.40000,1.00000 -2.00000,1.00000 -1.70000,-0.40000 -2.30000,-0.30000 -2.60000,1.00000 -3.00000,1.00000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+  <polyline id="vent" data-role="vent" points="1.30000,-3.30000 1.40000,-4.50000" fill="none" stroke="#d8ac61" stroke-width=".035" stroke-linejoin="round" />
+</svg>

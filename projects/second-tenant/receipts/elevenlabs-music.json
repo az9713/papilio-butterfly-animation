@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:24.502282+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental uncanny liberation. Celesta, muted chamber strings, soft bass clarinet. Restrained repeated formal phrase, a suspended middle sliver at eight seconds, a curious free ascending melody at eleven. Warm ending. No speech or vocals.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 4.19,
+  "sha256": "7ea3dc2e2b440c544f8923efea3886112ae6b99ae87d45ec05159adc3e59832b",
+  "bytes": 337004
+}

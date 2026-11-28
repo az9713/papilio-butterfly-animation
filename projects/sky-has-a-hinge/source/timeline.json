@@ -1,0 +1,40 @@
+{
+  "concept_id": 4,
+  "slug": "sky-has-a-hinge",
+  "title": "The Sky Has a Hinge",
+  "aat": {
+    "term": "astrolabes",
+    "id": "300195790",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=astrolabes&logic=AND&note=&english=N&prev_page=1&subjectid=300195790"
+  },
+  "original_pitch": "An apprentice finds a brass fragment in a drawer of clock pieces. It fits no clock. Against the night sky she turns its pierced star map over a latitude plate. The marks meet the horizon just as the missing star rises over the workshop roof.",
+  "selection_justification": "Pierced brass, engraved astronomical geometry and a star prediction combine precision with cosmic scale.",
+  "adaptation": "A pierced astrolabe rotates against a midnight sky. Its pointer selects a position before one brilliant star rises into the same alignment. The camera draws back to the night beyond the brass.",
+  "story_beats": [
+    "0\u20134 s: the rete and pointer turn independently",
+    "4\u20138 s: pointer settles on a sky position",
+    "8\u201311 s: the predicted star rises into alignment",
+    "11\u201314 s: camera reveals the night beyond the instrument"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1004,
+  "music_prompt": "Fourteen second instrumental celestial clockwork. Glass harmonica, bowed vibraphone, a low cello and warm analog air. Precise delicate pulses at first, stop the ticking at seven seconds, one bright high bell bloom at ten seconds, warm spacious ending. No singing, no speech.",
+  "sfx_prompt": "Fine brass astrolabe mechanism rotating with delicate ratchet clicks. A single gentle metal detent click, followed by quiet open night wind. No music or speech.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

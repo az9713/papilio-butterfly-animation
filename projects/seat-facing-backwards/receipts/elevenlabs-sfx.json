@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:21.893714+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Quiet wooden panorama crank, soft fabric scroll moving over rollers, faint old railway rhythm in the distance. The crank slows and stops. No speech or music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.67,
+  "sha256": "02f400ea1ad35969a11a58bfd8fdd397aa42b7d465ab2fffddd68b9cb7dea3b9",
+  "bytes": 224905
+}

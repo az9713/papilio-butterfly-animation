@@ -1,0 +1,40 @@
+{
+  "concept_id": 25,
+  "slug": "second-tenant",
+  "title": "The Second Tenant",
+  "aat": {
+    "term": "lenticular photographs",
+    "id": "300451699",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=lenticular%20photographs&logic=AND&note=&english=N&prev_page=1&subjectid=300451699"
+  },
+  "original_pitch": "A child in a lenticular family portrait spends her life switching between two poses as visitors pass. A cleaner lifts the frame and rocks it slowly. In the sliver between the approved views the child takes one unauthorized step out of line.",
+  "selection_justification": "A lenticular portrait can use viewpoint as a prison and a sliver of angle as an escape.",
+  "adaptation": "A lenticular-inspired family portrait shifts between two formal poses as the camera passes. A cleaner rocks the frame slowly. The smallest child steps out of the line and crosses the bottom edge of the picture.",
+  "story_beats": [
+    "0\u20134 s: approved family pose A",
+    "4\u20138 s: turn reveals approved pose B",
+    "8\u201311 s: a slow frame rock exposes the in-between view",
+    "11\u201314 s: the child steps out beyond the picture"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1025,
+  "music_prompt": "Fourteen second instrumental uncanny liberation. Celesta, muted chamber strings, soft bass clarinet. Restrained repeated formal phrase, a suspended middle sliver at eight seconds, a curious free ascending melody at eleven. Warm ending. No speech or vocals.",
+  "sfx_prompt": "A heavy wooden picture frame gently creaks as it is tilted, cloth wiping glass, then three tiny clear wooden footsteps onto a table. No music or voices.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

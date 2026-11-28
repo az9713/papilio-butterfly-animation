@@ -1,0 +1,33 @@
+{
+  "archive": "downloads/seat-facing-backwards-source.zip",
+  "sha256": "400e174e9b51cc6d955907d5e331c4ce5b46af8facac3f9bc5fe340960dd425f",
+  "members": {
+    "README.md": "462873af10dc83d578417d1dbc3931d141c2db3447ce8a77ca60310a40c98a65",
+    "player.html": "2bdffc483491bf8b9fc63365bcf8eda11a23b0503bf99b92025c1237c22263a8",
+    "film.mp4": "ab82ff2756e9151a3e4901780083d4db7b213724f02cd05f30210a23c42bfa63",
+    "poster.jpg": "2833ffcfce8afb40c201e75f293ac69cac8a7dd1d5bcaf02064e121705cd8a12",
+    "screening-frames.jpg": "f7be9f9a0c5725ca41cb219ca7f9a2b0ded2cc26c14d641b5e902a5ca11bc64b",
+    "assessment.md": "50659f8c134cbd4846e721aa4c95d5d96095958c8b65e1443cdabdb1289235cb",
+    "source/build_scene.py": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce",
+    "source/design.svg": "bd95ed479f5a16cc67a1bb35161f50e35a7d233d9a00a4678109ca069a8b5aa5",
+    "source/encode.py": "7f284f8a8a25992b60203772366ab376db3ec468949315f82b7f29800fefdb95",
+    "source/mix_audio.py": "0112d59616c22e2dfc9f899833d7090c5d83cf176ca09bfa81fbb64c2b940a29",
+    "source/rebuild.py": "91a1b4c77761764948b3e5f67883e870ae2f86c540e4329f9a67a1c71380faee",
+    "source/scene.blend": "ec0403f493be738f43265c2be6214d9ddff8a81418fbd32dd6478697f4187d5c",
+    "source/timeline.json": "1cca6b25119446d28ed0c414a4580ba165157a66b2cc1c8fbff22a56959b29f8",
+    "audio/mix.wav": "4c6642d48416cf13a965c3cb4df8dd8345c6cfbf01b67787f3c03e4d362466d3",
+    "audio/music.mp3": "db5c0ea03b210ed12ad8d487967216deb0ec420389a1c9aeb62165f775659fa1",
+    "audio/sfx.mp3": "02f400ea1ad35969a11a58bfd8fdd397aa42b7d465ab2fffddd68b9cb7dea3b9",
+    "receipts/browser-playback.json": "d058c6acc7c59e7b6cd1c0fd4cfdca4e4c60012600679c989724b4737697bc69",
+    "receipts/elevenlabs-music.json": "906698b77e0f53739a447c27a4cbaaa09b6986e9c434d5edf2d4f35b069dcc17",
+    "receipts/elevenlabs-sfx.json": "8ce22d96cb09b86e43505e8c775ba895cb553b3b1a2782f8f2dccb12925ad5f3",
+    "receipts/encoded-film.json": "9aa8f18214da57f484d2b053f1719643dd4beb305b7292dbe2889e6a19aa6795",
+    "receipts/final-mix.json": "7a1dcc36a1e707d0d89c21634e7933e8864066a1a962b6839abc90f04d1c33c0",
+    "receipts/mix.json": "8453ae135e0bbcb55824f0412ff0c7ef39ede0b4e410e200bf48ef0bec621679",
+    "receipts/preview.json": "4642f468def3cb8d0a0fe9efcf2dcf1217fcbd82369a944280e6b662b9d5da46",
+    "receipts/public-scene.json": "789863b5ca33a4379ee6c317a556e2a18002334b29634fe18d77dc0f75657b4b",
+    "receipts/render.json": "3e1bc61557ef270602449ee550ada646db229f9a09bd185a2ecba6226ccba525",
+    "receipts/scene.json": "5377892ee90d1b13b4bf68c823898dfa344234d16a82e421c27acded85cf4fce"
+  },
+  "scope": "Editable SVG, baked Blender scene, builders, original ElevenLabs stems and receipts. Full frames are regenerated."
+}

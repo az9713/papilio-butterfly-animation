@@ -1,0 +1,40 @@
+{
+  "concept_id": 7,
+  "slug": "dress-code-for-a-peacock",
+  "title": "Dress Code for a Peacock",
+  "aat": {
+    "term": "iridescence",
+    "id": "300056212",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=iridescence&logic=AND&note=&english=N&prev_page=1&subjectid=300056212"
+  },
+  "original_pitch": "At a monochrome banquet a guest\u00e2\u20ac\u2122s beetle-shell jacket looks regulation black to the doorman and scandalously green to the hostess. Both walk around him to prove their case. The guest never moves and is eventually awarded best dressed and ejected in the same shot.",
+  "selection_justification": "Angle-dependent emerald and violet color can produce a comic contradiction within sculptural fashion photography.",
+  "adaptation": "A beetle-shell jacket stands motionless between two monochrome officials. As the camera and officials move around it, the jacket shifts from black to emerald and violet. A BEST medal and an EXIT verdict arrive together.",
+  "story_beats": [
+    "0\u20134 s: a black jacket passes inspection",
+    "4\u20139 s: observers orbit and brilliant color appears",
+    "9\u201312 s: medal and EXIT arrow arrive together",
+    "12\u201314 s: hold their contradictory verdicts"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1007,
+  "music_prompt": "Fourteen second instrumental fashion comedy. Pizzicato bass, dry bass clarinet, brushed jazz snare, glistening harp. Stately and monochrome at first, a flamboyant color flourish at six seconds, two contradictory final accents at ten and eleven seconds, dry comic pause. No vocals.",
+  "sfx_prompt": "Polished shoes walking slowly around a mannequin on marble, subtle fabric rustle, two small ceremonial metal pin clicks. Dry theatrical Foley, no voice or music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

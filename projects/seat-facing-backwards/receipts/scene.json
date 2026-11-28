@@ -1,0 +1,22 @@
+{
+  "concept_id": 19,
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "frames": 336,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "svg_roles": [
+    "mountains",
+    "roof",
+    "track"
+  ],
+  "svg_sha256": "bd95ed479f5a16cc67a1bb35161f50e35a7d233d9a00a4678109ca069a8b5aa5",
+  "timeline_sha256": "1cca6b25119446d28ed0c414a4580ba165157a66b2cc1c8fbff22a56959b29f8",
+  "objects": 70,
+  "scene_sha256": "ec0403f493be738f43265c2be6214d9ddff8a81418fbd32dd6478697f4187d5c",
+  "scope": "Baked editable scene. Preview and encoded-film review are separate stages.",
+  "builder_sha256": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce"
+}

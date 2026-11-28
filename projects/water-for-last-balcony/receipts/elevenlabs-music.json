@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:29.478280+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental Mediterranean miniature. Nylon guitar harmonics, warm hand percussion, flute and chamber strings. A sparse trickle grows into an interconnected dancing phrase, a gentle pause for a bird at ten seconds, ascending airy final phrase. No voices.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.77,
+  "sha256": "d8236b5883c942bd59b7738c1ebbfd34a5b9395671c6be6e47d26994d1ea7ed6",
+  "bytes": 337004
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:11.742812+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "Polished shoes walking slowly around a mannequin on marble, subtle fabric rustle, two small ceremonial metal pin clicks. Dry theatrical Foley, no voice or music.",
+    "duration_seconds": 14,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 2.18,
+  "sha256": "a36e16e65b6ecb167be6ca83d0763895181e03c853f08963dc59478eb72adf1a",
+  "bytes": 224905
+}

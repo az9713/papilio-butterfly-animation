@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-28T07:07:54.060352+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "One adult male comic sneeze, a clearly recognizable loud ah-CHOO sneeze. One sneeze only, dry close recording in silence. No words or music.",
+    "duration_seconds": 1.2,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.8
+  },
+  "status": 200,
+  "request_id": null,
+  "sha256": "d230e8aee61016785785454da009d998d999ae9d2026267a940e4b6e4897c5a1"
+}

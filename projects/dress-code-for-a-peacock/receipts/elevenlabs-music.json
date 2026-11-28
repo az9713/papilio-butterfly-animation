@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-28T07:02:09.781514+00:00",
+  "endpoint": "/v1/music",
+  "request": {
+    "prompt": "Fourteen second instrumental fashion comedy. Pizzicato bass, dry bass clarinet, brushed jazz snare, glistening harp. Stately and monochrome at first, a flamboyant color flourish at six seconds, two contradictory final accents at ten and eleven seconds, dry comic pause. No vocals.",
+    "music_length_ms": 14000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "elapsed_seconds": 4.02,
+  "sha256": "4aa1bded9d918261f0b5edd37c694720e68ce4b42f1cc2607d09eb06ec330fc2",
+  "bytes": 337004
+}

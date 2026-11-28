@@ -1,0 +1,40 @@
+{
+  "concept_id": 28,
+  "slug": "letter-wide-enough-to-wear",
+  "title": "A Letter Wide Enough to Wear",
+  "aat": {
+    "term": "jacquard looms",
+    "id": "300023516",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=Jacquard%20looms&logic=AND&note=&english=N&prev_page=1&subjectid=300023516"
+  },
+  "original_pitch": "A weaver needs to send a farewell through a factory that permits only the company pattern. She alters the punched cards so the familiar flowers hold on the face while long floats on the reverse spell a message. Her sister turns the finished cuff inside out.",
+  "selection_justification": "A woven front and reverse can carry two different messages in one material, with the final turn revealing an intimate rebellion.",
+  "adaptation": "A miniature loom interlaces an indigo and copper panel with a prescribed floral face. The panel turns over to reveal BYE on the reverse. Two small wooden hands meet at the cloth.",
+  "story_beats": [
+    "0\u20134 s: loom and prescribed flower pattern",
+    "4\u20139 s: warp and weft interlace",
+    "9\u201312 s: cuff rotates to show the reverse message",
+    "12\u201314 s: two hands meet at the cloth"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1028,
+  "music_prompt": "Fourteen second instrumental textile farewell. Soft mechanical loom rhythm, plucked kora-like strings, breathy flute without voice, restrained cello. Orderly first half, warm bittersweet melody on the turn at ten seconds, tender final two notes. No singing or speech.",
+  "sfx_prompt": "Miniature wooden weaving loom. Clear shuttle strokes, delicate thread tension and soft cloth brushing over fingertips. Slow from steady work into one final gentle pull. No voice or music.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

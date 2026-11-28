@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-28T07:07:52.515191+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "One very delicate precise brass detent click as a small astronomical pointer locks into place. Dry close mechanism only, no ambience, no voice, no music.",
+    "duration_seconds": 0.7,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.8
+  },
+  "status": 200,
+  "request_id": null,
+  "sha256": "233987fd3ad02aede0d663c6a4a68442e1d551b7727142eb83d69667daf79cdb"
+}

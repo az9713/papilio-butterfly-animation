@@ -1,0 +1,40 @@
+{
+  "concept_id": 30,
+  "slug": "water-for-last-balcony",
+  "title": "Water for the Last Balcony",
+  "aat": {
+    "term": "aqueducts",
+    "id": "300006165",
+    "url": "https://www.getty.edu/vow/AATFullDisplay?find=aqueducts&logic=AND&note=&english=N&prev_page=1&subjectid=300006165"
+  },
+  "original_pitch": "A hillside block receives one trickle of water. Each household can keep it or tilt a tile toward the next balcony down. The camera follows the stream all afternoon. On the last balcony a child fills a birdbath, and the bird flies back uphill.",
+  "selection_justification": "A downhill ribbon connects miniature architecture into a collective action, ending with the bird carrying the movement uphill.",
+  "adaptation": "Three households open their gates in sequence to pass a trickle through terracotta channels. Water reaches the dry birdbath on the lowest balcony. A bird drinks, then flies back uphill past the opened gates.",
+  "story_beats": [
+    "0\u20134 s: trickle reaches first gate",
+    "4\u20139 s: three gates pass water downhill",
+    "9\u201311 s: lowest birdbath fills and bird drinks",
+    "11\u201314 s: bird returns uphill above the roofs"
+  ],
+  "duration": 14,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seed": 1030,
+  "music_prompt": "Fourteen second instrumental Mediterranean miniature. Nylon guitar harmonics, warm hand percussion, flute and chamber strings. A sparse trickle grows into an interconnected dancing phrase, a gentle pause for a bird at ten seconds, ascending airy final phrase. No voices.",
+  "sfx_prompt": "A small stream trickles through terracotta channels, three light clay tile taps, water filling a shallow stone birdbath, then one clear small bird chirp and soft wingbeats. No music or speech.",
+  "sfx_start": 0,
+  "sfx_gain": 0.32,
+  "key_times": [
+    0,
+    4,
+    7,
+    10,
+    13.958333
+  ],
+  "status": "source development",
+  "source_inputs": [
+    "source/design.svg",
+    "source/timeline.json"
+  ]
+}

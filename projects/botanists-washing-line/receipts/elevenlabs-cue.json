@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-28T07:07:52.937333+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "One close gentle stream of water rinsing photographic paper in a shallow tray. Clear liquid pour and splash only. No music, no voice.",
+    "duration_seconds": 2.5,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.8
+  },
+  "status": 200,
+  "request_id": null,
+  "sha256": "373babf968c1a9487b7e35664443f3d7cc980c820a067661acb4fdbb7b093f5e"
+}

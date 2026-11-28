@@ -1,0 +1,33 @@
+{
+  "archive": "downloads/dress-code-for-a-peacock-source.zip",
+  "sha256": "15533997e379161fee23377c27190c106e0cf3b28c3f5dcb16fef55c067056c6",
+  "members": {
+    "README.md": "e9e9c863a73cdb27f53b4b66983e3a2759d431264a5ac1efa541e813041e3de0",
+    "player.html": "845c64034c705f5acd2ed7cb2d9afe9de1f62015fd79a27e3dd82d683bfd1bc5",
+    "film.mp4": "d163c742cd827f3c6bdb8b3cbcdb4e014033978f5c65e627a5c352c086d24fdd",
+    "poster.jpg": "2175cbfb3dcf995df4a9ec35390e85af7c622b331c756d81f66b7129ba7f6d45",
+    "screening-frames.jpg": "5be2b60e7926c503cca929ecb4838f2ff04445a5589af64c91d4e60c0e131e80",
+    "assessment.md": "d850f64cadcef2841cd649c28a013d0c5bea2223025a7bff6a8a4b0c70635875",
+    "source/build_scene.py": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce",
+    "source/design.svg": "7842aba392e44f8620c89d4654b7298369f173b0deb4e87fa10a40a60e4fa95a",
+    "source/encode.py": "7f284f8a8a25992b60203772366ab376db3ec468949315f82b7f29800fefdb95",
+    "source/mix_audio.py": "0112d59616c22e2dfc9f899833d7090c5d83cf176ca09bfa81fbb64c2b940a29",
+    "source/rebuild.py": "91a1b4c77761764948b3e5f67883e870ae2f86c540e4329f9a67a1c71380faee",
+    "source/scene.blend": "2ecc3c5a18a0538ddb891fcf69e28ae58b9b12a3ca1c81f0611ad48293395698",
+    "source/timeline.json": "cf823e81162c5925a57f2b8027b0f88487453891173f95228e0cf269dca76744",
+    "audio/mix.wav": "bd39b7813c96457d47fbaddc384d6bdd87fb585c13ceb53cd767cb2d45584d60",
+    "audio/music.mp3": "4aa1bded9d918261f0b5edd37c694720e68ce4b42f1cc2607d09eb06ec330fc2",
+    "audio/sfx.mp3": "a36e16e65b6ecb167be6ca83d0763895181e03c853f08963dc59478eb72adf1a",
+    "receipts/browser-playback.json": "e988cefb1c7f962850dd5800b27e2bf1df30d5ee327f8c1b185460c6e734e336",
+    "receipts/elevenlabs-music.json": "b8b70c9f6f55a46f9dc4a688ba8121e98b50c0e5930d11c7e3e7979cb96cf4c2",
+    "receipts/elevenlabs-sfx.json": "b17fa459c04505c59113b1814f3d585b089ef35b0db04075344be8740a6cf1fa",
+    "receipts/encoded-film.json": "0ad9c6462899ff654498b2e88560fa24d6058db5f6733a5cbeac3efb0ce825b4",
+    "receipts/final-mix.json": "c0fd8da41a291a3ca1172497cbf68e04d50d633a13fdfff4628782fb3ecbc52c",
+    "receipts/mix.json": "283a78aee40aa841d14346caeac964b871c08dd111c3a8fd3ada5d6796817db7",
+    "receipts/preview.json": "6a8b8b8baf3a19e709d4286be0838167ac57bc56c493e723db0cc5951b62e1dd",
+    "receipts/public-scene.json": "f3057ea29830aa3a2634059d3ac976cc01c71c5bdc90388c45fd2ed95c884226",
+    "receipts/render.json": "e31400ad7cadc8a1f31c9e6d820780659b2becd20ad264b6e02bec1fee8868d2",
+    "receipts/scene.json": "45fffb3bebe5561efbf2f5ea1607f506d21758a0299b8afad0b16327a9e1661b"
+  },
+  "scope": "Editable SVG, baked Blender scene, builders, original ElevenLabs stems and receipts. Full frames are regenerated."
+}

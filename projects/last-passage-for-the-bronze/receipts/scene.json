@@ -1,0 +1,21 @@
+{
+  "concept_id": 15,
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "frames": 336,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "svg_roles": [
+    "horse",
+    "vent"
+  ],
+  "svg_sha256": "23f8901c6f3494592d69b3427f4c93360712d9b4df2ecbfdb457fb143754332d",
+  "timeline_sha256": "0676d0a8e8d3358a9ccc9cb4af65770fe42c60715e4c59c19cc0222413cc0c89",
+  "objects": 12,
+  "scene_sha256": "df4254bac931bb92edf93dbd47ee98ecd747ab4281a79bf32215f7fe45e43fd0",
+  "scope": "Baked editable scene. Preview and encoded-film review are separate stages.",
+  "builder_sha256": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce"
+}

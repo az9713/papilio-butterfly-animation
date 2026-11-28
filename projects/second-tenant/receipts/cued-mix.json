@@ -1,0 +1,12 @@
+{
+  "cue": {
+    "start_s": 11.3,
+    "duration_s": 2.4,
+    "gain": 0.6,
+    "prompt": "Three distinct tiny wooden puppet footsteps stepping onto a polished wooden tabletop. Close dry Foley with small clear contact knocks. No voices or music."
+  },
+  "music_gain": 0.68,
+  "effects_bed_gain": 0.15,
+  "mix_sha256": "ccd533edc62e37db2e9db943160d3280598fb2f3c5add8200742d6f607efadd2",
+  "scope": "Signature ElevenLabs effect placed at the declared event time. Original two-stem mix receipt is retained as the preceding iteration."
+}

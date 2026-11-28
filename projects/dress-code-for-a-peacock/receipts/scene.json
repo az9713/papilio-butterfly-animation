@@ -1,0 +1,21 @@
+{
+  "concept_id": 7,
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "frames": 336,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "svg_roles": [
+    "jacket",
+    "lapel"
+  ],
+  "svg_sha256": "7842aba392e44f8620c89d4654b7298369f173b0deb4e87fa10a40a60e4fa95a",
+  "timeline_sha256": "cf823e81162c5925a57f2b8027b0f88487453891173f95228e0cf269dca76744",
+  "objects": 44,
+  "scene_sha256": "2ecc3c5a18a0538ddb891fcf69e28ae58b9b12a3ca1c81f0611ad48293395698",
+  "scope": "Baked editable scene. Preview and encoded-film review are separate stages.",
+  "builder_sha256": "aad376cdc1369502276b45478e79620b707de27dbb15e9c0980ffea16ab0b0ce"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "browser": "Chrome",
+  "surface": "local HTTP project player",
+  "duration": 14,
+  "current_time": 14,
+  "ended": true,
+  "muted": false,
+  "scope": "Complete normal-speed playback through the visible Play with sound control. Story comprehension by a new viewer is unverified."
+}
