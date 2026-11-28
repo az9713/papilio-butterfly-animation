@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "content_commit": "84cebc7ac82a3352176a97652fb6904f8cd6cea8",
+  "repository": "https://github.com/az9713/papilio-butterfly-animation",
+  "site": "https://az9713.github.io/papilio-butterfly-animation/",
+  "deployment": {
+    "run_id": 46117190585,
+    "conclusion": "success",
+    "url": "https://github.com/az9713/papilio-butterfly-animation/actions/runs/46117190585",
+    "pages_build_type": "workflow"
+  },
+  "readmes": [
+    "README.md",
+    "projects/butterfly/README.md",
+    "projects/tooth/README.md"
+  ],
+  "verification": {
+    "butterfly_unit_tests_passed": 16,
+    "generated_html_documents_checked": 19,
+    "local_links_and_assets_checked": 725,
+    "original_butterfly_files_preserved": 288,
+    "concepts_checked": 30,
+    "responsive_browser_layouts_checked": 20,
+    "local_sound_enabled_screenings_completed": 4,
+    "public_source_zip_rebuilt_outside_git": true,
+    "public_source_rebuilt_movies_and_offline_player_byte_identical": true,
+    "canonical_git_tree_build_and_validation_passed": true,
+    "live_http_routes_checked": 17,
+    "live_download_hashes_match": true
+  },
+  "live_chrome_observation": {
+    "hub_heading": "Animation Studio",
+    "peer_project_headings": ["Papilio", "The Tooth That Didn’t Sing"],
+    "tooth_duration_seconds": 16,
+    "tooth_final_current_time_seconds": 16,
+    "tooth_ended": true,
+    "tooth_muted": false,
+    "scope": "Published player completed playback with sound enabled. This playback check does not constitute a new blind audience assessment."
+  },
+  "preservation": {
+    "tooth_accepted_sha256": "f74fbace55b2df53256e07a3df4cfed3fc81dc5d191efca2aa7bda8e69b17b74",
+    "butterfly_accepted_sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+    "animations_changed": false,
+    "original_butterfly_readme_preserved": true
+  },
+  "supporting_receipts": [
+    "publication/migration-baseline.json",
+    "publication/browser-validation.json",
+    "publication/canonical-tree-validation.json",
+    "publication/live-verification.json",
+    "projects/tooth/receipts/public-package-rebuild.json"
+  ]
+}

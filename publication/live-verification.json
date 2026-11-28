@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-11-28T06:35:07.451990+00:00",
+  "site": "https://az9713.github.io/papilio-butterfly-animation/",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 2751,
+      "sha256": "4eb1f02851c3b94151b9c203c237e7d5bb25e110b0b298ec899c4f1de72042b5"
+    },
+    {
+      "path": "projects/butterfly/",
+      "status": 200,
+      "bytes": 23664,
+      "sha256": "9471f241dcc85a5d41d9b38c0aeb23fed7855d43088ec473b705090db0f8a330"
+    },
+    {
+      "path": "projects/tooth/",
+      "status": 200,
+      "bytes": 4831,
+      "sha256": "1e8542244d0c3a24cd8cbacaa2bd7d608fbd0193b9c015d915c2739f4d146078"
+    },
+    {
+      "path": "projects/tooth/README.html",
+      "status": 200,
+      "bytes": 4818,
+      "sha256": "a93f4a65a02cf36fb0317fbd2fc0d703f5252e68bf0a1e6d8ac33b1dcc661944"
+    },
+    {
+      "path": "docs/getty-aat.html",
+      "status": 200,
+      "bytes": 5592,
+      "sha256": "c255b3a8cf50da9bbe15cdbf7972b831dae7444cb783c1ff072350391396a511"
+    },
+    {
+      "path": "docs/rubric.html",
+      "status": 200,
+      "bytes": 7352,
+      "sha256": "0bd1d9cd69177812d6fa92e1187d7c117c976d0794a2140a7f1539f098fa78e3"
+    },
+    {
+      "path": "docs/concepts.html",
+      "status": 200,
+      "bytes": 38609,
+      "sha256": "466ddbc5bc6bf268214a93fa467e7a2375c4cdefdac16b1699f0c5ed4476f782"
+    },
+    {
+      "path": "docs/concepts-archive.html",
+      "status": 200,
+      "bytes": 37131,
+      "sha256": "902e0703cbe04d97da65c28a39455be50612da4a48a9c126925c6b17702f9771"
+    },
+    {
+      "path": "docs/discussion.html",
+      "status": 200,
+      "bytes": 6120,
+      "sha256": "1efa35c6e7cda6250bef3d5fb7b9bdd45f446c09090dd3926f6858fde912b66e"
+    },
+    {
+      "path": "docs/workflow.html",
+      "status": 200,
+      "bytes": 11076,
+      "sha256": "291c8eb3ee17b2e0268ea87581b14ba541086d71bae21bc29705988922990d4e"
+    },
+    {
+      "path": "projects/tooth/assessment.html",
+      "status": 200,
+      "bytes": 5661,
+      "sha256": "e63e0cf9c4a1ffb0eebb599d913475e4fc9b87638142bb1af9df6fb1034d93bf"
+    },
+    {
+      "path": "projects/butterfly/development/",
+      "status": 200,
+      "bytes": 49506,
+      "sha256": "7cea84f37d071cdba01086c3efc175845a441b0823640bcf2dc652ff38e51971"
+    },
+    {
+      "path": "development/",
+      "status": 200,
+      "bytes": 49488,
+      "sha256": "ec6ad756ab0b74085b0b8ac186b9b30f45764a83265d22e0b2f17cb9e7d096d8"
+    },
+    {
+      "path": "projects/tooth/film.mp4",
+      "status": 200,
+      "bytes": 2314747,
+      "sha256": "f74fbace55b2df53256e07a3df4cfed3fc81dc5d191efca2aa7bda8e69b17b74",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/tooth/downloads/tooth-accepted-source.zip",
+      "status": 200,
+      "bytes": 10695424,
+      "sha256": "d58cd7a02e7f90a74fa37889d2905c09cdcfa01dc7e89499543e368f2490f32c",
+      "exact_file_match": true
+    },
+    {
+      "path": "papilio-final-1080p.mp4",
+      "status": 200,
+      "bytes": 6775983,
+      "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/butterfly/papilio-final-1080p.mp4",
+      "status": 200,
+      "bytes": 6775983,
+      "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+      "exact_file_match": true
+    }
+  ],
+  "scope": "Live HTTP routes and byte-identical accepted media/source downloads"
+}
