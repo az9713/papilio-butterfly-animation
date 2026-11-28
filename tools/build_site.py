@@ -11,6 +11,11 @@ SKIP={'.git','.reliability-work','__pycache__','dist','frames'}
 def write_utf8(path,text):
     path.write_bytes(text.encode('utf8'))
 
+def display_text(text):
+    # Repair residual Windows-decoded punctuation in presentation copies while
+    # retaining the tested source archives and their recorded byte identities.
+    return text.replace('\u00e2\u20ac\u2122','\u2019').replace('\u00e2\u20ac\u201c','\u2013').replace('\u00e2\u20ac\u201d','\u2014')
+
 def shell(title,body,depth=0):
     prefix='../'*depth
     return f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -99,7 +104,7 @@ def main():
     # navigation is updated after the studio repository rename.
     for target in list(OUT.rglob('*.html'))+list(OUT.rglob('*.md')):
         page=target.read_text(encoding='utf8')
-        updated=page.replace('https://az9713.github.io/papilio-butterfly-animation/',
+        updated=display_text(page).replace('https://az9713.github.io/papilio-butterfly-animation/',
                              'https://az9713.github.io/svg-3d-animation-studio/')
         updated=updated.replace('https://github.com/az9713/papilio-butterfly-animation',
                                 'https://github.com/az9713/svg-3d-animation-studio')

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "content_commit": "011ee41ccbf4594186220c854d9f87cbaeb9a72d",
+  "repository": "https://github.com/az9713/svg-3d-animation-studio",
+  "gallery": "https://az9713.github.io/svg-3d-animation-studio/anthology.html",
+  "deployment_run": 46123359062,
+  "deployment_conclusion": "success",
+  "new_films": 10,
+  "new_footage_seconds": 140,
+  "format": "1280x720, 24 fps, fourteen seconds per film, 48 kHz stereo",
+  "checks": {
+    "complete_local_chrome_screenings_unmuted": 10,
+    "source_packages_verified_outside_git": 10,
+    "native_space_movie_uploads_hash_matched": 10,
+    "native_space_source_uploads_hash_matched": 10,
+    "native_space_sample_playback_seconds": 14,
+    "native_space_sample_ended": true,
+    "native_space_sample_muted": false,
+    "public_html_documents": 63,
+    "local_links_and_assets": 1208,
+    "live_routes_and_download_hashes": 59,
+    "live_public_sample_playback_seconds": 14,
+    "live_public_sample_ended": true,
+    "live_public_sample_muted": false,
+    "existing_butterfly_unit_tests": 16,
+    "canonical_git_tree_verified": true,
+    "existing_butterfly_and_tooth_movies_unchanged": true
+  },
+  "source_check_scope": "Each ZIP member verified. Retained stems remixed byte for byte. Blender geometry and sampled transforms rebuilt outside Git. A full-resolution hero frame rerendered and compared with encoded footage. The full image sequence was not rerendered in the package test.",
+  "presentation_followup": "Normalize residual Windows-decoded punctuation in served HTML and Markdown. Tested movies, source archives and their hashes remain unchanged.",
+  "assessment_scope": "Author-informed review of stylized miniature adaptations. First-time audience comprehension and audience acceptance remain unverified.",
+  "receipts": [
+    "publication/anthology-verification.json",
+    "publication/anthology-source-tests.json",
+    "publication/anthology-canonical-tree.json",
+    "publication/anthology-space-transfer.json",
+    "publication/live-verification.json"
+  ]
+}

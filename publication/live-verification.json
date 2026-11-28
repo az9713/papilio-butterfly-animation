@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "checked_at_utc": "2026-11-28T06:53:25.722979+00:00",
+  "checked_at_utc": "2026-11-28T07:57:26.422097+00:00",
   "site": "https://az9713.github.io/svg-3d-animation-studio/",
   "checks": [
     {
       "path": "",
       "status": 200,
-      "bytes": 2747,
-      "sha256": "d6446597fa36e9c21eec96011f6334e77c68058f76f7d2be2c56f7906774479f"
+      "bytes": 3100,
+      "sha256": "c475df2050e32ba06d09cd561b5113bd4976e5505ded237930df22921846e1d0"
     },
     {
       "path": "projects/butterfly/",
@@ -82,6 +82,138 @@
       "sha256": "535cca4324fa55a96cdf1ed48905aa1b56095d8a24dc6e6698826bd600a907ee"
     },
     {
+      "path": "anthology.html",
+      "status": 200,
+      "bytes": 5355,
+      "sha256": "2337d735560c1fc9f3db6bce3de1942f95160bcfbe9a6feca74015a1177dce38"
+    },
+    {
+      "path": "docs/anthology.html",
+      "status": 200,
+      "bytes": 9855,
+      "sha256": "35e395f97cbeeebb2565bdda145fdbb9488b18c279290a697e8083a3070d9e3c"
+    },
+    {
+      "path": "projects/whale-in-berth-six/",
+      "status": 200,
+      "bytes": 3612,
+      "sha256": "ff0d8b67ba135210d84ec26be9fdc0722cffd2571857e9072c4ff8d574f1051c"
+    },
+    {
+      "path": "projects/whale-in-berth-six/README.html",
+      "status": 200,
+      "bytes": 3361,
+      "sha256": "35ea100b275d07c9c9872090dee3025e3fa1e56960a9478094d29714d6062067"
+    },
+    {
+      "path": "projects/botanists-washing-line/",
+      "status": 200,
+      "bytes": 3724,
+      "sha256": "6ef73b0cb8d8c208753843f4d9a1b6a8e43e2facf9260e12c068df5ebe6c6596"
+    },
+    {
+      "path": "projects/botanists-washing-line/README.html",
+      "status": 200,
+      "bytes": 3407,
+      "sha256": "abd6edc3a73a42a719249bb8648b784a79c44256fc8d73ac4ad9464766c4739f"
+    },
+    {
+      "path": "projects/sky-has-a-hinge/",
+      "status": 200,
+      "bytes": 3649,
+      "sha256": "5aac86799a867dac1bd4ac56a4ffd4051112bb582202b3975564d0aea6c0afb4"
+    },
+    {
+      "path": "projects/sky-has-a-hinge/README.html",
+      "status": 200,
+      "bytes": 3368,
+      "sha256": "0b9d5a0837c02b75d229462dbec488e5056403548f8b474a48d77a6078326943"
+    },
+    {
+      "path": "projects/dress-code-for-a-peacock/",
+      "status": 200,
+      "bytes": 3727,
+      "sha256": "9a7e1e0470c84c37f489b87c279b6ade892899f182d5e82769c2606fc60ee94a"
+    },
+    {
+      "path": "projects/dress-code-for-a-peacock/README.html",
+      "status": 200,
+      "bytes": 3419,
+      "sha256": "5e098cfaa0061b1c577a6d32dbca3cc4502983f3a317b2ffef7c5ffee83d33ba"
+    },
+    {
+      "path": "projects/his-excellency-the-spill/",
+      "status": 200,
+      "bytes": 3656,
+      "sha256": "099f8a556bcb3d45425953a9991132ebdccea474dde8ad17d7ef586fb47a033c"
+    },
+    {
+      "path": "projects/his-excellency-the-spill/README.html",
+      "status": 200,
+      "bytes": 3380,
+      "sha256": "05f9393887367fc1186a1a9a01b3330d6865277699cc175ae4ba87d73825571b"
+    },
+    {
+      "path": "projects/last-passage-for-the-bronze/",
+      "status": 200,
+      "bytes": 3756,
+      "sha256": "e1252cb587f258e7ce37b068920de94bb850341d6540a2ed6769c36710319263"
+    },
+    {
+      "path": "projects/last-passage-for-the-bronze/README.html",
+      "status": 200,
+      "bytes": 3454,
+      "sha256": "527124cbe7bc09e503ee8601332217eeb3be3cd32de058cc6dae7b80d32dde29"
+    },
+    {
+      "path": "projects/seat-facing-backwards/",
+      "status": 200,
+      "bytes": 3701,
+      "sha256": "4de07273ea41e2149ebc2710c94e9a609640311a6715448b79662ca73cf9ccb9"
+    },
+    {
+      "path": "projects/seat-facing-backwards/README.html",
+      "status": 200,
+      "bytes": 3428,
+      "sha256": "fb6e3b385629604e1f708f29900b006dda3c569bef6752d5f1dd70382639a505"
+    },
+    {
+      "path": "projects/second-tenant/",
+      "status": 200,
+      "bytes": 3644,
+      "sha256": "d573f8054065954edf55cd05520469670c59fcf70369425b2b1d7092651ab8b5"
+    },
+    {
+      "path": "projects/second-tenant/README.html",
+      "status": 200,
+      "bytes": 3364,
+      "sha256": "aed6dfc8bb7665a714f39262ec04b5ebc7e004216f77117605ae835c85b29d24"
+    },
+    {
+      "path": "projects/letter-wide-enough-to-wear/",
+      "status": 200,
+      "bytes": 3691,
+      "sha256": "e21a91d9adb1700682bfef03c8bde7f5fcfbac395fa5844af92d8283b9f99ca7"
+    },
+    {
+      "path": "projects/letter-wide-enough-to-wear/README.html",
+      "status": 200,
+      "bytes": 3389,
+      "sha256": "e4e9ea9434b5c9ec37860697266599be36258b58acf5828f10e279da7b14d7fb"
+    },
+    {
+      "path": "projects/water-for-last-balcony/",
+      "status": 200,
+      "bytes": 3686,
+      "sha256": "cdec26b418226288877c0de8ee87778eeaff6360559ce0b9507b6b5d2c34dbcc"
+    },
+    {
+      "path": "projects/water-for-last-balcony/README.html",
+      "status": 200,
+      "bytes": 3410,
+      "sha256": "80c04a32257e8aa10047cc0f27c52193cf10535ff450894902b2c21b78e72974"
+    },
+    {
       "path": "projects/tooth/film.mp4",
       "status": 200,
       "bytes": 2314747,
@@ -107,6 +239,146 @@
       "status": 200,
       "bytes": 6775983,
       "sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/whale-in-berth-six/film.mp4",
+      "status": 200,
+      "bytes": 2187483,
+      "sha256": "2fd7d16a9b53e6c8b99055ace116c586065701b03ab9c28552161583c88cccf4",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/whale-in-berth-six/downloads/whale-in-berth-six-source.zip",
+      "status": 200,
+      "bytes": 5473554,
+      "sha256": "8408f2a259714e2c4beae13243128119db1315c8bc56a58dca163acbd741fa1f",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/botanists-washing-line/film.mp4",
+      "status": 200,
+      "bytes": 2649600,
+      "sha256": "df241daf2c83e913e1ab604a3f19110c177cedf0afb8e258ffdf4cf627f2beb2",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/botanists-washing-line/downloads/botanists-washing-line-source.zip",
+      "status": 200,
+      "bytes": 5928507,
+      "sha256": "58bf90686cac067a3d8a27b8a562c14f0b8b0ae84e307edfe4e16bd2dd147e6a",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/sky-has-a-hinge/film.mp4",
+      "status": 200,
+      "bytes": 1928334,
+      "sha256": "0cd2fa0deb943217bf37c6a9295e31a593749f0b5835b92a9fe9e7399b2dd2ef",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/sky-has-a-hinge/downloads/sky-has-a-hinge-source.zip",
+      "status": 200,
+      "bytes": 5231252,
+      "sha256": "19a329263fa58bfd1bf7f8aed595633b907b15af7e21671e2380569100447c7f",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/dress-code-for-a-peacock/film.mp4",
+      "status": 200,
+      "bytes": 1647653,
+      "sha256": "d163c742cd827f3c6bdb8b3cbcdb4e014033978f5c65e627a5c352c086d24fdd",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/dress-code-for-a-peacock/downloads/dress-code-for-a-peacock-source.zip",
+      "status": 200,
+      "bytes": 4790226,
+      "sha256": "15533997e379161fee23377c27190c106e0cf3b28c3f5dcb16fef55c067056c6",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/his-excellency-the-spill/film.mp4",
+      "status": 200,
+      "bytes": 2540857,
+      "sha256": "2890b9c489b625bb7c0bf24ae35530cfcc7223673706e1e1877ed97a2183cf37",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/his-excellency-the-spill/downloads/his-excellency-the-spill-source.zip",
+      "status": 200,
+      "bytes": 5839601,
+      "sha256": "f155f3c7fa5702245df0f626e1c39dc7e261fa098001b8266da6aadd64079d3d",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/last-passage-for-the-bronze/film.mp4",
+      "status": 200,
+      "bytes": 1910566,
+      "sha256": "3af87ea2cefe732d87ca4c722f5a0547938dfc302aeaedb2af611ba3b1c8a625",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/last-passage-for-the-bronze/downloads/last-passage-for-the-bronze-source.zip",
+      "status": 200,
+      "bytes": 5105149,
+      "sha256": "24a4ceb7d4f871089a27897d11dc40af027a6f88cdf7bc9550d184dfc8e8b7b0",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/seat-facing-backwards/film.mp4",
+      "status": 200,
+      "bytes": 2013392,
+      "sha256": "ab82ff2756e9151a3e4901780083d4db7b213724f02cd05f30210a23c42bfa63",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/seat-facing-backwards/downloads/seat-facing-backwards-source.zip",
+      "status": 200,
+      "bytes": 5319110,
+      "sha256": "400e174e9b51cc6d955907d5e331c4ce5b46af8facac3f9bc5fe340960dd425f",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/second-tenant/film.mp4",
+      "status": 200,
+      "bytes": 2451619,
+      "sha256": "9447252d1639069b0a26bdd15c8d947b5a27b6e7db3ab21fb8c44ebddc704b53",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/second-tenant/downloads/second-tenant-source.zip",
+      "status": 200,
+      "bytes": 5929404,
+      "sha256": "6dfcfa008f8a3f2a3ee4bbce0514f5a3063abf7052089872554d50cd0fd5f5e4",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/letter-wide-enough-to-wear/film.mp4",
+      "status": 200,
+      "bytes": 3873052,
+      "sha256": "7440734310ee254bab5e464f3c397a7facde448343fb55744bee4f86ee617b81",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/letter-wide-enough-to-wear/downloads/letter-wide-enough-to-wear-source.zip",
+      "status": 200,
+      "bytes": 7226667,
+      "sha256": "5d3cfa2a9b021025b0498b9f238066e54ef42199c47b4f3bbe33e8997a49e6b0",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/water-for-last-balcony/film.mp4",
+      "status": 200,
+      "bytes": 4274775,
+      "sha256": "4618ffaf902dd5cf94aa9482936ff59f9d3510acd2b3246f532a4ee05bcf2080",
+      "exact_file_match": true
+    },
+    {
+      "path": "projects/water-for-last-balcony/downloads/water-for-last-balcony-source.zip",
+      "status": 200,
+      "bytes": 7721340,
+      "sha256": "faa603bce289e69c7dd37959cf8426be8e0b2e5fc8c8f5d31554677395af5098",
       "exact_file_match": true
     }
   ],
