@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-28T04:10:05.885843+00:00",
+  "endpoint": "POST /v1/music",
+  "request": {
+    "prompt": "A restrained fifteen-second instrumental underscore for an intimate watchmaker's workshop film. A soft sustained felted viola and low harmonium air, warm D minor open fifth drone. Sparse, almost still, tender and close-miked. No pulses, no chimes, no music-box sounds, no melody in foreground, no singing, no percussion. Gently thin out toward silence at the end.",
+    "music_length_ms": 15000,
+    "model_id": "music_v2",
+    "force_instrumental": true
+  },
+  "status": 200,
+  "request_id": null,
+  "content_type": "audio/mpeg",
+  "sha256": "10d4f5febbf13867b6274ecd6e49bdf44247b924c41d889c231a71fa31deea25"
+}

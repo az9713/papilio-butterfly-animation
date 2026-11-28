@@ -22,3 +22,6 @@ source-manifest.json
 publication-check.json
 .reliability-work/
 dist/
+_site/
+.publication-work/
+!projects/tooth/downloads/*.zip

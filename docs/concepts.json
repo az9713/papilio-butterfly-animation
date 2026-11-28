@@ -1,0 +1,677 @@
+{
+  "dimensions": [
+    "Intent",
+    "Appearance",
+    "Motion",
+    "Delivery",
+    "Editability"
+  ],
+  "ranking": "New ordinal Pareto-front comparison of the original forecasts. Members of each front are tied.",
+  "original_prototype_shortlist": [
+    22,
+    1,
+    10
+  ],
+  "concepts": [
+    {
+      "id": 1,
+      "title": "The Whale in Berth Six",
+      "experience": "Discovery",
+      "cause": "Perception",
+      "aat": {
+        "term": "anamorphoses",
+        "id": "300033725",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=anamorphoses&logic=AND&note=&english=N&prev_page=1&subjectid=300033725"
+      },
+      "pitch": "A surveyor follows white scuffs through an abandoned dry dock. From the height of a departing deckhand’s eye, marks on six separate cranes join into a life-size whale. One step down the gangplank takes it apart.",
+      "justification": "One continuous camera move assembles and disperses a whale. The alignment must hold long enough to read.",
+      "first_test": "Project a single whale outline backward onto a rigged dock. Test whether the eye socket snaps into place in one uncut camera move.",
+      "forecast": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 2,
+      "title": "Waltz for a Floorboard",
+      "experience": "Discovery",
+      "cause": "Performed gesture",
+      "aat": {
+        "term": "rubbings (visual works)",
+        "id": "300103035",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=rubbings&logic=AND&note=&english=N&prev_page=1&subjectid=300103035"
+      },
+      "pitch": "A girl makes graphite rubbings of a dance floor. Two dark crescents repeat at a distance she can just span with her feet. She tries the worn steps and discovers where one partner always stopped to let the other turn.",
+      "justification": "A dancer can recover a relationship from worn floorboards. Faint graphite marks and small foot pivots may disappear on a phone.",
+      "first_test": "Map pressure to graphite density. Animate just the shoes and paper until the last pivot reads as an invitation.",
+      "forecast": [
+        4,
+        3,
+        4,
+        2,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 3,
+      "title": "The Botanist’s Washing Line",
+      "experience": "Discovery",
+      "cause": "Material change",
+      "aat": {
+        "term": "cyanotypes (photographic prints)",
+        "id": "300134811",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=cyanotypes&logic=AND&note=&english=N&prev_page=1&subjectid=300134811"
+      },
+      "pitch": "A gust steals every pressed specimen from a botanist’s exposure paper. She thinks she has lost a summer’s work. In the wash, pale leaf outlines survive inside a blue field. One tiny many-legged outline identifies the stowaway that ate the collection.",
+      "justification": "The cyan-blue wash and pale insect silhouette make a distinctive reveal. Separate exposure masks make revisions inexpensive.",
+      "first_test": "Animate contact masks, exposure and a rinse. Give the culprit a silhouette legible beside a single leaf.",
+      "forecast": [
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 4,
+      "title": "The Sky Has a Hinge",
+      "experience": "Discovery",
+      "cause": "Mechanism",
+      "aat": {
+        "term": "astrolabes",
+        "id": "300195790",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=astrolabes&logic=AND&note=&english=N&prev_page=1&subjectid=300195790"
+      },
+      "pitch": "An apprentice finds a brass fragment in a drawer of clock pieces. It fits no clock. Against the night sky she turns its pierced star map over a latitude plate. The marks meet the horizon just as the missing star rises over the workshop roof.",
+      "justification": "The star rising at the brass pointer is a beautiful, verifiable payoff. Viewers must first understand what the apprentice predicted.",
+      "first_test": "Drive one rete and one sky from the same sky coordinates. Test the prediction with a single star and a fixed latitude.",
+      "forecast": [
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 5,
+      "title": "Forty Minutes Wide",
+      "experience": "Discovery",
+      "cause": "Formal rule",
+      "aat": {
+        "term": "cartograms",
+        "id": "300028367",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=cartograms&logic=AND&note=&english=N&prev_page=1&subjectid=300028367"
+      },
+      "pitch": "Two maternity wards are equally far from a village on a wall map. As a midwife counts the journey in minutes, the bridge queue swells to the size of a county. A ferry route that looked absurd on the distance map becomes the shortest crossing on the time map. She takes it.",
+      "justification": "Travel time changes the midwife’s decision. A moving map risks losing viewers’ spatial bearings, even with a sound underlying model.",
+      "first_test": "Deform SVG districts by a declared travel-time measure. Preserve the village and both destinations so the audience can compare routes.",
+      "forecast": [
+        4,
+        3,
+        3,
+        2,
+        4
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 6,
+      "title": "The Vote of the Tiles",
+      "experience": "Discovery",
+      "cause": "Collective action",
+      "aat": {
+        "term": "mosaics (visual works)",
+        "id": "300015342",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=mosaics&logic=AND&note=&english=N&prev_page=1&subjectid=300015342"
+      },
+      "pitch": "Thirty tile setters receive a palm-sized patch of a commission. Each quietly turns one tile toward a person outside the official portrait. When the scaffolding falls, every painted gaze points off-frame. We finally pan to the woman who mixed the mortar.",
+      "justification": "The dignitaries collectively looking at the mortar mixer makes a strong political image. A tiny change in each eye must register at mural scale.",
+      "first_test": "Give each setter one editable tile orientation. Test the collective gaze at portrait distance before animating the workers.",
+      "forecast": [
+        4,
+        4,
+        3,
+        2,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 7,
+      "title": "Dress Code for a Peacock",
+      "experience": "Comedy",
+      "cause": "Perception",
+      "aat": {
+        "term": "iridescence",
+        "id": "300056212",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=iridescence&logic=AND&note=&english=N&prev_page=1&subjectid=300056212"
+      },
+      "pitch": "At a monochrome banquet a guest’s beetle-shell jacket looks regulation black to the doorman and scandalously green to the hostess. Both walk around him to prove their case. The guest never moves and is eventually awarded best dressed and ejected in the same shot.",
+      "justification": "Iridescence lets two witnesses truthfully disagree. Color alone can carry only so much comic escalation.",
+      "first_test": "Keep the jacket fixed. Light two viewing angles and make the cut between witnesses carry the joke.",
+      "forecast": [
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 8,
+      "title": "The Understudy Upstairs",
+      "experience": "Comedy",
+      "cause": "Performed gesture",
+      "aat": {
+        "term": "marionettes (stringed puppets)",
+        "id": "300211126",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=marionettes&logic=AND&note=&english=N&prev_page=1&subjectid=300211126"
+      },
+      "pitch": "A puppet forgets a bow. Above it, a sweating puppeteer demonstrates. The puppet applauds him, then pulls down its own control bar and begins giving notes. The audience below can still see only two perfectly polished shoes.",
+      "justification": "A puppet judging its puppeteer is a strong performance reversal. String tension, hand contact, and two sightlines make retiming costly.",
+      "first_test": "Rig the control bar as a movable prop. Sell the reversal with a pause long enough for the puppet to judge its operator.",
+      "forecast": [
+        4,
+        3,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 9,
+      "title": "His Excellency the Spill",
+      "experience": "Comedy",
+      "cause": "Material change",
+      "aat": {
+        "term": "marbling",
+        "id": "300053812",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=marbling&logic=AND&note=&english=N&prev_page=1&subjectid=300053812"
+      },
+      "pitch": "A court painter combs floating pigment into a minister’s majestic profile. A sneeze gives him three chins. The minister storms in. His reflection in the tray supplies a fourth. The printer takes an impression before anyone can object.",
+      "justification": "A sneeze, a fluid caricature, and the minister’s reflection must coincide. The visual comedy is strong and difficult to revise locally.",
+      "first_test": "Advect a two-color profile with comb strokes. Build the gag around the instant paper fixes the accident.",
+      "forecast": [
+        3,
+        4,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 10,
+      "title": "One Fare, Eight Feet",
+      "experience": "Comedy",
+      "cause": "Mechanism",
+      "aat": {
+        "term": "turnstiles",
+        "id": "300002029",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=turnstiles&logic=AND&note=&english=N&prev_page=1&subjectid=300002029"
+      },
+      "pitch": "An octopus has paid exactly one fare. Each arm that reaches for the exit rotates the turnstile and sends a different arm back to the entrance. It finally curls into a ball and lets the one irritated passenger behind it push.",
+      "justification": "One commuter, one rotor, and eight arms can carry the entire gag in a silent wide shot. Limb separation is the staging challenge.",
+      "first_test": "Prototype an indexed rotor and three arms first. The audience must understand the obstruction before the escalation to eight.",
+      "forecast": [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 11,
+      "title": "Terms of Surrender",
+      "experience": "Comedy",
+      "cause": "Formal rule",
+      "aat": {
+        "term": "contracts",
+        "id": "300027649",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=contracts&logic=AND&note=&english=N&prev_page=1&subjectid=300027649"
+      },
+      "pitch": "Two rival magicians negotiate duel terms. Every crossed-out noun vanishes its referent from the room. Out go the swords, rabbits, hats, and eventually the door. Each magician must persuade the other to initial the reinstatement of the pencil.",
+      "justification": "Crossing out a noun removes its prop. The rule supports genuine escalation and gives the production a clean word-to-object mapping.",
+      "first_test": "Bind each prop to a word in an SVG contract. Keep both faces and the endangered pencil in one composition.",
+      "forecast": [
+        4,
+        3,
+        3,
+        3,
+        4
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 12,
+      "title": "The Laugh That Missed Its Cue",
+      "experience": "Comedy",
+      "cause": "Collective action",
+      "aat": {
+        "term": "amphitheaters (built works)",
+        "id": "300007128",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=amphitheaters&logic=AND&note=&english=N&prev_page=1&subjectid=300007128"
+      },
+      "pitch": "A comedian whispers a joke to the front row. Laughter travels seat by seat the long way round the bowl. Back at the stage it lands halfway through a solemn marriage proposal. One spectator is still earnestly explaining the original joke.",
+      "justification": "A wave of responding shoulders makes social delay visible. The marriage proposal needs enough setup to make the mistimed laugh matter.",
+      "first_test": "Use a seating graph with human response delays. Make the laugh visible in shoulders so its trajectory reads muted.",
+      "forecast": [
+        3,
+        3,
+        4,
+        3,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 13,
+      "title": "The Color of the Exit",
+      "experience": "Suspense",
+      "cause": "Perception",
+      "aat": {
+        "term": "afterimages",
+        "id": "300056327",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=afterimages&logic=AND&note=&english=N&prev_page=1&subjectid=300056327"
+      },
+      "pitch": "A lighthouse keeper stares at a red lamp before the power fails. A pale afterimage follows her gaze across a grey corridor. She mistakes it for an exit sign until she turns her head and the sign follows her onto a blank wall.",
+      "justification": "An apparent exit that follows the keeper’s gaze is a persuasive perceptual trap. Low contrast is a delivery risk in a dark corridor.",
+      "first_test": "Composite the perceptual effect in the character’s gaze coordinates. The viewer can witness the illusion without having to experience it physiologically.",
+      "forecast": [
+        3,
+        4,
+        4,
+        2,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 14,
+      "title": "Eight Counts Without a Floor",
+      "experience": "Suspense",
+      "cause": "Performed gesture",
+      "aat": {
+        "term": "choreography",
+        "id": "300255715",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=choreography&logic=AND&note=&english=N&prev_page=1&subjectid=300255715"
+      },
+      "pitch": "Two dancers rehearse on a stage whose sections descend one count behind each footfall. A dancer misses a count. Her partner repeats the error on purpose, converting a missed step into a duet that gets them both to the wings.",
+      "justification": "A dancer intentionally repeating a partner’s mistake turns timing into an act of rescue. Footfalls and descending panels are tightly coupled.",
+      "first_test": "Rig pressure-triggered platforms and an eight-count score. The critical test is whether the rescuing dancer’s decision reads before the landing.",
+      "forecast": [
+        4,
+        3,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 15,
+      "title": "The Last Passage for the Bronze",
+      "experience": "Suspense",
+      "cause": "Material change",
+      "aat": {
+        "term": "lost-wax process",
+        "id": "300053113",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=lost-wax%20casting&logic=AND&note=&english=N&prev_page=1&subjectid=300053113"
+      },
+      "pitch": "Inside a mold for a bronze horse, molten metal advances through the cavity the wax left behind. A tiny pocket of air retreats ahead of it. At the horse’s highest ear the air finds its vent, an instant before the two metal fronts close the passage.",
+      "justification": "A trapped air pocket gives us a chase inside a sculpture. Changes to the horse, vent, or fill timing can invalidate the whole route.",
+      "first_test": "Build the horse as a negative volume with gates and vents. Follow the last air pocket in a stylized cutaway checked against the mold layout.",
+      "forecast": [
+        3,
+        4,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 16,
+      "title": "The Longest Grain",
+      "experience": "Suspense",
+      "cause": "Mechanism",
+      "aat": {
+        "term": "hourglasses",
+        "id": "300198626",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=hourglasses&logic=AND&note=&english=N&prev_page=1&subjectid=300198626"
+      },
+      "pitch": "An auction closes when the last grain drops. With the hammer raised, a few grains jam in the neck. Nobody dares breathe. A losing bidder’s pulse jiggles the table just enough to settle the sale.",
+      "justification": "A pulse travels through cuff, table, glass, and grains. The film depends on making that tiny causal chain readable at ordinary viewing size.",
+      "first_test": "Animate a visible granular arch and its collapse. Let the heartbeat travel through a cuff, tabletop and glass before the hammer moves.",
+      "forecast": [
+        3,
+        4,
+        4,
+        2,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 17,
+      "title": "The Rest at Bar Ninety",
+      "experience": "Suspense",
+      "cause": "Formal rule",
+      "aat": {
+        "term": "musical notation",
+        "id": "300417622",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=musical%20notation&logic=AND&note=&english=N&prev_page=1&subjectid=300417622"
+      },
+      "pitch": "During a live broadcast a page-turner spots a missing rest in the percussion part. Across the stage the soloist is about to begin an unaccompanied note. The page-turner has one bar to get the drummer to lift his mallet and hold it there.",
+      "justification": "A withheld crash can be a powerful climax. One tempo map can keep the score, conductor, page-turner, and mallet in sync through revisions.",
+      "first_test": "Make the conductor, score cursor and mallet share a tempo map. The climax is the audible breath where a crash was expected.",
+      "forecast": [
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 18,
+      "title": "The Sound of One Marble",
+      "experience": "Suspense",
+      "cause": "Collective action",
+      "aat": {
+        "term": "voting marbles",
+        "id": "300432336",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=votes&logic=AND&note=&english=N&prev_page=1&subjectid=300432336"
+      },
+      "pitch": "A cooperative votes by dropping marbles into concealed channels. A stuck marble could decide whether the night shift keeps its jobs. Workers on opposite sides gradually stop arguing to hear which of two differently pitched boxes it lands in.",
+      "justification": "A group trained to recognize two pitches can hear its future in one impact. The result is harder to convey on weak speakers or muted playback.",
+      "first_test": "Stage a fictional ballot with two resonant boxes. Establish both pitches early, then let the final reaction reveal the result to a silent viewer too.",
+      "forecast": [
+        4,
+        3,
+        3,
+        2,
+        3
+      ],
+      "pareto_front": 4
+    },
+    {
+      "id": 19,
+      "title": "The Seat Facing Backwards",
+      "experience": "Elegy",
+      "cause": "Perception",
+      "aat": {
+        "term": "panorama boxes",
+        "id": "300266498",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=panoramas&logic=AND&note=&english=N&prev_page=1&subjectid=300266498"
+      },
+      "pitch": "A widow cranks a hand-painted train journey past the window of a panorama box. Her late husband painted only the view from his seat. At their station she lets the crank run on, hoping to see herself waiting. The last handspan is bare linen.",
+      "justification": "Bare linen at the end of a painted train journey gives grief a physical limit. A finite scroll makes the reveal easy to retime and reproduce.",
+      "first_test": "Paint a finite scroll with a visible stitched end. Time its last few turns to the hand losing the strength to wind.",
+      "forecast": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 20,
+      "title": "The Duet in the Margin",
+      "experience": "Elegy",
+      "cause": "Performed gesture",
+      "aat": {
+        "term": "dance notation",
+        "id": "300417623",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=dance%20notation&logic=AND&note=&english=N&prev_page=1&subjectid=300417623"
+      },
+      "pitch": "An aging dancer reads a duet from a movement score. She can still perform her own part. When the lift arrives, she makes only the adjustments her feet once made under her partner’s weight. Those half-steps let us see exactly where he was.",
+      "justification": "Ankle adjustments could make an absent partner’s weight palpable. Subtle acting, close framing, and contact mechanics leave little margin for error.",
+      "first_test": "Keep the absent partner as a hidden animation reference. Test the lift using only the surviving dancer’s ankles and balance.",
+      "forecast": [
+        4,
+        3,
+        4,
+        2,
+        2
+      ],
+      "pareto_front": 4
+    },
+    {
+      "id": 21,
+      "title": "Where the Thumb Went",
+      "experience": "Elegy",
+      "cause": "Material change",
+      "aat": {
+        "term": "patina (condition)",
+        "id": "300065245",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=patina&logic=AND&note=&english=N&prev_page=1&subjectid=300065245"
+      },
+      "pitch": "A bronze station dog has one bright ear polished by commuters’ thumbs. The station closes. Seasons darken that final bright patch. On the last day of demolition, an old commuter rubs the wrong ear, pauses, and finds the right one by touch.",
+      "justification": "One polished bronze ear records years of affection. The commuter touching the wrong ear gives the material study a human ending.",
+      "first_test": "Drive surface change with a contact history and weathering mask. Hold the camera close enough for the mistaken touch to register.",
+      "forecast": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 22,
+      "title": "The Tooth That Didn’t Sing",
+      "experience": "Elegy",
+      "cause": "Mechanism",
+      "aat": {
+        "term": "music boxes",
+        "id": "300042659",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=music%20boxes&logic=AND&note=&english=N&prev_page=1&subjectid=300042659"
+      },
+      "pitch": "A music-box repairer replaces a broken comb tooth. The restored melody sounds wrong to her elderly customer, who has sung the missing note himself for sixty years. She removes the repair. On the next turn he draws breath exactly on time.",
+      "justification": "The same missing note changes meaning across three performances. One editable musical phrase can control the mechanism, sound, and breath.",
+      "first_test": "Drive pins, comb and audio from one cylinder. Record both versions of the tune so the audience learns the gap before the repair.",
+      "forecast": [
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 23,
+      "title": "Rent Ledger, Lullaby",
+      "experience": "Elegy",
+      "cause": "Formal rule",
+      "aat": {
+        "term": "palimpsests (manuscripts)",
+        "id": "300028576",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=palimpsests&logic=AND&note=&english=N&prev_page=1&subjectid=300028576"
+      },
+      "pitch": "A clerk writes rent arrears over a scraped sheet of music. Centuries later a reader sings the surviving syllables through the accounts. Where the old words have vanished, she sings the tenants’ names, giving both layers of writing a voice.",
+      "justification": "Singing tenants’ names through a scraped musical manuscript is affecting. Simultaneous reading and listening places a heavy demand on the viewer.",
+      "first_test": "Register two SVG text layers to one warped page. Compose a line that can be sung through either layer without inventing an archival claim.",
+      "forecast": [
+        4,
+        4,
+        3,
+        2,
+        3
+      ],
+      "pareto_front": 3
+    },
+    {
+      "id": 24,
+      "title": "The Corner Where He Waited",
+      "experience": "Elegy",
+      "cause": "Collective action",
+      "aat": {
+        "term": "funeral processions",
+        "id": "300404873",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=processions&logic=AND&note=&english=N&prev_page=1&subjectid=300404873"
+      },
+      "pitch": "A funeral procession takes a bus driver’s old route. At each stop one mourner instinctively steps aside to let somebody board. At the terminus the whole line stands clear of a door that will never open.",
+      "justification": "Mourners stepping aside can draw an absent bus doorway. The gesture must become familiar before the final wide shot.",
+      "first_test": "Stage repeated transfers of right-of-way across a moving crowd. Save the wide shot for the moment the empty doorway takes shape.",
+      "forecast": [
+        4,
+        3,
+        4,
+        3,
+        3
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 25,
+      "title": "The Second Tenant",
+      "experience": "Liberation",
+      "cause": "Perception",
+      "aat": {
+        "term": "lenticular photographs",
+        "id": "300451699",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=lenticular%20photographs&logic=AND&note=&english=N&prev_page=1&subjectid=300451699"
+      },
+      "pitch": "A child in a lenticular family portrait spends her life switching between two poses as visitors pass. A cleaner lifts the frame and rocks it slowly. In the sliver between the approved views the child takes one unauthorized step out of line.",
+      "justification": "A child’s unauthorized step between two portrait poses neatly embodies agency. The brief intermediate view may look like a playback glitch.",
+      "first_test": "Interlace angular views with one deliberately authored intermediate pose. The cleaner’s change of pace must be enough to reveal it.",
+      "forecast": [
+        4,
+        4,
+        4,
+        2,
+        3
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 26,
+      "title": "Room for Two",
+      "experience": "Liberation",
+      "cause": "Performed gesture",
+      "aat": {
+        "term": "body masks",
+        "id": "300264252",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=masks&logic=AND&note=&english=N&prev_page=1&subjectid=300264252"
+      },
+      "pitch": "A parade monster too big for its young performer keeps stumbling. From inside, we see the child open a seam and beckon to a sidelined friend. Four legs find a new gait. The frightening monster becomes the first creature in the parade that can dance sideways.",
+      "justification": "Two children negotiating a sideways gait can turn a monster into a friendship. Bodies, cloth, and the costume shell complicate revision.",
+      "first_test": "Design an original secular costume from the inside out. Animate the two bodies first and fit the flexible shell around their negotiated stride.",
+      "forecast": [
+        4,
+        4,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 2
+    },
+    {
+      "id": 27,
+      "title": "The Seed That Lifted the Caption",
+      "experience": "Liberation",
+      "cause": "Material change",
+      "aat": {
+        "term": "germination boxes",
+        "id": "300424895",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=germination&logic=AND&note=&english=N&prev_page=1&subjectid=300424895"
+      },
+      "pitch": "At a seed trial, one transparent box is marked FAILED. Long after the inspectors leave, a late shoot emerges beneath the loose paper label and tips it into the light. The growing stem carries its own verdict upward like a little flag.",
+      "justification": "A late shoot lifting its FAILED label is immediate, silent, and easy to reproduce. Its single movement offers limited choreographic range.",
+      "first_test": "Use a time-lapse growth curve and contact with a paper strip. Keep the label light and the displacement small enough to be believable.",
+      "forecast": [
+        4,
+        3,
+        3,
+        4,
+        4
+      ],
+      "pareto_front": 1
+    },
+    {
+      "id": 28,
+      "title": "A Letter Wide Enough to Wear",
+      "experience": "Liberation",
+      "cause": "Mechanism",
+      "aat": {
+        "term": "jacquard looms",
+        "id": "300023516",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=Jacquard%20looms&logic=AND&note=&english=N&prev_page=1&subjectid=300023516"
+      },
+      "pitch": "A weaver needs to send a farewell through a factory that permits only the company pattern. She alters the punched cards so the familiar flowers hold on the face while long floats on the reverse spell a message. Her sister turns the finished cuff inside out.",
+      "justification": "A genuine woven message would be exceptional. Legibility at cuff scale and the need for one valid two-sided weave are substantial risks.",
+      "first_test": "Generate front and back from one weave draft. First test whether a single concealed letter can coexist with the face motif.",
+      "forecast": [
+        4,
+        4,
+        3,
+        2,
+        2
+      ],
+      "pareto_front": 4
+    },
+    {
+      "id": 29,
+      "title": "Carry the One",
+      "experience": "Liberation",
+      "cause": "Formal rule",
+      "aat": {
+        "term": "abaci (calculators)",
+        "id": "300263522",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=abacuses&logic=AND&note=&english=N&prev_page=1&subjectid=300263522"
+      },
+      "pitch": "A child at a tollhouse watches a family counted twice. Unable to read the ledger, she repeats the clerk’s calculation on a public abacus, one bead per passenger. At the carry, everyone sees the overcharge. The gatekeeper returns a coin.",
+      "justification": "The audience can verify the overcharge independently. To feel the payoff, viewers must learn the abacus convention while following the drama.",
+      "first_test": "Encode one consistent abacus convention. Stage the exchange around two representations of the same count that a viewer can independently check.",
+      "forecast": [
+        3,
+        3,
+        3,
+        2,
+        4
+      ],
+      "pareto_front": 4
+    },
+    {
+      "id": 30,
+      "title": "Water for the Last Balcony",
+      "experience": "Liberation",
+      "cause": "Collective action",
+      "aat": {
+        "term": "aqueducts",
+        "id": "300006165",
+        "url": "https://www.getty.edu/vow/AATFullDisplay?find=aqueducts&logic=AND&note=&english=N&prev_page=1&subjectid=300006165"
+      },
+      "pitch": "A hillside block receives one trickle of water. Each household can keep it or tilt a tile toward the next balcony down. The camera follows the stream all afternoon. On the last balcony a child fills a birdbath, and the bird flies back uphill.",
+      "justification": "An afternoon-long descent answered by a bird’s rapid return is a strong visual rhyme. Regrading one channel can affect every scene downstream.",
+      "first_test": "Give the channels a continuous downhill profile and each household one independent gate. Test the chain with gravity, three tiles and a single bird.",
+      "forecast": [
+        4,
+        4,
+        4,
+        3,
+        2
+      ],
+      "pareto_front": 2
+    }
+  ]
+}

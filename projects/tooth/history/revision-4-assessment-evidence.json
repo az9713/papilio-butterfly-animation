@@ -1,0 +1,50 @@
+{
+  "movie": "The Tooth - revised.mp4",
+  "sha256": "276d688728494bc136cd7d9334136a0de0673e4646565bd0c1db91bfa4e30bf8",
+  "audio_windows": [
+    {
+      "name": "First hum",
+      "start_s": 4.375,
+      "end_s": 5.675,
+      "rms": 0.3486688435077667,
+      "energy_fraction_above_1000_hz": 0.0007257401011884212
+    },
+    {
+      "name": "Breath before his line",
+      "start_s": 9.97,
+      "end_s": 10.3,
+      "rms": 0.1106867864727974,
+      "energy_fraction_above_1000_hz": 0.22889359295368195
+    },
+    {
+      "name": "Spoken line",
+      "start_s": 10.65,
+      "end_s": 11.76,
+      "rms": 0.14738750457763672,
+      "energy_fraction_above_1000_hz": 0.13992221653461456
+    },
+    {
+      "name": "Final breath",
+      "start_s": 15.5,
+      "end_s": 15.99,
+      "rms": 0.1256738007068634,
+      "energy_fraction_above_1000_hz": 0.38242828845977783
+    }
+  ],
+  "protected_files_unchanged": {
+    "The Tooth - revised.mp4": "276d688728494bc136cd7d9334136a0de0673e4646565bd0c1db91bfa4e30bf8",
+    "mix.wav": "51db1cbbf2b34d06017508e733905788a0b7d6cbfe1005eae4ba20dbef9e4b14",
+    "cut.py": "d3a0373c5a64f47760847792378c6e1de5be566e46c06769d5c932c2c786cdac",
+    "sound_revision.py": "c017bb7ce4e570d67179a0ffc826bf9f9e8e1d9a666b73b41be042b717b84d72",
+    "Revised-source.zip": "531954f619bb70b88df3daefb91824b7a0da513d03649da0d2d38974807a726d",
+    "Reaction-asset.zip": "f9dff41f818fad688aa3155941a58581821b04d8bf2c3319a87b2a11eee962a5"
+  },
+  "review_limit": "Author-informed review. No new blind audience test. Viewer reports hissing in later close-ups.",
+  "scores": {
+    "Intent": 2,
+    "Appearance": 3,
+    "Motion": 2,
+    "Delivery": 2,
+    "Editability": 2
+  }
+}

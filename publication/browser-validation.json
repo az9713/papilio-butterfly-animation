@@ -1,0 +1,150 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "path": "",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "docs/getty-aat.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "docs/rubric.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "docs/workflow.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "docs/discussion.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "docs/concepts.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "projects/tooth/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "projects/tooth/README.html",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "projects/butterfly/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "projects/butterfly/development/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "docs/getty-aat.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "docs/rubric.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "docs/workflow.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "docs/discussion.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "docs/concepts.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "projects/tooth/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "projects/tooth/README.html",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "projects/butterfly/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "projects/butterfly/development/",
+      "passed": true
+    }
+  ],
+  "catalog": {
+    "1440": {
+      "all": 30,
+      "first_front": 6,
+      "first_front_elegy": 2
+    },
+    "390": {
+      "all": 30,
+      "first_front": 6,
+      "first_front_elegy": 2
+    }
+  },
+  "playback": [
+    {
+      "choice": 0,
+      "duration": 16,
+      "ended": true,
+      "muted": false,
+      "error": null
+    },
+    {
+      "choice": 1,
+      "duration": 4.75,
+      "ended": true,
+      "muted": false,
+      "error": null
+    },
+    {
+      "choice": 2,
+      "duration": 4.916667,
+      "ended": true,
+      "muted": false,
+      "error": null
+    },
+    {
+      "choice": 3,
+      "duration": 6.333333,
+      "ended": true,
+      "muted": false,
+      "error": null
+    }
+  ],
+  "browser": "158.0.4370.45",
+  "legacy_anchor_redirect": true,
+  "passed": true,
+  "tooth_sha256": "f74fbace55b2df53256e07a3df4cfed3fc81dc5d191efca2aa7bda8e69b17b74"
+}

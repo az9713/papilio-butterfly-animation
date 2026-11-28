@@ -1,0 +1,26 @@
+{
+  "endpoint": "POST /v1/text-to-speech",
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "name": "George - Warm, Captivating Storyteller",
+    "labels": {
+      "age": "middle_aged",
+      "accent": "british",
+      "descriptive": "mature",
+      "use_case": "narrative_story",
+      "language": "en",
+      "gender": "male"
+    },
+    "description": "Warm resonance that instantly captivates listeners."
+  },
+  "request": {
+    "text": "[sad] That was my part.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    }
+  },
+  "status": 200,
+  "sha256": "8f53481978bebfd292b3aa72f27e287a7fb22d036859296518136ef44edb1586"
+}

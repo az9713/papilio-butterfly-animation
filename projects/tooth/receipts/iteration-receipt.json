@@ -1,0 +1,36 @@
+{
+  "revision": 5,
+  "requested_outcome": "Within 16 seconds, show a sung note, an interrupted attempt and the same note reclaimed after removal; remove hissing",
+  "creative_changes": [
+    "Generate a dedicated sung ah with ElevenLabs and tune its median pitch to D4 with preserved formants",
+    "Use the same prepared 1.2 second recording for the first and returned note",
+    "Cut the middle vocal after the metal cadence enters",
+    "Coordinate open jaw, stopped jaw, lowered head and returned singing with a shared timeline",
+    "Remove the filtered-noise breath generators from this mix",
+    "Retain the short customer line and repairer's concerned reaction"
+  ],
+  "mix_iterations": [
+    {
+      "pass": 1,
+      "test": "Encoded attempted vocal correlation above 0.96",
+      "observed": 0.9472058348479835,
+      "finding": "A previous box note's tail overlapped the attempted vocal",
+      "repair": "Attenuate box accompaniment before the interrupting cadence"
+    },
+    {
+      "pass": 2,
+      "test": "Encoded dialogue correlation above 0.96",
+      "result": "failed",
+      "finding": "The interrupting metal note's decay masked the following line",
+      "repair": "Attenuate the box during the dialogue window"
+    },
+    {
+      "pass": 3,
+      "repair": "Keep the metal attack and its first decay audible, then reduce it for the line",
+      "acceptance_record": "end-to-end.json",
+      "source_acceptance_record": "rebuild-receipt.json"
+    }
+  ],
+  "assessment_boundary": "Technical and frame checks do not establish fresh audience comprehension",
+  "previous_versions": "Earlier films and the revision 4 assessment remain recorded on the existing Space page"
+}

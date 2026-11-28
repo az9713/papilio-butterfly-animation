@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Tooth That Didn’t Sing · Animation Studio</title><link rel="stylesheet" href="../../assets/studio.css">
+<nav class="nav"><a href="../../index.html">Animation Studio</a><a href="../butterfly/">Papilio</a><a href="../../docs/concepts.html">Thirty concepts</a><a href="../../docs/workflow.html">Workflow</a><a href="assessment.html">Assessment</a></nav>
+<main>
+<section class="film"><h1>The Tooth That Didn’t Sing</h1><p class="lead">A repairer, a customer and one missing note. Watch the complete sixteen-second film with sound.</p>
+<video id="film" controls playsinline preload="metadata" poster="poster.jpg" aria-label="The Tooth That Didn’t Sing screening"><source src="film.mp4" type="video/mp4"></video>
+<nav class="player-tabs" aria-label="Choose screening"><a href="film.mp4" aria-current="true">Full film</a><a href="pass-1.mp4">His note</a><a href="pass-2.mp4">Interrupted</a><a href="pass-3.mp4">Reclaimed</a></nav>
+<p id="screening-status" class="meta" aria-live="polite">Full film · 16 seconds</p>
+<p><a href="film.mp4" download>Download the film</a> · <a href="downloads/tooth-accepted-source.zip" download>Download the public source package</a></p></section>
+<h2>A note becomes a role</h2><p>The customer supplies a note that his damaged music box cannot play. Repairing the comb displaces his voice. The repairer recognizes what the repair has cost him and removes the tooth. His sung note returns.</p>
+<p>The accepted edit uses a generated sung “ah,” an interrupted fragment of that vocal and the same full note after removal. Its earlier breath effects were removed. The returning viewer accepted this cut with “great. now it works.”</p>
+<p><a href="assessment.html">Rubric and evidence-based reassessment</a> · <a href="../../docs/rubric.html">How the rubric works</a> · <a href="../../docs/concepts.html#concept-22">The original AAT-inspired proposal</a></p>
+<figure class="frames"><img src="screening-frames.jpg" alt="Nine frames from the accepted film, with timestamps showing the two people, sung entry, stopped mouth, reaction, extraction and returned song"><figcaption class="meta">Frames extracted from the accepted movie. The timestamps let you inspect the performed sequence.</figcaption></figure>
+<h2 id="history">How the film changed</h2>
+<ol class="history-list"><li><a href="history/revision-1.mp4">First cut</a> — the repairer stayed outside the frame and the customer was introduced through an isolated portrait.</li><li><a href="history/revision-2.mp4">Shared-bench revision</a> — both people and the extraction became visible.</li><li><a href="history/revision-3.mp4">Vocal revision</a> — a generated hum received a longer foreground moment.</li><li><a href="history/revision-4.mp4">Motivation revision</a> — a short line and concerned reaction explained the loss, while the final breath still failed to deliver the returned voice. <a href="history/revision-4-assessment.html">Read its assessment.</a></li><li><a href="film.mp4">Accepted revision</a> — the customer sings, the repaired box interrupts him and he reclaims the same note after removal.</li></ol>
+<h2>Sources and receipts</h2><p>The film uses GPT Image character and hand plates, the SVG & 3D Design workflow, Blender geometry and render layers, ElevenLabs audio, Python compositing and FFmpeg encoding. Codex coordinated implementation, checks, iteration and publication. <a href="../../docs/workflow.html">Tools, inputs, outputs and review loops</a></p>
+<ul><li><a href="production/revision-5/README.html">Current build instructions</a></li><li><a href="receipts/end-to-end.json">Encoded audio, jaw, extraction and playback checks</a></li><li><a href="receipts/rebuild-receipt.json">Original clean rebuild receipt</a></li><li><a href="receipts/iteration-receipt.json">Mix failures and repairs</a></li><li><a href="receipts/acceptance-and-publication.json">Viewer acceptance, public source identity and path-metadata changes</a></li><li><a href="receipts/timeline.json">Shared timeline</a></li></ul>
+</main><footer><a href="../../docs/discussion.html">Read the discussion and decisions</a></footer>
+<script>
+const video=document.querySelector('#film'),choices=[...document.querySelectorAll('.player-tabs a')],status=document.querySelector('#screening-status');
+const labels=['Full film · 16 seconds','His note · 4.75 seconds','Interrupted · 4.917 seconds','Reclaimed · 6.333 seconds'];
+choices.forEach((link,i)=>link.addEventListener('click',event=>{event.preventDefault();choices.forEach(a=>a.setAttribute('aria-current',String(a===link)));video.src=link.getAttribute('href');video.load();status.textContent=labels[i];video.play().catch(()=>{});}));
+</script></html>

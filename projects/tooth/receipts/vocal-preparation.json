@@ -1,0 +1,8 @@
+{
+  "source_median_hz": 149.06832298136646,
+  "pitch_factor": 1.9700011519999998,
+  "prepared_median_hz": 292.6829268292683,
+  "duration_s": 1.2,
+  "filters": "atrim=start=0.25:end=1.65,asetpts=PTS-STARTPTS,rubberband=tempo=1.1666667:pitch=1.9700011519999998:formant=preserved",
+  "sha256": "450cc62b17a142dc59299d351b1198ac68312c41dcc91e90a8715bd1a15b437d"
+}

@@ -1,0 +1,148 @@
+{
+  "utc": "2026-11-28T05:51:09.660710+00:00",
+  "outputs": {
+    "The Tooth - reclaimed.mp4": {
+      "sha256": "f74fbace55b2df53256e07a3df4cfed3fc81dc5d191efca2aa7bda8e69b17b74",
+      "frames": 384,
+      "bytes": 2314747,
+      "duration": 16.0
+    },
+    "Pass-1.mp4": {
+      "sha256": "0e8c9e9096d16da640633277e4d9557e98c9679e9d4b221e151eef701509e524",
+      "frames": 114,
+      "bytes": 823018,
+      "duration": 4.75
+    },
+    "Pass-2.mp4": {
+      "sha256": "77a4dd96e13617280c5f25456914ac10864eef17ba670b29fca1b76e702ab7c1",
+      "frames": 118,
+      "bytes": 525814,
+      "duration": 4.916667
+    },
+    "Pass-3.mp4": {
+      "sha256": "02542351165571ee6fbd231fbea8a8a5d775d6fe72282f2fc5cd36187c38832b",
+      "frames": 152,
+      "bytes": 848108,
+      "duration": 6.333333
+    }
+  },
+  "browser": {
+    "1100": [
+      {
+        "file": "The Tooth - reclaimed.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 16,
+        "frames": 384
+      },
+      {
+        "file": "Pass-1.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 4.75,
+        "frames": 114
+      },
+      {
+        "file": "Pass-2.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 4.916667,
+        "frames": 118
+      },
+      {
+        "file": "Pass-3.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 6.333333,
+        "frames": 152
+      }
+    ],
+    "390": [
+      {
+        "file": "The Tooth - reclaimed.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 16,
+        "frames": 384
+      },
+      {
+        "file": "Pass-1.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 4.75,
+        "frames": 114
+      },
+      {
+        "file": "Pass-2.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 4.916667,
+        "frames": 118
+      },
+      {
+        "file": "Pass-3.mp4",
+        "ended": true,
+        "muted": false,
+        "volume": 1,
+        "error": null,
+        "duration": 6.333333,
+        "frames": 152
+      }
+    ]
+  },
+  "song_stop_return": {
+    "vocal_events": [
+      {
+        "event": "first",
+        "start_s": 3.5,
+        "end_s": 4.7,
+        "encoded_voice_correlation": 0.9998011497055197,
+        "encoded_rms": 0.14566490054130554
+      },
+      {
+        "event": "attempt",
+        "start_s": 8,
+        "end_s": 8.3,
+        "encoded_voice_correlation": 0.9997311648691231,
+        "encoded_rms": 0.14853349328041077
+      },
+      {
+        "event": "returned",
+        "start_s": 14,
+        "end_s": 15.2,
+        "encoded_voice_correlation": 0.999912092092095,
+        "encoded_rms": 0.14570270478725433
+      }
+    ],
+    "silent_voice_stem_after_interruption": true,
+    "metal_audible_after_voice_stops": true,
+    "first_returned_correlation": 0.9997455697418633,
+    "median_pitch_hz": {
+      "first": 290.90909090909093,
+      "returned": 290.90909090909093
+    },
+    "dedicated_breath_events": []
+  },
+  "performance": {
+    "interrupted_open_closed_jaw_pixel_difference": 16.07842261904762,
+    "copper_seated_before_extraction": true,
+    "empty_slot_and_detached_tooth_after": true,
+    "audience_comprehension": "unverified by fresh human viewers"
+  },
+  "edge_version": "158.0.4370.45",
+  "offline_player_sha256": "f9dacd167effe8c0cfb883d83ce6297d9e65b4ed322dfffa83ecb55bf5472971"
+}

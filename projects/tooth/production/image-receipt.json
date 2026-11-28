@@ -1,0 +1,6 @@
+{
+  "tool": "OpenAI built-in image generation",
+  "exact_model": "not exposed",
+  "prompt": "A single cinematic horizontal 16:9 still for an intimate analog European puppet film. Close profile portrait of an elderly male music-box customer on the RIGHT half of frame, facing LEFT, looking down toward an unseen watchmaker's table with gentle anticipation. Stylized hand-carved articulated wooden puppet with tactile grain, refined characterful nose, soft wool gray hair, clear separate marionette lower jaw with a fine seam at the lips, dignified wiry silhouette, dark teal woven coat and ochre scarf. Head and upper shoulders visible fully. Soft copper rim light from the left on his lip, one warm catchlight. Left two fifths of the composition are softly unfocused moody workshop wall, antique walnut drawers, a little window light. No instruments visible, no lettering or text, no split panels, no collage. Shot on 65mm lens in a physical miniature set, muted aged wood, deep teal shadows, rich tungsten amber side light. Art directed, wistful, no exaggerated cartoon features. Subject is the lips and the held breath.",
+  "use": "Customer portrait and articulated performance plate"
+}

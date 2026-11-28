@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-28T05:45:08.227024+00:00",
+  "endpoint": "/v1/sound-generation",
+  "request": {
+    "text": "An elderly man sings one warm sustained wordless AHH note. Audible human vocal cords, open mouth, resonant chest voice, gentle natural vibrato. The vowel is a clear sung ah, steady D4 around 294 Hz. Start voicing immediately, hold one continuous pitch, release softly. Close dry solo male voice recorded in silence. No whisper, no hiss, no breath sound, no music, no instruments, no speech, no other sounds.",
+    "duration_seconds": 2.0,
+    "model_id": "eleven_text_to_sound_v3",
+    "prompt_influence": 0.7
+  },
+  "status": 200,
+  "sha256": "4d324420f194d9c9ad92386c73413688177a1369d2f861ce7554fa0bbf15bb3a"
+}

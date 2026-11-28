@@ -1,0 +1,146 @@
+{
+  "timeline": "timeline.json",
+  "duration_s": 16,
+  "events": [
+    {
+      "kind": "box note",
+      "start_s": 0.0,
+      "end_s": 1.1
+    },
+    {
+      "kind": "box note",
+      "start_s": 0.5,
+      "end_s": 1.6
+    },
+    {
+      "kind": "box note",
+      "start_s": 1.0,
+      "end_s": 2.1
+    },
+    {
+      "kind": "box note",
+      "start_s": 1.5,
+      "end_s": 2.6
+    },
+    {
+      "kind": "box note",
+      "start_s": 2.0,
+      "end_s": 3.1
+    },
+    {
+      "kind": "box note",
+      "start_s": 2.75,
+      "end_s": 3.85
+    },
+    {
+      "kind": "box note",
+      "start_s": 4.75,
+      "end_s": 5.85
+    },
+    {
+      "kind": "box note",
+      "start_s": 5.25,
+      "end_s": 6.35
+    },
+    {
+      "kind": "box note",
+      "start_s": 5.75,
+      "end_s": 6.85
+    },
+    {
+      "kind": "box note",
+      "start_s": 6.25,
+      "end_s": 7.35
+    },
+    {
+      "kind": "box note",
+      "start_s": 6.75,
+      "end_s": 7.85
+    },
+    {
+      "kind": "box note",
+      "start_s": 7.5,
+      "end_s": 8.6
+    },
+    {
+      "kind": "metal interruption",
+      "start_s": 8.25,
+      "end_s": 9.35
+    },
+    {
+      "kind": "box note",
+      "start_s": 10.5,
+      "end_s": 11.6
+    },
+    {
+      "kind": "box note",
+      "start_s": 11.0,
+      "end_s": 12.1
+    },
+    {
+      "kind": "box note",
+      "start_s": 11.5,
+      "end_s": 12.6
+    },
+    {
+      "kind": "box note",
+      "start_s": 12.0,
+      "end_s": 13.1
+    },
+    {
+      "kind": "box note",
+      "start_s": 12.5,
+      "end_s": 13.6
+    },
+    {
+      "kind": "box note",
+      "start_s": 13.25,
+      "end_s": 14.35
+    },
+    {
+      "kind": "first sung D",
+      "start_s": 3.5,
+      "end_s": 4.7
+    },
+    {
+      "kind": "interrupted sung D",
+      "start_s": 8,
+      "end_s": 8.3
+    },
+    {
+      "kind": "reclaimed sung D",
+      "start_s": 14,
+      "end_s": 15.2
+    },
+    {
+      "kind": "customer dialogue",
+      "start_s": 8.5,
+      "end_s": 9.609791666666666
+    },
+    {
+      "kind": "forceps click",
+      "start_s": 5.2,
+      "end_s": 5.27
+    },
+    {
+      "kind": "forceps click",
+      "start_s": 5.65,
+      "end_s": 5.72
+    },
+    {
+      "kind": "forceps click",
+      "start_s": 11.2,
+      "end_s": 11.27
+    },
+    {
+      "kind": "forceps click",
+      "start_s": 11.6,
+      "end_s": 11.67
+    }
+  ],
+  "voice_gain": 1,
+  "dedicated_breath_events": [],
+  "background": "Original ElevenLabs Music bed",
+  "vocal_source": "ElevenLabs sung ah, one prepared source reused at first and last cadence",
+  "peak": 0.7170576687760125
+}

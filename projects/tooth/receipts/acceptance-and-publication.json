@@ -1,0 +1,76 @@
+{
+  "status": "accepted by the requesting viewer",
+  "viewer_feedback": "great. now it works.",
+  "date_client": "2026-11-27",
+  "evidence_scope": "One returning viewer accepted revision 5 after earlier unsuccessful cuts.",
+  "scores": {
+    "Intent": 3,
+    "Appearance": 3,
+    "Motion": 3,
+    "Delivery": 3,
+    "Editability": 3
+  },
+  "master_sha256": "f74fbace55b2df53256e07a3df4cfed3fc81dc5d191efca2aa7bda8e69b17b74",
+  "original_rebuild_receipt": "receipts/rebuild-receipt.json",
+  "public_scene_metadata_changes": [
+    {
+      "file": "production/mechanism.blend",
+      "removed_path_fields": 1,
+      "only_path_field_bytes_changed": true,
+      "before_sha256": "89b95dbf7ac413661d00196890957f67cc7986a75c9673a822be8646ded18abf",
+      "after_sha256": "7c08694708fa4a7111911b8fde6788e356cc137481d6d3a41ec55a190593be6f"
+    },
+    {
+      "file": "production/revision-5/macro.blend",
+      "removed_path_fields": 1,
+      "only_path_field_bytes_changed": true,
+      "before_sha256": "ff49c459c67afdd9a3c944a2d24f1a2e6ff2d268db39b7bc3060147ab1346391",
+      "after_sha256": "095aea83009bee2bf3de871a894feed907889c4115ca5549bfa4af93bbda006b"
+    }
+  ],
+  "public_text_line_endings": "LF for consistent Git and ZIP source inventories",
+  "public_source_formatting": "Trailing whitespace and blank EOF lines removed in edit.py, mechanism.py and revision-5/cut.py",
+  "public_source_zip": {
+    "file": "downloads/tooth-accepted-source.zip",
+    "sha256": "d58cd7a02e7f90a74fa37889d2905c09cdcfa01dc7e89499543e368f2490f32c"
+  },
+  "public_source_files": {
+    "customer.png": "2ecd6e2a791130b8c78cc667abf55824925916236f3ae8ba384e0f8be3f950be",
+    "edit.py": "e8b6a688fd7c3058aebda275e6553be147e0a06713086fa3b4e386cc29aa63fe",
+    "elevenlabs-bed.mp3": "10d4f5febbf13867b6274ecd6e49bdf44247b924c41d889c231a71fa31deea25",
+    "image-receipt.json": "ab399a0912552099e8cf485d12a2f069c873159d106b773600514e4af4738130",
+    "mechanism.blend": "7c08694708fa4a7111911b8fde6788e356cc137481d6d3a41ec55a190593be6f",
+    "mechanism.py": "fd9a3c192840645f816dc6192b44392bda1cb1ebd372de31e1651abf92a7fb09",
+    "music-receipt.json": "4d6360f0695caf47442ca9201f27e145f826b7adc772c8c4977c7653b53d1e88",
+    "score.svg": "0f182eb117dd54bbe6ca2439de7dc4eeac84ffd755f8cc924204d48caec5f346",
+    "revision-5/audio-cues.json": "186b8957c7b5ef214b1be5424f6b65446518c409e69976c851ddd28fc539b75d",
+    "revision-5/bench.png": "212b26cbe4050d89845ea6f21a83ca2fa82b2993221d21ff78f65cb188c5d2ea",
+    "revision-5/customer-line.mp3": "8f53481978bebfd292b3aa72f27e287a7fb22d036859296518136ef44edb1586",
+    "revision-5/customer-line.wav": "8602439eb2b74148c1ce796fe10fdbb509424ea1139ef979708888913bf68b3d",
+    "revision-5/cut.py": "51b12c2ea57a2e5d2d1ec301b17bfe3a2dcc54e87a2a35034457408a7892cdbd",
+    "revision-5/dialogue-generation.json": "f746dc9b64af7cfd7cbd2f31acc254953b4c3a55e77f81180c015010ac28f1e5",
+    "revision-5/empty.png": "e0d69f025375351a8dfff0318672c8edcd6182225bf7dada80e718894d364ed1",
+    "revision-5/generate_vocal.py": "717d0960918a5ad703d5bee62d0cf18c13952a6ae4fe7685767e9aedf74487ad",
+    "revision-5/hand.png": "accde8e18220e0a1806909d433948ccc91c14e73188bcbbd7649b59a94a7bd1d",
+    "revision-5/image-prompts.json": "fd49e9831a9c31bede06ffdf5be02b6c3e5b5389b29b20fadb630eb19bba2198",
+    "revision-5/macro.blend": "095aea83009bee2bf3de871a894feed907889c4115ca5549bfa4af93bbda006b",
+    "revision-5/macro.py": "98465330245d56ebbc47198249b411dfae0f9063ae9d1276dbc7beeff7a5d491",
+    "revision-5/package_source.py": "381f11a80d7d64aebe7804c31801a4c2b635ba1fcf0d3b1b8618084718286c15",
+    "revision-5/prepare_vocal.py": "15975fd18237414bc9c43ef637dd3f0ed005132f91aae8b4519e943e8b56d686",
+    "revision-5/reaction-prompt.json": "1cae351fbaed8212ff6740dd6d52aed4c6363bac6bb3287a8d5e32d1252a0d2b",
+    "revision-5/reaction.png": "c05912daec2b48f1cf6731d195626d98d8b92f8bc4ea36f2d929cbfe71c812d9",
+    "revision-5/README.md": "2e6c670d1d06cefefb28ab6af15dacd64e7c32bfbeb3a9fe9967228d25013d40",
+    "revision-5/registration.json": "c54f57f7335ebc97a361ccfb0d427b6875193417d576a2345476e9e510b3ec63",
+    "revision-5/score.svg": "3bd4a28b1270e20d7a5af59d448b3e6c48c401e722e880ca6c1140c51f476220",
+    "revision-5/screen.py": "0ba04286c06de0280063882b6fd6d86d49d2c6d28e22d4518df725012a547ef5",
+    "revision-5/sound.py": "9960f4425de5d70b3fff6b8b05b75423171ecac6e9fac309b282c6b9932c455e",
+    "revision-5/test_delivery.py": "68ed941eb908976d9bfaf451d8f3167a0df90cf52ff15fda51158cddd004a22a",
+    "revision-5/timeline.json": "e6b2804a2a550ec2b58e8d828613f766b7e53a7fb6b667537b7ea0645e360b80",
+    "revision-5/tooth.png": "5fd4d678ea5157770e5676747e9697c468e8ae55ae4f529f72d5fb7f8ac2456e",
+    "revision-5/turning.mp4": "65d483a21ab0e2f7a2f873eafc3439d13cd2c076f943a301327be5f0b76b3dbe",
+    "revision-5/vocal-D.wav": "450cc62b17a142dc59299d351b1198ac68312c41dcc91e90a8715bd1a15b437d",
+    "revision-5/vocal-generation.json": "808f5fa1972d11e6830472c6f8997d8c51095fcbeb32f0ea6eda1f4f760a7703",
+    "revision-5/vocal-original.mp3": "4d324420f194d9c9ad92386c73413688177a1369d2f861ce7554fa0bbf15bb3a",
+    "revision-5/vocal-preparation.json": "b086fc66ce7a9349e0665fb89cd04474cd0d7d4de4b4d5cb02dd14b7ec1b1d9a"
+  }
+}
