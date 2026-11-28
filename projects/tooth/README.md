@@ -4,7 +4,7 @@
 
 An accepted sixteen-second animation about a music-box repair that takes away its customer's place in a tune. He sings the missing note, the repaired box interrupts him, and he reclaims the same note after the tooth is removed.
 
-[Watch the film with sound](https://az9713.github.io/papilio-butterfly-animation/projects/tooth/) · [Download the MP4](film.mp4) · [Public source ZIP](downloads/tooth-accepted-source.zip)
+[Watch the film with sound](https://az9713.github.io/animation-studio/projects/tooth/) · [Download the MP4](film.mp4) · [Public source ZIP](downloads/tooth-accepted-source.zip)
 
 ## Project contents
 

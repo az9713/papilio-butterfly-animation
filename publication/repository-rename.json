@@ -1,0 +1,44 @@
+{
+  "action": "rename existing repository",
+  "checked_at_utc": "2026-11-28T06:46:24.747328+00:00",
+  "github_repository_id_before": 1474322770,
+  "github_repository_id_after": 1474322770,
+  "previous_repository": "https://github.com/az9713/papilio-butterfly-animation",
+  "repository": "https://github.com/az9713/animation-studio",
+  "previous_site": "https://az9713.github.io/papilio-butterfly-animation/",
+  "site": "https://az9713.github.io/animation-studio/",
+  "remote": "https://github.com/az9713/animation-studio.git",
+  "readmes": [
+    "README.md",
+    "projects/butterfly/README.md",
+    "projects/tooth/README.md"
+  ],
+  "navigation_changes": [
+    {
+      "file": "README.md",
+      "before_sha256": "ab2203fe9127e51ab72e72b4fb0cb0c5bb9901f14b7c9d9ab6bbcfd900ad2ba0",
+      "after_sha256": "0712031cb59ae9652d28260f4213143dc49b8461dcc7a87c1725fc981afe07bc"
+    },
+    {
+      "file": "index.html",
+      "before_sha256": "4eb1f02851c3b94151b9c203c237e7d5bb25e110b0b298ec899c4f1de72042b5",
+      "after_sha256": "d6c66b916cc717fb3413f89db86a79c73191cfe8ccc933d949bb5d1f2a4cc0a4"
+    },
+    {
+      "file": "projects/tooth/README.md",
+      "before_sha256": "72762ecb5b60ced6778df7ddc7e6c824970ab84f012f3be8667902194d1b1e38",
+      "after_sha256": "eb95acbda6703ba27f0ae773eee5eea77403b39d96644c96c324b80e2c633131"
+    },
+    {
+      "file": "projects/butterfly/README.md",
+      "before_sha256": "bd0544012acaac32ec28bf3ad0394d90070113484a1853c3ea1e6f7631b1ae6f",
+      "after_sha256": "97fadc5a2d9925d3a17d6fb3765b10288707798c6ad75c16f231d574f9c78038"
+    },
+    {
+      "file": "tools/verify_live.py",
+      "before_sha256": "50f5ab37bfe727089f816c77cb246f96da74a3849e964a8c7fa24aa4b53b95d5",
+      "after_sha256": "bb0205f48e306e0cf770f6680017067c158a1dacddcb02de8b8427691b19981c"
+    }
+  ],
+  "preservation": "Films and production packages unchanged. Historical receipts retain their original recorded URLs. Butterfly README changes only the repository name in links. Generated HTML and Markdown update served navigation links."
+}

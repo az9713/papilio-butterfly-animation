@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 import datetime,hashlib,json,urllib.request
 
 ROOT=Path(__file__).resolve().parents[1]
-BASE='https://az9713.github.io/papilio-butterfly-animation/'
+BASE='https://az9713.github.io/animation-studio/'
 routes=['','projects/butterfly/','projects/tooth/','projects/tooth/README.html',
         'docs/getty-aat.html','docs/rubric.html','docs/concepts.html','docs/concepts-archive.html',
         'docs/discussion.html','docs/workflow.html','projects/tooth/assessment.html',

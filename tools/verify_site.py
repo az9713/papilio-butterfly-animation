@@ -42,7 +42,14 @@ def main():
         if old in baseline['kept_root_files']:continue
         moved=ROOT/'projects/butterfly'/old
         canonical=baseline.get('git_canonical_sha256',{}).get(old,sha)
-        assert digest(moved) in {sha,canonical},('butterfly migration changed bytes',old)
+        preserved_digest=digest(moved)
+        if old=='README.md':
+            # Allow exactly the reversible repository-name substitution. All
+            # other bytes of the original README must still match the baseline.
+            restored=moved.read_bytes().replace(b'az9713/animation-studio',b'az9713/papilio-butterfly-animation')
+            restored=restored.replace(b'az9713.github.io/animation-studio/',b'az9713.github.io/papilio-butterfly-animation/')
+            preserved_digest=hashlib.sha256(restored).hexdigest()
+        assert preserved_digest in {sha,canonical},('butterfly migration changed bytes',old)
         preserved+=1
     tooth=ROOT/'projects/tooth'
     acceptance=json.loads((tooth/'receipts/acceptance-and-publication.json').read_text())

@@ -7,7 +7,7 @@ Two peer animation projects share one discovery, evaluation and publication work
 | [Papilio butterfly](projects/butterfly/) | Twelve-second silent kinetic-sculpture loop | Editable Blender scene, SVG wing profiles, source release 1.1.1 and retained reliability receipts. |
 | [The Tooth That Didn’t Sing](projects/tooth/) | Accepted sixteen-second film with sound | SVG pin score, Blender layers, character plates, ElevenLabs audio, scripted edit, prior cuts and acceptance evidence. |
 
-[Open the public studio](https://az9713.github.io/papilio-butterfly-animation/) · [Watch Tooth](https://az9713.github.io/papilio-butterfly-animation/projects/tooth/) · [Watch Papilio](https://az9713.github.io/papilio-butterfly-animation/projects/butterfly/)
+[Open the public studio](https://az9713.github.io/animation-studio/) · [Watch Tooth](https://az9713.github.io/animation-studio/projects/tooth/) · [Watch Papilio](https://az9713.github.io/animation-studio/projects/butterfly/)
 
 ## Shared documents
 
@@ -33,7 +33,7 @@ tools/           site construction and publication validation
 publication/     migration and publication evidence
 ~~~
 
-The repository name and remote stay the same. Git records the butterfly files as moves into projects/butterfly. The Pages build creates compatibility copies of earlier butterfly paths. Known legacy root hash links route to the butterfly guide.
+The repository is named animation-studio, and its Git remote uses that name. Earlier publication receipts retain the previous name as historical evidence. Git records the butterfly files as moves into projects/butterfly. The Pages build creates compatibility copies of earlier butterfly paths. Known legacy root hash links route to the butterfly guide.
 
 ## Build the public site
 
