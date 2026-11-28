@@ -1,19 +1,21 @@
 {
   "schema_version": 1,
   "kind": "source-package",
-  "recorded_at_utc": "2026-11-27T22:24:19.493901+00:00",
-  "source_version": "1.1.0",
-  "source_commit": "1d1229a7137c78d4433da39b14b214ebde04e7b6",
-  "archive": "papilio-source-v1.1.0.zip",
-  "bytes": 9512457,
-  "sha256": "c7ff832da48eca8e59969b2c0115cbf19518001cb93309b57b54c2cb5857c967",
-  "files": 150,
+  "recorded_at_utc": "2026-11-27T23:57:50.466088+00:00",
+  "source_version": "1.1.1",
+  "source_commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903",
+  "archive": "papilio-source-v1.1.1.zip",
+  "bytes": 9709648,
+  "sha256": "7cef56c52aabd309cdb9b3ac1f6c461eb5bf1a06fd484cb3145d6f50c0d0f664",
+  "files": 221,
   "crc_and_manifest_passed": true,
-  "version": "1.1.0",
-  "download_url": "https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.0/papilio-source-v1.1.0.zip",
-  "verification_url": "https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.0/papilio-source-v1.1.0-verification.json",
+  "version": "1.1.1",
+  "download_url": "https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.1/papilio-source-v1.1.1.zip",
+  "verification_url": "https://github.com/az9713/papilio-butterfly-animation/releases/download/v1.1.1/papilio-source-v1.1.1-verification.json",
   "fresh_extraction_passed": true,
-  "unit_tests_passed": 10,
+  "outside_git_passed": true,
+  "isolated_python_environment_passed": true,
+  "unit_tests_passed": 16,
   "configuration_fields_checked": [
     "camera_height",
     "camera_lens_mm",
@@ -38,8 +40,30 @@
     "wing_period_seconds",
     "wing_rest_degrees"
   ],
+  "journal_refresh_without_tools_or_site_packages": true,
+  "new_event_indexed_after_refresh": true,
+  "historical_receipts_preserved": 142,
+  "browser_loop_replay": {
+    "wraps": 1,
+    "error": null
+  },
   "preserved_movie_sha256": "586d7e0c9d8fd5af8d8d39aa4a89d01f0b4bfab4ab9b717d4d3d14d65ed9b465",
-  "verification_scope": "Windows, Blender 5.3, CPU rendering, Microsoft Edge; no cross-platform claim.",
-  "package_verification_receipt": "development/receipts/package-verification-final-099-summary.json",
-  "artifact_boundary": "ZIP is bound to its source commit; subsequent packaging and publication receipts are supplied alongside it and on the development record."
+  "package_verification_receipt": "development/receipts/journal-closure-099-summary.json",
+  "verification_scope": "Windows, Blender 5.3, CPU, FFmpeg, Edge; new 2-second 12-frame verification clip; original film unchanged.",
+  "artifact_boundary": "ZIP is frozen at its source commit. Post-packaging execution and publication receipts accompany it as release assets and in the development record; no stale self-referential release receipt is embedded.",
+  "rubric_profile_before": [
+    3,
+    3,
+    3,
+    3,
+    2
+  ],
+  "rubric_profile_after": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "source_reliability_status": "closed for the declared acceptance environment"
 }

@@ -240,10 +240,232 @@
     "status": "pass"
   },
   {
+    "file": "journal-closure-020-final-package-identity.json",
+    "sha256": "e134046fa21b2a9905d057ab6473b25cd1c507e46e4787083622d0e872d088f3",
+    "event": "journal-closure-020-final-package-identity",
+    "status": "record"
+  },
+  {
+    "file": "journal-closure-021-preservation-after.json",
+    "sha256": "d6dc215002656f53641efcc7a64e5b8ad0efb3b32d3691783879ab8b3447bff1",
+    "event": "journal-closure-021-preservation-after",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-022-guide-and-privacy-check.json",
+    "sha256": "e233fe5273b9715e34b8d20e9ba3fca0eae04782ffd03cbd7eca354a1a979fc0",
+    "event": "journal-closure-022-guide-and-privacy-check",
+    "status": "pass"
+  },
+  {
     "file": "journal-closure-098-stopped.json",
     "sha256": "2ffce531f46e3d7a3a38eec5036fa1984402ea3d65dd4b8cf587747526abdb8e",
     "event": "journal-closure-098-stopped",
     "status": "stopped"
+  },
+  {
+    "file": "journal-closure-099-summary.json",
+    "sha256": "84a0ba7b6de1db421f3923ef3ad18973ef86d24d4ef42c0f91e1805a78cee61f",
+    "event": "journal-closure-099-summary",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-011-create-isolated-environment.json",
+    "sha256": "067b58ffeff7523eb8a7000f1379343ce100dbf076f46577c3c59055c1362361",
+    "event": "journal-closure-final-011-create-isolated-environment",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-012-tool-free-journal-refresh.json",
+    "sha256": "9d4f5138d5ae1394b0e75595127f9436fd46f2e9984697fca7dad86c83418f13",
+    "event": "journal-closure-final-012-tool-free-journal-refresh",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-013-install-declared-dependencies.json",
+    "sha256": "c7d6523b50d4cbba9e52deb6605fc40e933a6a347fd956d85e9719ba847f3838",
+    "event": "journal-closure-final-013-install-declared-dependencies",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-014-extracted-unit-tests.json",
+    "sha256": "85a4254b13ad23a24820d6205c576b423abe24cb15dfbc40916f0c0aa5cc209b",
+    "event": "journal-closure-final-014-extracted-unit-tests",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-015-complete-production-workflow.json",
+    "sha256": "0ed9a1ec3fd363693fc9062f0cf05912239659eaee57e5b6919132a0ee318538",
+    "event": "journal-closure-final-015-complete-production-workflow",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-016-record-new-event.json",
+    "sha256": "a1e12910f55f9094bc0f015d4af63735c98c6d9b0fc3e7918ff085e2a969afa6",
+    "event": "journal-closure-final-016-record-new-event",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-017-refresh-after-new-event.json",
+    "sha256": "d272653dc2a7dc7673d8eb21363cd70897805e04029814ba3a4ee961e50f10ca",
+    "event": "journal-closure-final-017-refresh-after-new-event",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-018-browser-loop-replay.json",
+    "sha256": "ae0a8ef18ac766e9085c7fa378b6d48ce905971c3cc2eb2c62173ee3999c3d42",
+    "event": "journal-closure-final-018-browser-loop-replay",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-099-summary.json",
+    "sha256": "9788e0e18a18278e09742f435738fa228bbc97f0f4ef37740d342037604f4b30",
+    "event": "journal-closure-final-099-summary",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-new-event.json",
+    "sha256": "2154d555125885eddf43230f9cf54d1218440bd07506c5a115b345393f249e67",
+    "event": "journal-closure-final-new-event",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-011-baseline-build.json",
+    "sha256": "87602f99744edef1ab8b03d5e741f1183b6cf025e15464a3b7dc3cc13e937556",
+    "event": "journal-closure-final-workflow-011-baseline-build",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-012-baseline-inspect.json",
+    "sha256": "9397a30e823266519d6c540ca1d0ce7529ef91fe6e223b5669631c385948daa2",
+    "event": "journal-closure-final-workflow-012-baseline-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-013-json-controls-build.json",
+    "sha256": "457ba8a67300a0dda08bd8927e31a7fdee57e8f5f4dd13440fbec2e24f871cb9",
+    "event": "journal-closure-final-workflow-013-json-controls-build",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-014-json-controls-inspect.json",
+    "sha256": "41ca5f3a766dee6203b0b318c6f4e58da59818b826ab2da76e6a597c6ca07fdc",
+    "event": "journal-closure-final-workflow-014-json-controls-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-015-short-clip-build.json",
+    "sha256": "32e5d3a9ad0dfaa0b1e1343c9175ccf8768e531aebeb35990885ba86f2f55035",
+    "event": "journal-closure-final-workflow-015-short-clip-build",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-016-short-clip-inspect.json",
+    "sha256": "fcb31a37d0df81cc6ffdc0938562688b4b47e0c965e57c1b31c0334ce91a05e5",
+    "event": "journal-closure-final-workflow-016-short-clip-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-017-preserved-scene-inspect.json",
+    "sha256": "4ce37525f4cb48408d9af02997de8bc2db5ed2a47df047272e00733699704a40",
+    "event": "journal-closure-final-workflow-017-preserved-scene-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-018-cli-overrides-build.json",
+    "sha256": "a691349b88a651330ff8c46d395c05aeb333bdc8193e714465150bc488e5d841",
+    "event": "journal-closure-final-workflow-018-cli-overrides-build",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-019-cli-overrides-inspect.json",
+    "sha256": "918e094b487f0becf1f7cf7c9a9fc1f8e0bb855be38f037a0637ec69edd7c1d6",
+    "event": "journal-closure-final-workflow-019-cli-overrides-inspect",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-020-invalid-config-rejected.json",
+    "sha256": "de7874097ea0bd0f7949cecd45600578b9468c481cac0071636795afd979de78",
+    "event": "journal-closure-final-workflow-020-invalid-config-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-021-missing-revision-rejected.json",
+    "sha256": "2885afcccbd98d885de94ec4d53ed7ad4e17106da829d98a422d186f39f291ce",
+    "event": "journal-closure-final-workflow-021-missing-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-022-baseline-selection-plan.json",
+    "sha256": "dfa1ea069da0cd780ee335ea23ec4d074824285bde15cb3ca65f1e79a233a2ef",
+    "event": "journal-closure-final-workflow-022-baseline-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-023-json-controls-selection-plan.json",
+    "sha256": "01a133e404f7f1f285ac125c65ead7677431d5e0197779e3d218bcd45034bbb0",
+    "event": "journal-closure-final-workflow-023-json-controls-selection-plan",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-024-baseline-audit.json",
+    "sha256": "61a778cb06abfbd59d7e8b5dc1d245833b0e631aafdd746ab369cbe866eeb880",
+    "event": "journal-closure-final-workflow-024-baseline-audit",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-025-json-controls-audit.json",
+    "sha256": "99b0f494d5b5002be4d227b5ef9b5b2ed4417b9d2c83fc672cdb81f46a757605",
+    "event": "journal-closure-final-workflow-025-json-controls-audit",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-026-short-clip-audit.json",
+    "sha256": "7bfafd9b126e530e78fa46f9a556b6a4e336826e188d2bff618257bd9b812957",
+    "event": "journal-closure-final-workflow-026-short-clip-audit",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-027-cpu-short-render.json",
+    "sha256": "055dd2ff451d34f472cc1d77eec98cd53a7715b81bb9adf1ec4c079684579651",
+    "event": "journal-closure-final-workflow-027-cpu-short-render",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-028-safe-resume.json",
+    "sha256": "7b388ecd44ba807708689445217fdd436ecad3cc792436bf172df7f9988428aa",
+    "event": "journal-closure-final-workflow-028-safe-resume",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-029-mixed-revision-rejected.json",
+    "sha256": "8d55bfd58158926cd238450ddb949bc390593dbbd715f336b457d6ac2a3a050e",
+    "event": "journal-closure-final-workflow-029-mixed-revision-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-030-corrupt-frame-rejected.json",
+    "sha256": "b1c40a390e2aa579b1f7fe2d8b29dd3bcd3f71c3c060e0b1748352eead188cde",
+    "event": "journal-closure-final-workflow-030-corrupt-frame-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-040-encode-and-playback.json",
+    "sha256": "d57c2513c85c1ca6d0b283912da34f63af638fc46c4b37ca807ff9114711ab28",
+    "event": "journal-closure-final-workflow-040-encode-and-playback",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-041-existing-export-rejected.json",
+    "sha256": "60ecace473d976637d5042e24433f7becde131af35efc2af073410cdd3a2c82b",
+    "event": "journal-closure-final-workflow-041-existing-export-rejected",
+    "status": "pass"
+  },
+  {
+    "file": "journal-closure-final-workflow-099-summary.json",
+    "sha256": "951643d1215ce83baba61f8586ee229f2db7a6e98deb0dfb662d0da0909cd155",
+    "event": "journal-closure-final-workflow-099-summary",
+    "status": "pass"
   },
   {
     "file": "journal-closure-new-event.json",

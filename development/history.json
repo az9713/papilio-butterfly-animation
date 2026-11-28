@@ -195,10 +195,15 @@
       "commit": "e39c3947cdd7dbab487f4c62a60910b20dba2c8c",
       "date": "2026-11-27T15:54:08-08:00",
       "subject": "fix: refresh the source journal without Git or omitted media"
+    },
+    {
+      "commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903",
+      "date": "2026-11-27T15:57:33-08:00",
+      "subject": "fix: retain standalone verification history during receipt collection"
     }
   ],
   "git_history_origin": {
     "mode": "measured from project Git checkout",
-    "through_commit": "e39c3947cdd7dbab487f4c62a60910b20dba2c8c"
+    "through_commit": "8e86963e3a00358b2d4522a1c1ff066841ba8903"
   }
 }
